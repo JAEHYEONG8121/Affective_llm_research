@@ -1,0 +1,155 @@
+[
+  {
+    "title":"EmoLLM: Appraisal-Grounded Cognitive-Emotional Co-Reasoning in Large Language Models",
+    "year":2026,
+    "venue":"arXiv",
+    "type":"preprint",
+    "url":"https:\/\/arxiv.org\/abs\/2603.16553",
+    "relevance":"A",
+    "why_it_matters":"Explicit appraisal reasoning + multi-turn RL; direct conceptual neighbor."
+  },
+  {
+    "title":"Emotion2Skill: Model-Internal Emotion Signals for Adaptive Skill Selection and Evolution",
+    "year":2026,
+    "venue":"arXiv",
+    "type":"preprint",
+    "url":"https:\/\/arxiv.org\/abs\/2608.09248",
+    "relevance":"A",
+    "why_it_matters":"Internal emotion state causally informs agent-level skill selection and evolution."
+  },
+  {
+    "title":"Why Do Emotions Change? Appraisal-Guided Reasoning for Emotion–Cause Triplet Extraction in Conversations",
+    "year":2026,
+    "venue":"ACL",
+    "type":"conference",
+    "url":"https:\/\/aclanthology.org\/2026.acl-long.539\/",
+    "relevance":"A",
+    "why_it_matters":"Appraisal-guided intermediate structure + graph-structured RL over emotion shifts."
+  },
+  {
+    "title":"Emotions Where Art Thou: Understanding and Characterizing the Emotional Latent Space of Large Language Models",
+    "year":2026,
+    "venue":"ICLR",
+    "type":"conference",
+    "url":"https:\/\/proceedings.iclr.cc\/paper_files\/paper\/2026\/hash\/51fa846f6b6b463144736fc3c3481f8c-Abstract-Conference.html",
+    "relevance":"A",
+    "why_it_matters":"Finds manipulable low-dimensional internal emotion manifold; crucial generic-latent baseline\/steering reference."
+  },
+  {
+    "title":"DialogXpert: Driving Intelligent and Emotion-Aware Conversations Through Online Value-Based Reinforcement Learning with LLM Priors",
+    "year":2026,
+    "venue":"AAAI",
+    "type":"conference",
+    "url":"https:\/\/ojs.aaai.org\/index.php\/AAAI\/article\/view\/40244",
+    "relevance":"A",
+    "why_it_matters":"Emotion-tracking state is used by an online value-based RL decision policy."
+  },
+  {
+    "title":"Appraisal Trajectories in Narratives Reveal Distinct Patterns of Emotion Evocation",
+    "year":2026,
+    "venue":"WASSA",
+    "type":"workshop",
+    "url":"https:\/\/aclanthology.org\/2026.wassa-1.7\/",
+    "relevance":"A",
+    "why_it_matters":"Directly studies time-varying appraisal trajectories over sequentially revealed narrative events."
+  },
+  {
+    "title":"CAREBench: Evaluating LLMs' Emotion Understanding by Assessing Cognitive Appraisal Reasoning",
+    "year":2026,
+    "venue":"arXiv",
+    "type":"preprint",
+    "url":"https:\/\/arxiv.org\/abs\/2605.17176",
+    "relevance":"A",
+    "why_it_matters":"Benchmark with appraisal reasoning\/ratings and intervention sensitivity; useful for causal appraisal evaluation."
+  },
+  {
+    "title":"Feeling First, Speaking Second: A Dual-Process Cognitive-Affective Architecture for LLM Agents",
+    "year":2026,
+    "venue":"CAS",
+    "type":"workshop",
+    "url":"https:\/\/aclanthology.org\/events\/cas-2026\/",
+    "relevance":"A",
+    "why_it_matters":"Explicit dynamic emotional state, long-term memory, personality and goals inside an LLM-agent architecture."
+  },
+  {
+    "title":"EmoAgent-R1: Towards Multimodal Emotion Understanding with Reinforcement Learning-based Dynamic Agent Specialization",
+    "year":2026,
+    "venue":"arXiv",
+    "type":"preprint",
+    "url":"https:\/\/arxiv.org\/abs\/2607.21013",
+    "relevance":"B",
+    "why_it_matters":"RL trains dynamic agent selection\/specialization for emotion understanding; adjacent dynamic-policy architecture."
+  },
+  {
+    "title":"EvoEmo: Towards Evolved Emotional Policies for LLM Agents in Multi-Turn Negotiation",
+    "year":2025,
+    "venue":"arXiv",
+    "type":"preprint",
+    "url":"https:\/\/arxiv.org\/abs\/2509.04310",
+    "relevance":"A",
+    "why_it_matters":"Models emotion-state transitions as an MDP and optimizes dynamic emotional policies in multi-turn agents."
+  },
+  {
+    "title":"Third-Person Appraisal Agent: Simulating Human Emotional Reasoning in Text with Large Language Models",
+    "year":2025,
+    "venue":"EMNLP Findings",
+    "type":"conference",
+    "url":"https:\/\/aclanthology.org\/2025.findings-emnlp.1288\/",
+    "relevance":"A",
+    "why_it_matters":"Primary\/secondary appraisal + reappraisal + reinforced fine-tuning over appraisal trajectories."
+  },
+  {
+    "title":"Appraisal Theory-Informed Emotion Prediction",
+    "year":2026,
+    "venue":"LREC",
+    "type":"conference",
+    "url":"https:\/\/aclanthology.org\/2026.lrec-1.887\/",
+    "relevance":"B",
+    "why_it_matters":"Appraisal-informed reasoning about emotion transitions; useful evidence that static labels miss dynamics."
+  },
+  {
+    "title":"Beyond Semantic Similarity: Appraisal-Guided Chain-of-Thought Reasoning and Retrieval for Multimodal Emotional Support Conversations",
+    "year":2026,
+    "venue":"ACL Findings",
+    "type":"conference",
+    "url":"https:\/\/aclanthology.org\/2026.findings-acl.844\/",
+    "relevance":"B",
+    "why_it_matters":"Uses appraisal chain as structured latent query; relevant to structured appraisal representations."
+  },
+  {
+    "title":"Unveiling the Cognitive Compass: Theory-of-Mind–Guided Multimodal Emotion Reasoning",
+    "year":2026,
+    "venue":"ICLR",
+    "type":"conference",
+    "url":"https:\/\/proceedings.iclr.cc\/paper_files\/paper\/2026\/hash\/89ab43b626b480347dbaccda7be8aedb-Abstract-Conference.html",
+    "relevance":"B",
+    "why_it_matters":"RL with intermediate mental-state process supervision; strong neighboring design pattern."
+  },
+  {
+    "title":"AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations",
+    "year":2026,
+    "venue":"ICLR",
+    "type":"conference",
+    "url":"https:\/\/proceedings.iclr.cc\/paper_files\/paper\/2026\/hash\/0856bc553d3e3b9827e5140d0ad3bf8d-Abstract-Conference.html",
+    "relevance":"B",
+    "why_it_matters":"State evolution trajectories + interactive on-policy memory evaluation; ideal generic-state\/history baseline reference."
+  },
+  {
+    "title":"PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents",
+    "year":2026,
+    "venue":"ICML",
+    "type":"conference",
+    "url":"https:\/\/arxiv.org\/abs\/2603.03296",
+    "relevance":"B",
+    "why_it_matters":"Strong generic memory competitor for testing whether appraisal structure adds value beyond memory."
+  },
+  {
+    "title":"Inducing state anxiety in LLM agents reproduces human-like biases in consumer decision-making",
+    "year":2026,
+    "venue":"npj Artificial Intelligence",
+    "type":"journal",
+    "url":"https:\/\/www.nature.com\/articles\/s44387-026-00122-1",
+    "relevance":"B",
+    "why_it_matters":"Shows manipulated affective state can causally shift LLM-agent action policies."
+  }
+]
