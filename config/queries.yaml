@@ -1,0 +1,114 @@
+project:
+  name: Affective LLM & Agent Research Watch
+  owner: JAEHYEONG8121
+  cutoff_focus: 2025-
+
+arxiv_queries:
+  - '(all:"large language model" OR all:"LLM") AND (all:"emotion understanding" OR all:"emotional intelligence")'
+  - '(all:"large language model" OR all:"LLM") AND (all:"affective computing" OR all:"emotion recognition")'
+  - '(all:"large language model" OR all:"LLM") AND (all:"empathy" OR all:"emotional support")'
+  - '(all:"large language model" OR all:"LLM") AND (all:"emotion regulation" OR all:"reappraisal")'
+  - '(all:"large language model" OR all:"LLM") AND (all:"psychology-grounded" OR all:"psychological theory")'
+  - '(all:"large language model" OR all:"LLM") AND (all:"theory of mind" OR all:"social cognition") AND all:"emotion"'
+  - '(all:"LLM agent" OR all:"language agent") AND (all:"emotion" OR all:"affective" OR all:"empathy")'
+  - '(all:"multimodal large language model" OR all:"MLLM") AND (all:"emotion" OR all:"affective" OR all:"empathy")'
+  - '(all:"large language model" OR all:"LLM") AND (all:"emotion alignment" OR all:"affective alignment" OR all:"preference")'
+  - '(all:"large language model" OR all:"LLM") AND (all:"emotion" OR all:"empathy") AND (all:"reinforcement learning" OR all:"fine-tuning" OR all:"reward model")'
+  - '(all:"large language model" OR all:"LLM") AND (all:"personality" OR all:"Big Five" OR all:"MBTI") AND all:"emotion"'
+  - '(all:"large language model" OR all:"LLM") AND (all:"appraisal" OR all:"component process model")'
+
+openalex_searches:
+  - large language model emotional intelligence
+  - LLM affective computing emotion understanding
+  - LLM empathy emotional support
+  - LLM emotion regulation psychology
+  - LLM social cognition emotion theory of mind
+  - affective LLM agent emotional state
+  - multimodal large language model emotion
+  - psychology grounded LLM emotion
+  - LLM emotion alignment preference optimization
+  - LLM emotion reinforcement learning reward model
+  - LLM personality emotion Big Five
+  - LLM cognitive appraisal
+
+venue_watchlist: [ICLR, ICML, NeurIPS, ACL, EMNLP, NAACL, AAAI, IJCAI, AAMAS, CHI, CSCW, IUI, ACII, WASSA, LREC, COLM]
+
+keywords:
+  affect_core:
+    emotion: 4
+    emotional: 4
+    affective: 5
+    empathy: 5
+    empathetic: 5
+    sentiment: 2
+    mood: 3
+    "emotional intelligence": 8
+    "emotion understanding": 7
+    "emotion recognition": 6
+    "emotion reasoning": 7
+    "emotional support": 6
+  psychology:
+    appraisal: 6
+    reappraisal: 6
+    "component process model": 10
+    "theory of mind": 5
+    "social cognition": 5
+    "emotion regulation": 6
+    "dual-process": 5
+    "big five": 5
+    mbti: 3
+    personality: 3
+    "empathy cycle": 7
+    "mayer-salovey": 7
+  system:
+    "large language model": 3
+    llm: 2
+    "llm agent": 5
+    agent: 2
+    multimodal: 3
+    omni-modal: 3
+    memory: 2
+    "internal state": 4
+    "dynamic state": 4
+  method:
+    benchmark: 4
+    evaluation: 3
+    alignment: 4
+    "fine-tuning": 4
+    "instruction tuning": 4
+    "reinforcement learning": 5
+    "reward model": 5
+    steering: 4
+    intervention: 4
+    causal: 4
+    framework: 3
+    dataset: 3
+
+categories:
+  system_type:
+    LLM: ["large language model", "llm", "language model"]
+    Agent: ["llm agent", "language agent", "agent", "multi-agent"]
+    Multimodal: ["multimodal", "mllm", "omni-modal", "audio", "video", "visual", "eeg"]
+  contribution_type:
+    Evaluation-Benchmark: ["benchmark", "evaluate", "evaluation", "assessment", "measure"]
+    Framework-Architecture: ["framework", "architecture", "system", "pipeline", "multi-agent"]
+    Training-Tuning: ["fine-tuning", "instruction tuning", "post-training", "reinforcement learning", "reward model", "preference optimization", "dpo", "grpo"]
+    Alignment-Steering: ["alignment", "steering", "intervention", "preference", "safety"]
+    Dataset-Resource: ["dataset", "corpus", "annotation", "resource"]
+    Representation-Mechanism: ["representation", "internal state", "latent", "mechanism", "probing", "neuron"]
+  affect_focus:
+    Emotion-Understanding: ["emotion understanding", "emotion recognition", "emotion reasoning", "emotion prediction"]
+    Empathy-Support: ["empathy", "empathetic", "emotional support", "counseling"]
+    Emotional-Intelligence: ["emotional intelligence", "emotional quotient", " eq "]
+    Emotion-Generation: ["emotion generation", "emotional generation", "emotionally aligned", "expressive"]
+    Emotion-Regulation: ["emotion regulation", "reappraisal", "regulation"]
+    Dynamic-Affect: ["emotion transition", "emotion trajectory", "dynamic emotion", "affective state", "emotional state"]
+    Personality-Individual-Differences: ["personality", "big five", "mbti", "individual differences", "personalized"]
+  theory:
+    Appraisal-Theory: ["appraisal theory", "cognitive appraisal", "component process model", "appraisal"]
+    Theory-of-Mind: ["theory of mind", "mental state", "social cognition"]
+    Empathy-Theory: ["empathy cycle", "empathy theory"]
+    Emotional-Intelligence-Theory: ["mayer-salovey", "mayer salovey", "ability model", "emotional intelligence"]
+    Personality-Theory: ["big five", "mbti", "personality"]
+    Emotion-Regulation-Theory: ["emotion regulation", "reappraisal"]
+    Dual-Process-Theory: ["dual-process", "dual process"]
