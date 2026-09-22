@@ -16,7 +16,7 @@
     "affect_focus": "Emotion-Understanding; Emotional-Intelligence",
     "theory": "Emotional-Intelligence-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Consensus-Driven Multi-Agent Cognitive Reasoning for Enhancing the Emotional Intelligence of Large Language Models",
@@ -35,7 +35,7 @@
     "affect_focus": "Emotional-Intelligence",
     "theory": "Emotional-Intelligence-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "PERM: Psychology-grounded Empathetic Reward Modeling for Large Language Models",
@@ -54,7 +54,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Empathy-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "At Your Own PACE: A Causal Framework for Evaluating EQ in LLMs",
@@ -73,7 +73,7 @@
     "affect_focus": "Emotional-Intelligence",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Persona-E²: A Human-Grounded Dataset for Personality-Shaped Emotional Responses to Textual Events",
@@ -92,7 +92,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Appraisal-Theory; Personality-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Appraisal Theory-Informed Emotion Prediction",
@@ -111,7 +111,7 @@
     "affect_focus": "Emotion-Understanding",
     "theory": "Appraisal-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Disentangling Emotion Understanding and Generation in Large Language Models",
@@ -130,7 +130,7 @@
     "affect_focus": "Emotion-Understanding",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "AEQ-Bench: Measuring Empathy of Omni-Modal Large Models",
@@ -149,7 +149,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Sentient Agent as a Judge: Evaluating Higher-Order Social Cognition in Large Language Models",
@@ -168,7 +168,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Theory-of-Mind",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Emotional intelligence in large language models is fragmented across perception, cognition, and interaction",
@@ -187,7 +187,7 @@
     "affect_focus": "Emotional-Intelligence",
     "theory": "Emotional-Intelligence-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Personalized Emotional Intelligence in Generative AI through Symbolic Affective Reasoning",
@@ -206,7 +206,7 @@
     "affect_focus": "Emotional-Intelligence; Personality-Individual-Differences",
     "theory": "Emotional-Intelligence-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Who Generates More Empathetic Responses—Humans or LLMs? A Comparative Evaluation with Human and LLM Judges",
@@ -225,7 +225,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "E^2-LLM: Bridging Neural Signals and Interpretable Affective Analysis",
@@ -244,7 +244,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Emotune: Exploring Context-Aware LLM Support for Driver Emotion Regulation",
@@ -263,7 +263,7 @@
     "affect_focus": "Empathy-Support; Emotion-Regulation; Dynamic-Affect",
     "theory": "Emotion-Regulation-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Chain of thought driven reinforcement alignment with KAN for multimodal sentiment analysis of tourist reviews",
@@ -282,26 +282,26 @@
     "affect_focus": "Emotion-Generation",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "ER-EDF: A Psychology-Grounded Emotion Regulation Framework for Speech Empathetic Dialogue Generation in Large Audio-Language Models",
+    "title": "Beyond Labels: Training Cognitive Empathy with Context-Rich Synthetic Dialogues",
     "year": 2026,
-    "venue": "arXiv (Cornell University)",
-    "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.15089",
+    "venue": "UF Journal of Undergraduate Research",
+    "type": "article",
+    "url": "https://doi.org/10.32473/ufjur.28.141683",
     "relevance": "AUTO",
-    "score": 38,
-    "matched_terms": "affective; dataset; emotion; emotion regulation; emotional; empathetic; empathy; evaluation; framework",
-    "why_it_matters": "Empathetic response generation in spoken dialogue systems requires both accurate emotion perception and appropriate emotion regulation. Grounded in psychological theories such as the Perception-Action Model and emotion regulation theory, effective empathy depends not only on inferring a user's affective state but also on regulating how it is expressed in responses. However, recent large audio-language models (LALMs) largely treat emotion as a direct conditioning signal, lacking explicit regulatory mechanisms, which often leads to affect mirroring rather than calibrated support. We propose ER-EDF, a psychology-grounded framework that explicitly decouples emotion perception and emotion regulat",
+    "score": 37,
+    "matched_terms": "affective; agent; dataset; emotion; emotion recognition; emotional; empathy; framework; large language model; llm",
+    "why_it_matters": "As Large Language Models (LLMs) are increasingly deployed in emotionally sensitive applications like mental health support, the need for genuine artificial empathy has become critical. Existing conversational datasets often fail to instill deep cognitive empathy, instead promoting superficial affective mimicry. To address this gap, we introduce RelationalDialogues, a novel, fully synthetic dataset of 12,849 multi-turn dialogues designed to explicitly train perspective-taking. Using a 120-billion parameter LLM, we developed a data generation pipeline that grounds each conversation in structured metadata, including distinct speaker/listener backgrounds, situational stimuli, and relationship dy",
     "source": "OpenAlex",
     "discovered_at": NaN,
-    "system_type": "LLM; Multimodal",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Dataset-Resource; Representation-Mechanism",
-    "affect_focus": "Empathy-Support; Emotion-Regulation; Dynamic-Affect",
-    "theory": "Emotion-Regulation-Theory",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "system_type": "LLM; Agent",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Dataset-Resource",
+    "affect_focus": "Emotion-Understanding; Empathy-Support; Dynamic-Affect",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "From evolutionary individuality to cognitive integration: a cross-modular perspective on human–AI coevolution",
@@ -320,7 +320,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Appraisal-Theory; Theory-of-Mind",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Evaluating Multimodal Emotion Recognition in Proactive Conversational Agents: A User Study",
@@ -339,26 +339,7 @@
     "affect_focus": "Emotion-Understanding; Empathy-Support; Dynamic-Affect",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "Affect-Prototype Guided Fusion for Open-Vocabulary Incomplete Multi-modal Emotion Recognition",
-    "year": 2026,
-    "venue": "arXiv (Cornell University)",
-    "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.16962",
-    "relevance": "AUTO",
-    "score": 30,
-    "matched_terms": "affective; dataset; emotion; emotion recognition; emotional; framework; llm; multimodal",
-    "why_it_matters": "Open-vocabulary multimodal emotion recognition (OV-MER) aims to generate open natural-language emotion labels from multimodal affective cues. In real-world scenarios, however, complete and synchronized modal data are difficult to obtain due to limitations of acquisition devices and user privacy constraints. Existing OV-MER methods are largely designed for full-modal inputs, and fail to perform effective feature fusion under modal missing conditions. Meanwhile, current fusion approaches designed for incomplete modalities mainly focus on fixed-label recognition context, and cannot satisfy the demand for fuse emotional cues guided with arbitrary emotion semantics in OV-MER context. To tackle th",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "LLM; Multimodal",
-    "contribution_type": "Framework-Architecture; Dataset-Resource; Representation-Mechanism",
-    "affect_focus": "Emotion-Understanding",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Human-AI collaboration for ethical, transparent, and equitable educational practices",
@@ -377,7 +358,7 @@
     "affect_focus": "Emotion-Understanding; Personality-Individual-Differences",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "VISH-GUARD: a multi-agent and LLM-powered framework for multilingual voice phishing detection",
@@ -396,7 +377,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "HealMe: A Personalized Therapy Assistant",
@@ -415,26 +396,7 @@
     "affect_focus": "Empathy-Support; Dynamic-Affect; Personality-Individual-Differences",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "Active Listening and Reassurance in Text-Based Virtual Health Coaches",
-    "year": 2026,
-    "venue": "Arrow - TU Dublin (Technological University Dublin)",
-    "type": "dissertation",
-    "url": "https://doi.org/10.21427/em2x-z598",
-    "relevance": "AUTO",
-    "score": 27,
-    "matched_terms": "agent; big five; dataset; evaluation; framework; large language model; llm; multimodal; personality",
-    "why_it_matters": "Conversational agents (CAs) have strong potential to support health and physical wellbeing through text-based coaching, but they remain limited in their ability to demonstrate supportive social behaviours that are important in human coaching interactions. In particular, relatively little is known about how Active Listening and Reassurance are perceived, modelled, and evaluated in text-based virtual healthcare coaching, or how such behaviours should be adapted to individual users. This dissertation investigates how supportive interaction behaviours can enhance text based virtual health coaching, with an initial focus on Active Listening and Reassurance and a later theoretical emphasis on Acti",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "LLM; Agent; Multimodal",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering; Dataset-Resource",
-    "affect_focus": "Personality-Individual-Differences",
-    "theory": "Personality-Theory",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Empathy Is Steerable but Multi-Axial: Mechanism Geometry and Persona Effects in LLMs",
@@ -453,7 +415,26 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Implementing a direct support staff intervention in services for people with intellectual disabilities and challenging behaviour using the ItFits framework: From needs to action",
+    "year": 2026,
+    "venue": "Journal of Intellectual & Developmental Disability",
+    "type": "article",
+    "url": "https://doi.org/10.3109/13668250.2026.2707840",
+    "relevance": "AUTO",
+    "score": 23,
+    "matched_terms": "emotion; emotional; emotional intelligence; framework; intervention",
+    "why_it_matters": "Background Effective interventions often fail to achieve lasting impact due to implementation barriers. This study examined how Support Staff in the Spotlight – an intervention that enhances emotional intelligence and interactional awareness among support staff working with service users with intellectual disabilities and challenging behaviour – can be embedded in daily routines within intellectual disability care.Method Using a hybrid effectiveness–implementation-design guided by the ItFits-framework, two Dutch care organisations completed a two-part-process: a needs assessment to identify barriers and facilitators, followed by communities of practice where key stakeholders co-created and r",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "Multimodal",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering",
+    "affect_focus": "Emotional-Intelligence",
+    "theory": "Emotional-Intelligence-Theory",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Fig_Emotional Guidance in Parasocial Networks and Its Influence on Public Sentiment During Emergencies A Data-Driven LLM-Based Approach",
@@ -472,7 +453,45 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Digital Twins for Opinion Dynamics: A Generative LLM Framework for Social Networks",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.19913",
+    "relevance": "AUTO",
+    "score": 23,
+    "matched_terms": "agent; alignment; dataset; emotion; framework; large language model; llm; memory",
+    "why_it_matters": "The study of opinion dynamics in social networks is one of the key challenges in computational social science with direct relevance to understanding political polarization, misinformation, and health responses. Current approaches focus on simplified mathematical models that ignore linguistic and contextual factors related to belief updates or use Large Language Model (LLM)-based simulations that have not been validated against real data. We present a framework based on the concept of a digital twin to simulate opinion dynamics in social networks. The approach fills the gap by cloning a real-world Twitter network, assigns a set of attributes for agents (such as persona, emotions, centrality, ",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM; Agent",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering; Dataset-Resource",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Mapping applications and evaluations of LLM-enabled AI chatbots for health purposes: a scoping review",
+    "year": 2026,
+    "venue": "Frontiers in Public Health",
+    "type": "article",
+    "url": "https://doi.org/10.3389/fpubh.2026.1916780",
+    "relevance": "AUTO",
+    "score": 22,
+    "matched_terms": "emotion; emotional; emotional support; evaluation; large language model; llm",
+    "why_it_matters": "Background Large Language Model (LLM)-enabled artificial intelligence (AI) chatbots are increasingly shaping health communication by mediating how patients, health professionals, researchers, and health institutions seek, interpret, produce, and act on health information. Existing reviews have largely focused on a single stakeholder group or clinical domain, leaving unclear how these systems are applied and evaluated across stakeholder groups and health purposes. Objective This scoping review mapped empirical studies of LLM-enabled AI chatbot applications and evaluations for health purposes across four stakeholder groups: the public or patients, health professionals, health researchers and s",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture",
+    "affect_focus": "Empathy-Support",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Spook the Machine: Gamified Exploration of Human Imagination of Machine Fear",
@@ -491,7 +510,7 @@
     "affect_focus": "Emotion-Generation; Personality-Individual-Differences",
     "theory": "Personality-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "When machines judge humanness: findings from an interactive reverse turing test by large language models",
@@ -510,7 +529,45 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Personality-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Affective Shared Autonomy: Temporal Affect Dynamics and Subjective Evaluation in Bimanual Teleoperation Tasks",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.19802",
+    "relevance": "AUTO",
+    "score": 21,
+    "matched_terms": "affective; dataset; evaluation; framework; intervention; multimodal",
+    "why_it_matters": "Physical teleoperation integrates human cognitive flexibility with robotic precision, yet demanding manipulation tasks frequently induce severe cognitive workload, acute frustration, and execution breakdown. Conventional shared autonomy paradigms rely primarily on task-based rules, such as spatial error boundaries, which disregard the operator's transient affective state and risk misaligned control interventions. To address this limitation, we propose an affect-aware shared autonomy teleoperation framework that dynamically modulates robotic assistance based on real-time operator state estimation. The system estimates operator affective states from synchronized facial video, cardiac signals, ",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "Multimodal",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering; Dataset-Resource",
+    "affect_focus": "Dynamic-Affect",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Multi-Dimensional Prosody Judgment For Live Streaming Speech Synthesis",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.20124",
+    "relevance": "AUTO",
+    "score": 21,
+    "matched_terms": "emotion; evaluation; fine-tuning; large language model; llm; reinforcement learning",
+    "why_it_matters": "Evaluating live streaming speech synthesis (TTS) requires assessing fine-grained, highly expressive prosody such as emotion, intonation, and energy which traditional MOS predictors fail to capture. While proprietary Large Language Models (LLMs) like Gemini can evaluate these aspects, they are too costly for massive inference and reinforcement learning feedback. To address this, we first introduce Live-ProsodyJudge (LPJ), a cost-effective pairwise evaluator distilled from Gemini into Qwen3-Omni. However, we identify a critical flaw in standard multi-dimensional evaluation: verdict coupling. The judge tends to lazily align all individual dimension scores with its overall preference, collapsing",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM",
+    "contribution_type": "Evaluation-Benchmark; Training-Tuning; Alignment-Steering",
+    "affect_focus": "Emotion-Generation",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Scaffolding students-AI dialogue for safe educational interactions",
@@ -529,7 +586,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Integrated Pedagogical Frameworks for Early School Education: Synergizing Generative Artificial Intelligence, Large Language Models, and Immersive Virtual Realit",
@@ -548,7 +605,7 @@
     "affect_focus": "Emotion-Regulation",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Behavioural Decision-Making in the Age of AI: Minds vs. Models",
@@ -567,26 +624,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "A Multi-Stage Agentic Framework for Effective Counter-Narrative Generation and Refinement",
-    "year": 2026,
-    "venue": "arXiv (Cornell University)",
-    "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.14178",
-    "relevance": "AUTO",
-    "score": 19,
-    "matched_terms": "agent; emotion; emotional; framework; intervention; llm",
-    "why_it_matters": "The rapid diffusion of hate speech and misinformation on social networks challenges democratic societies, since direct suppression efforts may deepen polarization, fuel public distrusts, and strengthen extremist narratives. LLM-driven counter-narratives (CNs) offer a promising way to reduce those risks, yet their effectiveness depends on rhetorical and stylistic choices that remain poorly understood. We present a multi-stage agent-based framework for generating, refining, and evaluating CNs, applied to pro-Russian hate and misinformation narratives on the war with Ukraine and adaptable to other domains. A pilot experiment with human evaluators identifies effective technique style pairings, s",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "LLM; Agent",
-    "contribution_type": "Framework-Architecture; Alignment-Steering",
-    "affect_focus": "Uncategorized",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Systemic Risks and Governance of Advanced Artificial Intelligence: A Structured Literature Review",
@@ -605,7 +643,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Appraisal-Theory",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Efficacy of artificial intelligence‑integrated emotional granularity growth at improving resilience and quality of life in young and middle aged colorectal cancer survivors: protocol for a pilot randomised controlled trial",
@@ -624,7 +662,7 @@
     "affect_focus": "Emotion-Regulation",
     "theory": "Emotion-Regulation-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Pragmatically speaking: humor in interactions with AI",
@@ -643,26 +681,26 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Theory-of-Mind; Personality-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "Caregivers’ experiences of using an artificial intelligence-based system for paediatric asthma family management: a qualitative study",
+    "title": "MOCC-R1: Reinforcing Reasoning-Response Consistency for Multimodal Counselor Response Generation",
     "year": 2026,
-    "venue": "Scientific Reports",
-    "type": "article",
-    "url": "https://doi.org/10.1038/s41598-026-71693-x",
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.17180",
     "relevance": "AUTO",
     "score": 18,
-    "matched_terms": "emotion; emotional; emotional support; intervention",
-    "why_it_matters": "Abstract Paediatric asthma management relies heavily on sustained family care, yet conventional models are often limited by gaps in caregivers’ knowledge and inequities in access to medical resources. While artificial intelligence (AI) has emerged as a novel tool for chronic disease management, its influence on everyday caregiving remains underexplored. This study investigates how an AI-based ‘Children’s Family Doctor’ system reshapes the habitual family practices (habitus) of paediatric asthma management and identifies the key socio-technical factors that shape its implementation. We conducted a qualitative study using reflexive thematic analysis. Seventeen primary caregivers of children wi",
+    "matched_terms": "dataset; fine-tuning; framework; multimodal; reinforcement learning",
+    "why_it_matters": "Multimodal counselor response generation (MCRG) aims to generate an appropriate counselor response from multimodal dialogue histories. Progress is limited by two gaps: first, existing datasets rarely capture sustained, human-recorded counseling interactions conducted by qualified counselors; Second, existing methods do not explicitly optimize consistency between counseling reasoning and the generated response, potentially undermining the reliability of MCRG systems. Thus, we introduce MOCC, a multimodal counseling conversation corpus containing over 200 hours of interactions involving 154 credential-verified counselors. Based on MOCC, we propose MOCC-R1, a two-stage framework for optimizing ",
     "source": "OpenAlex",
     "discovered_at": NaN,
-    "system_type": "Uncategorized",
-    "contribution_type": "Framework-Architecture; Alignment-Steering; Dataset-Resource",
+    "system_type": "Multimodal",
+    "contribution_type": "Framework-Architecture; Training-Tuning; Dataset-Resource",
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Reusing a Multimodal LLaVA Model for Rapid Learning of Human Gaze Prediction",
@@ -681,7 +719,26 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.20684",
+    "relevance": "AUTO",
+    "score": 17,
+    "matched_terms": "emotion; emotional; evaluation; framework; large language model",
+    "why_it_matters": "Large language models are increasingly used in healthcare communication, yet most evaluations emphasize response quality while assuming that the user's concern has been interpreted correctly. We introduce HerHealthEval, a controlled evaluation framework for multilingual understanding of women's-health communication. For each clinical case, HerHealthEval provides matched versions in English, French, and Modern Standard Arabic using six communicative forms: canonical, clinical, layperson, indirect or hedged, emotionally concerned, and deliberately under-specified. The first five express the same underlying concern and retain the same clinical information, whereas the under-specified form inten",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Evaluating fine-tuned, embedding-based, and zero-shot models for aspect-based sentiment analysis in South Slavic news",
@@ -700,26 +757,45 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "THE ACMEOLOGICAL MODEL OF COMMUNICATIVE COMPETENCE DEVELOPMENT AND ITS PSYCHOLOGICAL CHARACTERISTICS",
+    "title": "Artificial Intelligence-Related Risks in Interventional Pulmonology: An Exploratory Enumeration and Ranking Study Across Five General-Purpose Large Language Models",
     "year": 2026,
-    "venue": "Ta limda Istiqbolli Izlanishlar xalqaro ilmiy metodik jurnal",
+    "venue": "Journal of Clinical Medicine",
     "type": "article",
-    "url": "https://doi.org/10.67547/fanistiqbollari.2026.460",
+    "url": "https://doi.org/10.3390/jcm15197340",
+    "relevance": "AUTO",
+    "score": 17,
+    "matched_terms": "appraisal; intervention; large language model; llm; memory",
+    "why_it_matters": "Background/Objectives: Artificial intelligence (AI) is entering interventional pulmonology (IP) faster than its potential risks have been systematically catalogued. We explored whether general-purpose large language models (LLMs), now widely consulted informally by patients and clinicians, could provide a rapid and structured means of enumerating and ranking candidate AI-related risks in IP, potentially contributing to risk awareness and hypothesis generation. Methods: Five LLMs (ChatGPT, Claude, Gemini, Grok, DeepSeek) were each queried once, in independent, memory-free sessions, with one standardised prompt requesting ten ranked AI-related risks with impact and likelihood scores (1–5); an ",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering",
+    "affect_focus": "Uncategorized",
+    "theory": "Appraisal-Theory",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "AN EXPERIENTIAL STUDY ON THE APPLICATION OF ARTIFICIAL INTELLIGENCE IN PSYCHOLOGICAL COUNSELING TECHNIQUE TRAINING FOR COLLEGE STUDENTS",
+    "year": 2026,
+    "venue": "International Journal of Science and Research Archive",
+    "type": "article",
+    "url": "https://doi.org/10.30574/ijsra.2026.20.3.1799",
     "relevance": "AUTO",
     "score": 16,
-    "matched_terms": "emotion; emotional; emotional intelligence",
-    "why_it_matters": "This article examines the acmeological model of communicative competence development and its psychological characteristics based on contemporary scientific approaches. The study explores the role of acmeology in professional and personal development, the structural components of communicative competence, and the psychological mechanisms underlying its formation, including reflection, motivation, emotional intelligence, and social interaction. An acmeological model for communicative competence development is proposed and its practical significance in the educational process is substantiated. The findings contribute to improving professional communication skills, psychological readiness, and c",
+    "matched_terms": "emotion; emotional; empathy; evaluation",
+    "why_it_matters": "Objective: To investigate clinical medicine students’ experiences with, evaluations of, and perceptions of the application boundaries of generative artificial intelligence (AI) in assisting psychological counseling technique training, with particular attention to listening response techniques. Methods: A self-designed Questionnaire on Experiences with AI-Assisted Psychological Counseling Technique Training was administered to 118 clinical medicine students at a university. Descriptive statistics and frequency analysis were used to examine students’ practice patterns, interaction modes, perceived usefulness of AI-generated feedback, perceived improvement in counseling competence, overall sati",
     "source": "OpenAlex",
     "discovered_at": NaN,
     "system_type": "Uncategorized",
-    "contribution_type": "Representation-Mechanism",
-    "affect_focus": "Emotional-Intelligence",
-    "theory": "Emotional-Intelligence-Theory",
-    "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "contribution_type": "Evaluation-Benchmark; Dataset-Resource",
+    "affect_focus": "Empathy-Support",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "What Parents Can See: Divergent Accounts of Youth AI Companion Use in Parenting and Teenager Subreddits",
@@ -738,7 +814,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "The role of generative AI in facilitating social interactions: A scoping review",
@@ -757,45 +833,45 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "CHCF-Bench: Safety Alignment Evaluation of Large Language Models for Chinese High-Context Cultural Friction",
-    "year": 2026,
-    "venue": "Exploring Science Academic Conference Series",
-    "type": "conference-paper",
-    "url": "https://doi.org/10.70267/aitia.2026119130",
-    "relevance": "AUTO",
-    "score": 16,
-    "matched_terms": "alignment; benchmark; evaluation; large language model; llm",
-    "why_it_matters": "Large language models (LLMs) are increasingly used in cross-cultural communication, content generation, intelligent question answering, and social collaboration. However, existing safety evaluations mainly focus on explicit risks such as illegality, violence, privacy leakage, hate speech, and malicious code, while paying less attention to implicit social harm in high-context cultures. This paper proposes CHCF-Bench, a Chinese High- context Cultural Friction Benchmark containing 100 samples across four scenarios: workplace and power, clan and intergenerational relations, favor and reciprocity, and traditional rituals. CHCF -Bench evaluates whether LLMs can identify potential harm from relatio",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "LLM",
-    "contribution_type": "Evaluation-Benchmark; Alignment-Steering",
-    "affect_focus": "Uncategorized",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "StepAudio 3 Gen Technical Report",
+    "title": "Learn Before You Judge: Progressive Knowledge-to-Decision Alignment for Explainable Hateful Meme Detection",
     "year": 2026,
     "venue": "arXiv (Cornell University)",
     "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.12945",
+    "url": "https://doi.org/10.48550/arxiv.2609.19778",
     "relevance": "AUTO",
     "score": 16,
-    "matched_terms": "causal; fine-tuning; framework; large language model; llm",
-    "why_it_matters": "We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), voice design, vocal generation, sound effects, music, vibe speech, and mixtures of multiple audio types within a unified framework. At its core, StepAudio 3 Gen is a discrete autoregressive generator that models audio directly over residual vector quantization (RVQ) tokens, departing from the diffusion Transformer-based continuous generation paradigm prevalent in recent general audio models. Its StepAudio Tokenizer represents general audio at 12.5 Hz in a shared $16 \\times 2048$ residual code space, jointly quantizing semantic and waveform-level acoustic features so that each ",
+    "matched_terms": "agent; alignment; benchmark; large language model; multimodal",
+    "why_it_matters": "Hateful memes spread abusive content through implicit interactions between images and text, posing serious threats to the safety of online communities. In recent years, multimodal large language models have been widely used for hateful meme detection and are increasingly adopted to generate explainable detection results. However, we find that existing explain-then-detect methods often couple explanation generation and label prediction within the same training process. This coupling causes interference between task objectives, leading to limited detection performance and even worse results than simple SFT baselines. To address these challenges, we propose ProKDA, a progressive knowledge-to-de",
     "source": "OpenAlex",
     "discovered_at": NaN,
-    "system_type": "LLM; Multimodal",
-    "contribution_type": "Framework-Architecture; Training-Tuning; Representation-Mechanism",
+    "system_type": "LLM; Agent; Multimodal",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering; Dataset-Resource",
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "What People Almost Did: Evaluating LLM Social Simulations Beyond Behavioral Fit",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.20055",
+    "relevance": "AUTO",
+    "score": 15,
+    "matched_terms": "agent; alignment; evaluation; intervention; llm",
+    "why_it_matters": "LLM-based social simulations are primarily evaluated for behavioral fit, testing whether agents reproduce the actions or response distributions of the people they are simulating. However, the promise of simulation extends beyond behavioral fit. Simulations can explain human behavior, diagnose barriers, and compare large-scale interventions. These use cases depend on understanding \\textit{why} people acted a certain way, not just \\textit{what} they did. As a result, behavioral fit is insufficient for these types of claims because behavior underdetermines the reasoning process behind it. For instance, the behavior of staying silent may be due to disinterest or suppressed speech, and not answer",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM; Agent",
+    "contribution_type": "Evaluation-Benchmark; Alignment-Steering; Representation-Mechanism",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Artificial intelligence and online political radicalization: State of the art on algorithmic bias, group dynamics and generative AI",
@@ -814,7 +890,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Large Language Models Predict Human Social Behavior via Interpretable Mechanisms",
@@ -833,7 +909,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Theory-of-Mind",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Retrieval-augmented multi-agent framework for evidence-centric medical reasoning",
@@ -852,64 +928,64 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "InterSocialBench: Benchmarking Human and LLM Preferences for Companion-Robot Social Behavior",
-    "year": 2026,
-    "venue": "arXiv (Cornell University)",
-    "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.15455",
-    "relevance": "AUTO",
-    "score": 15,
-    "matched_terms": "benchmark; evaluation; large language model; llm; personality",
-    "why_it_matters": "Companion robots face everyday situations in which several feasible behaviors may be appropriate, yet different people prefer different responses. We introduce InterSocialBench, a benchmark of 210 domestic scenarios and 18 high-level behaviors, pairing judgments from 100 human participants with 23,520 responses from seven large language models under 16 personality conditions. Each human annotation preserves a preferred action alongside explicitly appropriate and inappropriate candidates. A structured construction pipeline covers behavioral alternatives, competing situational cues, and relevant history and future tasks. Evaluation distinguishes preferred-choice agreement from explicit rejecti",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "LLM",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering; Dataset-Resource",
-    "affect_focus": "Personality-Individual-Differences",
-    "theory": "Personality-Theory",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "Dependency, Compression, and Synergy: A Unified Information-Theoretic View of Multimodal Learning",
-    "year": 2026,
-    "venue": "arXiv (Cornell University)",
-    "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.14421",
-    "relevance": "AUTO",
-    "score": 15,
-    "matched_terms": "affective; alignment; evaluation; multimodal",
-    "why_it_matters": "Recent advances in multimodal foundation models have intensified the need to understand how different modalities share, preserve, and complement information. Mutual Information (MI), the Information Bottleneck (IB), and Partial Information Decomposition (PID) provide complementary perspectives, yet existing studies often treat them as isolated tools. This survey presents an information-theoretic perspective connecting these principles as progressively refined views of multimodal information processing: MI characterizes inter-modal dependency, IB explains task-oriented information preservation under compression, and PID decomposes preserved information into redundancy, uniqueness, and synergy",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "Multimodal",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering",
-    "affect_focus": "Uncategorized",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "Sentiment-guided semantic ranking framework for aspect-aware product review summarization",
+    "title": "A population representative XAI framework for transparent dysglycemia screening in Indonesia",
     "year": 2026,
     "venue": "Discover Artificial Intelligence",
     "type": "article",
-    "url": "https://doi.org/10.1007/s44163-026-02176-1",
+    "url": "https://doi.org/10.1007/s44163-026-02243-7",
     "relevance": "AUTO",
     "score": 15,
-    "matched_terms": "alignment; dataset; evaluation; framework; sentiment",
-    "why_it_matters": "The rapid growth of e-commerce websites has caused the number of customer reviews to rapidly increase, making the analysis of such reviews more challenging than ever before. Existing approaches to summarizing the content of customer reviews primarily focus on lexical similarity while paying little attention to product aspect preservation, sentiment alignment, and redundant information filtering. In this work, we propose a Sentiment-Aware Redundancy-Minimized Maximum Marginal Relevance (SA-RMMR) framework for creating informative extractive summaries that can preserve product aspects, customer sentiments, and informational diversity. Our framework relies on SBERT-based semantic representation",
+    "matched_terms": "alignment; dataset; evaluation; framework; llm",
+    "why_it_matters": "Deploying trustworthy AI requires more than predictive accuracy; it demands population-representative data, transparent explainability, and user-centered design. Despite rapid mobile penetration across Southeast Asia, existing AI-based health tools remain predominantly trained on non-representative datasets and function as opaque black-box systems, limiting clinical trust. This study addresses these gaps through a deployable Explainable AI (XAI) framework for dysglycemia screening in Indonesia. Features were extracted from the Indonesia Family Life Survey 5 (IFLS5), a nationally representative longitudinal survey ( $$\\sim $$ 83% of the Indonesian population), using its measured HbA1c-based l",
     "source": "OpenAlex",
     "discovered_at": NaN,
-    "system_type": "Uncategorized",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering; Dataset-Resource; Representation-Mechanism",
+    "system_type": "LLM; Multimodal",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering; Dataset-Resource",
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Interactive Memory Learning for Long-Term Conversations",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://arxiv.org/abs/2609.17088",
+    "relevance": "AUTO",
+    "score": 15,
+    "matched_terms": "agent; framework; large language model; memory; reinforcement learning",
+    "why_it_matters": "Recent advancements in large language models have significantly enhanced the capabilities of agents in modeling long-term conversations. Despite these successes, existing approaches typically adopt a static heuristic paradigm, where information is passively archived without adaptive memory valuation. Consequently, these methods fail to self-evolve or align their memory management with evolving user needs. To address this, we propose ICML (InteraCtive Memory Learning), a multi-agent framework that transforms the memory mechanism from a passive archive into a learnable, interactive memory policy. Specifically, we first employ a session synthesis pipeline to generate expert data, facilitating r",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM; Agent",
+    "contribution_type": "Framework-Architecture; Training-Tuning; Representation-Mechanism",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Self-Emergence Agent Architecture:Behavior-Inertia HMM, Reflexive Metacognition,and Social-Contrastive Self-Modeling",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.17331",
+    "relevance": "AUTO",
+    "score": 15,
+    "matched_terms": "agent; framework; large language model; llm; memory; personality",
+    "why_it_matters": "Large language model (LLM) agents exhibit strong language-generation and problem-solving capabilities, yet suffer from three structural limitations: personality drift, non-evolutionary reflection, and the absence of a self-other boundary. Existing generative-agent simulations rely on static memory and fixed prompts, maintaining neither behavioral inertia nor endogenous self-evolution. We propose the Self-Emergence Agent Architecture (SEAA), which integrates three components: (i) a Hidden Markov Model (HMM) that encodes long-term behavioral and cognitive inertia as an editable state-transition matrix; (ii) a Reflexion-style verbal metacognition loop whose output updates the HMM parameters the",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM; Agent",
+    "contribution_type": "Framework-Architecture",
+    "affect_focus": "Personality-Individual-Differences",
+    "theory": "Personality-Theory",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Large language models in healthcare: applications, evaluation frameworks, and governance pathways — a scoping review and multidimensional framework",
@@ -928,7 +1004,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Modeling communicative intentions in therapist–client dialogue using large language models and graph analysis",
@@ -947,7 +1023,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Xeno-Interpretability: Investigating the Alien Minds of LLMs",
@@ -966,26 +1042,64 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Personality-Theory",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "The Addictive Intimacy of AI: Understanding User Disengagement from AI Companions and Why Some Relationships with AI Become Difficult to Leave",
+    "title": "Machine Learning Modelling of Mental Disorders in the People of South Sudan",
     "year": 2026,
-    "venue": "arXiv (Cornell University)",
-    "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.13487",
+    "venue": "American Journal of Theoretical and Applied Statistics",
+    "type": "article",
+    "url": "https://doi.org/10.11648/j.ajtas.20261505.15",
     "relevance": "AUTO",
     "score": 14,
-    "matched_terms": "emotion; emotional; emotional support",
-    "why_it_matters": "AI chatbots are increasingly used as sources of emotional support, on dedicated companion apps and general-purpose assistants alike, yet little is known about what happens when users try to leave. Combining a content analysis of Reddit posts about quitting or reducing use (N=2,782) with interviews with users who found leaving difficult (N=16), we show that disengagement sometimes is not a single decision but a recursive trajectory: triggers prompt users to question the relationship, attempts to leave collide with barriers, and some users cycle through quitting and returning. We propose the notion of the addictive intimacy of AI, a configuration in which the qualities that make a companion em",
+    "matched_terms": "dataset; emotion; intervention; multimodal",
+    "why_it_matters": "The increase in mental health challenges among the population has raised serious concerns among educators, healthcare professionals, and lawmakers. Because of the substantial impact of mental diseases on emotions, cognition, and social relationships, creative preventative and intervention measures are required, particularly for those living in conflict-prone locations. Early detection is critical, and medical predictive analytics could change healthcare, especially given the severe impact of mental disorders on individuals. However, the conventional methods of mental illness prediction often suffer from the issue of either over-detection or under-detection and the time-consuming manual revie",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "Multimodal",
+    "contribution_type": "Evaluation-Benchmark; Alignment-Steering; Dataset-Resource",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Student engagement in ChatGPT-assisted mathematics learning: A phenomenological study",
+    "year": 2026,
+    "venue": "Social Sciences & Humanities Open",
+    "type": "article",
+    "url": "https://doi.org/10.1016/j.ssaho.2026.103675",
+    "relevance": "AUTO",
+    "score": 14,
+    "matched_terms": "emotion; emotional; evaluation; framework",
+    "why_it_matters": "This study explored the lived experiences of high school students using ChatGPT in mathematics learning through a student engagement framework and the interpretive lens of Self-Determination Theory (SDT). Using a descriptive phenomenological design, data were gathered from 58 students through eight focus group discussions and analyzed using Colaizzi's method. The findings revealed that participants described ChatGPT as shaping their engagement in multiple ways. Students valued its accessibility, immediate feedback, and step-by-step explanations, which they described as supporting their participation, conceptual understanding, and confidence in learning mathematics. Emotional engagement was r",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "Uncategorized",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Governing through emotion: affective legitimacy, discrimination, and the politics of crisis in India",
+    "year": 2026,
+    "venue": "Critical Policy Studies",
+    "type": "article",
+    "url": "https://doi.org/10.1080/19460171.2026.2736567",
+    "relevance": "AUTO",
+    "score": 13,
+    "matched_terms": "affective; emotion; emotional",
+    "why_it_matters": "This paper examines how emotion functioned as a constitutive force in India’s COVID-19 governance, reshaping administrative practices and legitimizing discriminatory treatment of Muslims. Drawing on Affective Intelligence Theory (AIT) and affect theory, it argues that emotions such as fear, disgust, and suspicion functioned as instruments of governance that displaced scientific reasoning and procedural rationality. The study introduces the concept of affective legitimacy to explain how political authority can be constructed through emotional resonance, particularly fear, moral outrage, and disgust, rather than empirical validation or technocratic expertise. Through a discursive and interpret",
     "source": "OpenAlex",
     "discovered_at": NaN,
     "system_type": "Uncategorized",
     "contribution_type": "Uncategorized",
-    "affect_focus": "Empathy-Support",
+    "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization",
@@ -1004,7 +1118,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Born in the wrong era: rethinking human-AI relations through the lens of anemoia",
@@ -1023,26 +1137,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "Comparative evaluation of large language models for patient-facing information in clear aligner therapy",
-    "year": 2026,
-    "venue": "APOS Trends in Orthodontics",
-    "type": "article",
-    "url": "https://doi.org/10.25259/apos_146_2026",
-    "relevance": "AUTO",
-    "score": 13,
-    "matched_terms": "empathy; evaluation; large language model; llm",
-    "why_it_matters": "Objectives: Patients considering clear aligner therapy should understand treatment requirements, limitations, and the importance of professional supervision. As many patients now seek orthodontic information from artificial intelligence (AI) chatbots, this study evaluated how effectively these systems communicate patient-facing information related to clear aligner therapy. Material and Methods: Twenty common patient-facing questions about clear aligner therapy were developed using conversational language. Three large language models (LLM), ChatGPT 5.2, Claude Sonnet 4.5, and Gemini Flash 3, generated responses using default settings. Three orthodontic specialists, blinded to model identity, ",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "LLM",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture",
-    "affect_focus": "Empathy-Support",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
@@ -1061,7 +1156,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Theory-of-Mind",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "RACER-MSA: Reliability-adaptive and Counterfactual Evidence Reasoning for Multimodal Sentiment Detection and Emotion Classification",
@@ -1080,26 +1175,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "One Example Is Enough to Pass Fairness Benchmarks: Rethinking Fairness Evaluation for Aligned LLMs",
-    "year": 2026,
-    "venue": "arXiv (Cornell University)",
-    "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.14860",
-    "relevance": "AUTO",
-    "score": 13,
-    "matched_terms": "alignment; benchmark; evaluation; llm",
-    "why_it_matters": "Warning: This submission studies stereotypes and biases, and contains toxic and offensive examples, used for illustration purposes only. Fairness benchmarks such as BBQ have become the de facto standard for fairness evaluation across major model families. We argue that these benchmarks are too easy to support their role: training Qwen 2.5 7B Base with Group Relative Policy Optimization (GRPO) on a single BBQ example, or placing that example in context as a one-shot demonstration for in-context learning (ICL), lifts mean BBQ accuracy from 79.9% to 92.9% and 99.0%, respectively, closing 80% of the gap to its large-scale RLHF counterpart (96.1%) with GRPO, and surpassing it with ICL. These effe",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "LLM",
-    "contribution_type": "Evaluation-Benchmark; Training-Tuning; Alignment-Steering",
-    "affect_focus": "Uncategorized",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Contextual Effects of Emotionally Valenced Feedback Prompts on LLM Response Style: A Pilot Study",
@@ -1118,45 +1194,102 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "SteerDuplex: Steerable Duplex Speech Dialogue Models",
+    "title": "One Example Is Enough to Pass Fairness Benchmarks: Rethinking Fairness Evaluation for Aligned LLMs",
     "year": 2026,
     "venue": "arXiv (Cornell University)",
     "type": "preprint",
-    "url": "https://doi.org/10.48550/arxiv.2609.12623",
+    "url": "https://arxiv.org/abs/2609.14860",
     "relevance": "AUTO",
     "score": 13,
-    "matched_terms": "benchmark; reinforcement learning; steering",
-    "why_it_matters": "Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that identifies substantial gaps in current full-duplex models. To address this gap, we introduce SteerDuplex, a Moshi-based full-duplex speech model fine-tuned on natural conversations and synthetic dialogues targeting instruction following, vocal delivery, reasoning, and duplex interaction. We further apply",
+    "matched_terms": "alignment; benchmark; evaluation; llm",
+    "why_it_matters": "Warning: This submission studies stereotypes and biases, and contains toxic and offensive examples, used for illustration purposes only. Fairness benchmarks such as BBQ have become the de facto standard for fairness evaluation across major model families. We argue that these benchmarks are too easy to support their role: training Qwen 2.5 7B Base with Group Relative Policy Optimization (GRPO) on a single BBQ example, or placing that example in context as a one-shot demonstration for in-context learning (ICL), lifts mean BBQ accuracy from 79.9% to 92.9% and 99.0%, respectively, closing 80% of the gap to its large-scale RLHF counterpart (96.1%) with GRPO, and surpassing it with ICL. These effe",
     "source": "OpenAlex",
     "discovered_at": NaN,
-    "system_type": "Multimodal",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Training-Tuning; Alignment-Steering",
+    "system_type": "LLM",
+    "contribution_type": "Evaluation-Benchmark; Training-Tuning; Alignment-Steering",
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "Enhancing heritage-oriented design learning through a value-sensitive approach to generative AI in higher education aesthetic pedagogy",
+    "title": "Can positive psychology interventions increase foreign language enjoyment? evidence from an eight-week quasi-experimental study with Indonesian EFL undergraduates",
     "year": 2026,
-    "venue": "Scientific Reports",
+    "venue": "Research Studies in English Language Teaching and Learning",
     "type": "article",
-    "url": "https://doi.org/10.1038/s41598-026-71408-2",
+    "url": "https://doi.org/10.62583/rseltl.v4i5.156",
     "relevance": "AUTO",
     "score": 12,
-    "matched_terms": "fine-tuning; framework; llm; multimodal",
-    "why_it_matters": "The preservation of Intangible Cultural Heritage (ICH) often struggles with static archival methods and a growing disconnect from contemporary design practices. While generative artificial intelligence offers a rapid mechanism to translate traditional aesthetics into modern forms, off-the-shelf models frequently suffer from cultural bias and overrepresent Western-centric data, leading to inauthentic outputs. This study introduces a pedagogical framework combining Generative AI with Value-Sensitive Design (VSD) to address these challenges in higher education. Focusing on two regional heritages—Xiang Embroidery and Changsha Kiln ceramics—we conducted a 12-week quasi-experimental study with 118",
+    "matched_terms": "emotion; emotional; intervention",
+    "why_it_matters": "The aim of this study was to examine whether the incorporation of positive psychology interventions (PPIs) into regular English as a Foreign Language (EFL) class would increase university students’ foreign language enjoyment (FLE). A quantitative, quasi-experimental pretest–post-test design was used with 60 undergraduates learning EFL in two intact university classes. Classes were randomly assigned to the experimental group (n = 30), who underwent traditional EFL teaching with structured PPIs, and the control group (n = 30), who received syllabus-based foreign language instruction. During the eight-week intervention period, the experimental group received 15–20 minutes of Positive Psychology",
     "source": "OpenAlex",
     "discovered_at": NaN,
-    "system_type": "LLM; Multimodal",
-    "contribution_type": "Framework-Architecture; Training-Tuning; Representation-Mechanism",
+    "system_type": "Uncategorized",
+    "contribution_type": "Evaluation-Benchmark; Alignment-Steering",
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
-    "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Steering the Compass: Aligning Dynamic Psychological Counseling Conversations with Cognitive Behavioral Therapy Strategies",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.20565",
+    "relevance": "AUTO",
+    "score": 12,
+    "matched_terms": "dataset; large language model; llm; steering",
+    "why_it_matters": "Recent advancements in large language models have revolutionized the field of psychological counseling, especially in the context of Cognitive Behavioral Therapy (CBT). While the success of CBT relies heavily on dynamic decision-making informed by the client's real-time mental state, this aspect has often been overlooked in current research, limiting both flexibility and therapeutic outcomes. In this paper, we introduce StratCBT, a dataset specifically designed for psychological counseling conversations with CBT Strategies, consisting of 9,688 sessions and around 256K utterances, with each counselor's response aligned with one of eight distinct strategies. The creation of StratCBT involves m",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM",
+    "contribution_type": "Evaluation-Benchmark; Alignment-Steering; Dataset-Resource",
+    "affect_focus": "Empathy-Support",
+    "theory": "Theory-of-Mind",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Theories of Mind as Domain-Specific Languages of Thought",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.19598",
+    "relevance": "AUTO",
+    "score": 12,
+    "matched_terms": "agent; social cognition; theory of mind",
+    "why_it_matters": "What kind of thing is a ``theory of mind''? We propose to formalize theories of mind as domain-specialized programming languages, which can be used to reason about the mental states of other agents. Our proposal builds on the longstanding idea that thinking is akin to programming in an internal ``language of thought.'' But rather than positing a single general-purpose language for all of thought, we posit a collection of domain-specific languages of thought, whose respective syntaxes and semantices encode the theories of various domains. We make this idea concrete in the domain of intuitive psychology using a real-world programming language called memo, which is specialized for theory-of-min",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "Agent",
+    "contribution_type": "Framework-Architecture",
+    "affect_focus": "Uncategorized",
+    "theory": "Theory-of-Mind",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Reading Emotions in the Token Space: Discriminative Adaptation of SpeechLLMs for Emotion Recognition",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.20081",
+    "relevance": "AUTO",
+    "score": 12,
+    "matched_terms": "emotion; emotion recognition; llm",
+    "why_it_matters": "SpeechLLMs have shown strong potential for emotion recognition, yet they read the predicted emotion off a generative decoder not suited for classification: it can emit labels outside the target set and favors frequent classes. We propose a discriminative adaptation that reads the final prompt token's hidden state through a classification head, producing a label in one forward pass without modifying the backbone. Because this readout starts from the hidden state the model would otherwise decode, it gives a controlled comparison of generative and discriminative inference in an otherwise identical speechLLM. We keep the head a single linear layer, trading little accuracy for interpretability: e",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM",
+    "contribution_type": "Framework-Architecture",
+    "affect_focus": "Emotion-Understanding",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "StressNet: Neuromorphic multimodal stress recognition from wearable physiological signals",
@@ -1175,7 +1308,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Sentiment classification of stock forum text based on a parameter-decoupled ERNIE-Transformer architecture",
@@ -1194,7 +1327,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Hearing to Translate: The Effectiveness of Speech Modality Integration into LLMs",
@@ -1213,7 +1346,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Rethinking Scale: The Efficacy of Fine-Tuned Open-Source LLMs in Large-Scale Reproducible Social Science Research",
@@ -1232,7 +1365,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "The convergence paradox: a constructivist account of perceived template convergence and originative agency under generative artificial intelligence",
@@ -1251,26 +1384,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Appraisal-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "Adaptive Fusion-Driven Multimodal Sentiment Analysis Using U-Net++, Capsule Network, and Transformer-Enhanced Extreme Learning",
-    "year": 2026,
-    "venue": "International Journal of Emerging Research in Engineering Science and Management",
-    "type": "article",
-    "url": "https://doi.org/10.58482/ijeresm.v5i3.8",
-    "relevance": "AUTO",
-    "score": 11,
-    "matched_terms": "dataset; framework; multimodal; sentiment",
-    "why_it_matters": "Multimodal social media data contain textual, visual, and emoji information that can provide complementary cues for sentiment analysis. However, combining these modalities remains challenging because they differ in representation and may contain redundant or noisy information. This study presents an Adaptive Fusion-Driven Multimodal Sentiment Analysis Framework that combines U-Net++ with self-attention, a Capsule Network encoder-decoder, a Cross-Modal Transformer, and a Transformer-Enhanced Extreme Learning Machine (T-ELM). U-Net++ with self-attention extracts contextual features, while the Capsule Network captures hierarchical relationships among the extracted representations. The Cross-Mod",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "Multimodal",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Dataset-Resource; Representation-Mechanism",
-    "affect_focus": "Uncategorized",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "A hybrid framework combining large language models and Shapley-based methods for explainable cyberbullying detection",
@@ -1289,7 +1403,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "BEYOND ACADEMIC ACHIEVEMENT: UTILIZING AI-GENERATED SOCIAL NARRATIVES TO ENHANCE THE SOCIAL DIMENSION OF INCLUSIVE EDUCATION",
@@ -1308,7 +1422,7 @@
     "affect_focus": "Empathy-Support; Personality-Individual-Differences",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "A comparative cross-sectional evaluation of generative AI chatbots for patient-oriented bacterial vaginosis health advice: safety, accuracy, guideline concordance, empathy, and readability",
@@ -1327,7 +1441,26 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Exploring the classroom management approaches of Overseas Filipino Teachers in Taiwan for managing challenging learner behaviors",
+    "year": 2026,
+    "venue": "International Journal of Education Learning and Pedagogical Sciences (INJELPS)",
+    "type": "article",
+    "url": "https://doi.org/10.63498/injelps106",
+    "relevance": "AUTO",
+    "score": 11,
+    "matched_terms": "emotion; emotional; multimodal",
+    "why_it_matters": "Aim: This study explored the classroom management approaches used by eight Overseas Filipino Teachers (OFTs) in Kaohsiung City, Taiwan, in managing learners with challenging behaviors.Specifically, it examined how OFTs adapted their classroom management practices to Taiwanese cultural expectations, addressed language barriers, collaborated with Taiwanese colleagues, and managed the emotional demands of teaching in a cross-cultural educational setting.Methodology: This study employed a qualitative phenomenological design using Interpretative Phenomenological Analysis (IPA).Data were gathered through semi-structured interviews with eight purposively selected Overseas Filipino Teachers in Kaohs",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "Multimodal",
+    "contribution_type": "Framework-Architecture",
+    "affect_focus": "Emotion-Regulation",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Data-Driven Sentiment Analysis of Public Opinion on National Football Team Coaching Using Naïve Bayes",
@@ -1346,45 +1479,26 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "Does Reasoning Improve Psychological Depth in Large Language Models? It Depends on Who's Judging",
+    "title": "Adaptive Fusion-Driven Multimodal Sentiment Analysis Using U-Net++, Capsule Network, and Transformer-Enhanced Extreme Learning",
     "year": 2026,
-    "venue": "arXiv (Cornell University)",
-    "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.13773",
+    "venue": "International Journal of Emerging Research in Engineering Science and Management",
+    "type": "article",
+    "url": "https://doi.org/10.58482/ijeresm.v5i3.8",
     "relevance": "AUTO",
     "score": 11,
-    "matched_terms": "dataset; evaluation; large language model; llm",
-    "why_it_matters": "LLM-as-a-Judge evaluators are increasingly used to score open-ended generation, yet a judge's correlation with human ratings on its development set may not guarantee valid measurement when outputs are closely matched and human preferences are subjective. We study this failure mode through psychological depth in short stories. Seven human readers and an LLM-judge ensemble selected on the original scalar Psychological Depth Scale dataset ($ρ= 0.646$) evaluated 60 blinded, prompt-matched story pairs from GPT-5 vs.\\ GPT-4o and DeepSeek-R1 vs.\\ DeepSeek-V3. Human preferences showed no universal reasoning advantage: GPT-5 was modestly preferred over GPT-4o (60.0--62.9\\%), whereas DeepSeek-R1 trail",
+    "matched_terms": "dataset; framework; multimodal; sentiment",
+    "why_it_matters": "Multimodal social media data contain textual, visual, and emoji information that can provide complementary cues for sentiment analysis. However, combining these modalities remains challenging because they differ in representation and may contain redundant or noisy information. This study presents an Adaptive Fusion-Driven Multimodal Sentiment Analysis Framework that combines U-Net++ with self-attention, a Capsule Network encoder-decoder, a Cross-Modal Transformer, and a Transformer-Enhanced Extreme Learning Machine (T-ELM). U-Net++ with self-attention extracts contextual features, while the Capsule Network captures hierarchical relationships among the extracted representations. The Cross-Mod",
     "source": "OpenAlex",
     "discovered_at": NaN,
-    "system_type": "LLM",
-    "contribution_type": "Evaluation-Benchmark; Alignment-Steering; Dataset-Resource",
+    "system_type": "Multimodal",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Dataset-Resource; Representation-Mechanism",
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "Context Matters in LLM-Assisted Qualitative Data Analysis: Workflow Development and Multidimensional Evaluation in Health Research",
-    "year": 2026,
-    "venue": "medRxiv",
-    "type": "preprint",
-    "url": "https://doi.org/10.64898/2026.09.07.26362410",
-    "relevance": "AUTO",
-    "score": 11,
-    "matched_terms": "evaluation; framework; large language model; llm",
-    "why_it_matters": "Abstract Large language models (LLMs) are increasingly used for qualitative analysis, but strong language performance does not guarantee strong interpretation when meaning depends on method and context. We developed a context-specific workflow that translated framework analysis into bounded, sequential LLM-supported tasks and applied it to 20 Chinese-language interviews on fear of dementia (approximately 150,000 characters). Four multilingual LLM-generated outputs and a previous researcher-only analysis were blindly evaluated by 16 relevant experts across different analytical domains and qualitative quality dimensions (496 expert-item records). All LLMs completed the workflow, but rankings v",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "LLM",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture",
-    "affect_focus": "Uncategorized",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "first_seen": "2026-09-21T23:54:05.101282+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Ethical integration of generative artificial intelligence in Islamic religious education involves human mediation and source verification",
@@ -1403,7 +1517,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Awareness, attitudes, and utilization of large language models among healthcare students in Saudi Arabia: a cross-sectional analysis",
@@ -1422,7 +1536,26 @@
     "affect_focus": "Uncategorized",
     "theory": "Appraisal-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Multi-task Learning with Active Learning for Arabic Offensive Speech Detection",
+    "year": 2026,
+    "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "type": "article",
+    "url": "https://doi.org/10.1145/3848627",
+    "relevance": "AUTO",
+    "score": 10,
+    "matched_terms": "dataset; fine-tuning; framework",
+    "why_it_matters": "The rapid growth of social media has amplified the spread of offensive, violent, and vulgar speech, which poses serious societal and cybersecurity concerns. Detecting such content in Arabic text is particularly complex due to limited labeled data, dialectal variations, and the language’s inherent complexity. This paper proposes a novel framework that integrates multi-task learning (MTL) with active learning to enhance offensive speech detection in Arabic social media text. By jointly training on two auxiliary tasks, violent and vulgar speech, the model leverages shared representations to improve the detection accuracy of offensive speech. Our approach dynamically adjusts task weights during ",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "Uncategorized",
+    "contribution_type": "Framework-Architecture; Training-Tuning; Dataset-Resource; Representation-Mechanism",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Algorithmic stratification in social media narrative framing: an agent-based testing of sex and educational disparities in career information access",
@@ -1441,26 +1574,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "Between Methodological Expansion and Epistemic Boundary Dissolution: Generative AI, Distributed Epistemic Processes, and the Reorganization of Scientific Responsibility",
-    "year": 2026,
-    "venue": "American Journal of Multidisciplinary Research and Innovation",
-    "type": "article",
-    "url": "https://doi.org/10.54536/ajmri.v5i5.8515",
-    "relevance": "AUTO",
-    "score": 10,
-    "matched_terms": "agent; framework; large language model; llm",
-    "why_it_matters": "Although individual studies have examined the capabilities of generative AI in annotation, coding, item construction, thematic analysis, and data simulation, there has so far been no cross-paradigm framework that systematically integrates technical performance, methodological validity, institutional embedding, and the attribution of scientific responsibility. Against this backdrop, the study examines under what conditions the delegation of knowledge-relevant research operations to large language models (LLMs) should be evaluated as a controlled methodological extension or as an epistemic dissolution of boundaries. Methodologically, it follows a critical integrative evidence synthesis. From 8",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "LLM; Agent",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Dataset-Resource",
-    "affect_focus": "Uncategorized",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "D5.1 Developing the Teaching Factory 5.0. Phases 1, 2, 3",
@@ -1479,7 +1593,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "What We Love Online: A Deductive Thematic Analysis of Thoughtforms, Parasocial Agent Connection, and Bidirectional Fictophilia in the Digital Liminal",
@@ -1498,7 +1612,7 @@
     "affect_focus": "Emotion-Regulation",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Large language model enhanced public opinion monitoring for China’s portable energy market: A data driven analysis of social media comments",
@@ -1517,26 +1631,45 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "Perceived support from AI chatbots and loneliness among higher vocational college students: a short-term three-wave study of social interaction anxiety and perceived social support",
+    "title": "Emotion Experience, Expression, and Perception: Emotion Analysis on Multimodal Social Media Posts",
     "year": 2026,
-    "venue": "Frontiers in Psychology",
-    "type": "article",
-    "url": "https://doi.org/10.3389/fpsyg.2026.1928350",
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.18385",
     "relevance": "AUTO",
     "score": 10,
-    "matched_terms": "emotion; emotion regulation",
-    "why_it_matters": "Generative artificial intelligence and AI companion tools are increasingly entering higher vocational college students' learning, emotion regulation, and everyday social communication contexts. This study defines perceived support from AI chatbots as students' subjective experience of receiving support while using AI chat tools, rather than objective social support from real interpersonal sources. A short-term three-wave design was used. Students were recruited through class WeChat groups from four higher vocational colleges in Jiangxi and Guangdong provinces, China, during the spring semester of the 2025–2026 academic year. The intervals between T1, T2, and T3 were approximately 8 weeks. Th",
+    "matched_terms": "dataset; emotion; multimodal",
+    "why_it_matters": "Emotions are an essential aspect of human communication, particularly on social media, where authors frequently combine text and images to convey their emotions. Yet prior work on emotion analysis of social media posts has overlooked two important aspects in regard to measuring how well readers can reconstruct the authors' intent: (1)~the image modality, with most work focusing solely on text, and (2)~the real-world events that trigger the expressed emotions, and their relationship to the post content. We therefore study the relation between (a) the author's experience of the event that caused them to write a social media post and (b) the content of the post, with a focus on readers' capabil",
     "source": "OpenAlex",
     "discovered_at": NaN,
-    "system_type": "Uncategorized",
-    "contribution_type": "Uncategorized",
-    "affect_focus": "Emotion-Regulation",
-    "theory": "Emotion-Regulation-Theory",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "system_type": "Multimodal",
+    "contribution_type": "Dataset-Resource",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Verifiable Social Reasoning for LLM Assistants",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.17496",
+    "relevance": "AUTO",
+    "score": 10,
+    "matched_terms": "agent; dataset; framework; llm",
+    "why_it_matters": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth. To address these challenges, we introduce Fuse, a multi-agent simulation framework for studying user-mediated social reasoning. In Fuse, a target agent with a hidden motive interacts with other agents including one representing the user, who then consults the evaluated assistant to infer the target's motive, providing verifiable ground truth by ",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM; Agent",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Dataset-Resource",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Neural Mechanisms Underlying Natural Text Reading",
@@ -1555,7 +1688,26 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Theory-of-Mind",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Between Methodological Expansion and Epistemic Boundary Dissolution: Generative AI, Distributed Epistemic Processes, and the Reorganization of Scientific Responsibility",
+    "year": 2026,
+    "venue": "American Journal of Multidisciplinary Research and Innovation",
+    "type": "article",
+    "url": "https://doi.org/10.54536/ajmri.v5i5.8515",
+    "relevance": "AUTO",
+    "score": 10,
+    "matched_terms": "agent; framework; large language model; llm",
+    "why_it_matters": "Although individual studies have examined the capabilities of generative AI in annotation, coding, item construction, thematic analysis, and data simulation, there has so far been no cross-paradigm framework that systematically integrates technical performance, methodological validity, institutional embedding, and the attribution of scientific responsibility. Against this backdrop, the study examines under what conditions the delegation of knowledge-relevant research operations to large language models (LLMs) should be evaluated as a controlled methodological extension or as an epistemic dissolution of boundaries. Methodologically, it follows a critical integrative evidence synthesis. From 8",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM; Agent",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Dataset-Resource",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-21T23:54:05.101282+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Understanding older adults’ sharing intention toward AI-generated health misinformation: a heuristic-systematic and health belief perspective",
@@ -1574,7 +1726,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Optimizing Sparse Outcomes Through Dense Behavioral Signals via Value-Guided Preference Distillation",
@@ -1593,7 +1745,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "A Responsive Present, a Shared Past, a Social Other: Teens' Overreliance on Companion AI Chatbots",
@@ -1612,7 +1764,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Mapping the Research Landscape on Learning Outcomes",
@@ -1631,7 +1783,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Before the Arrest: Benchmarking LLMs on Criminal Profiling from Incomplete Evidence",
@@ -1650,7 +1802,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Potential Use of AI Chatbots by Patients With Bowel Tumors: Opportunities and Implications for Low- and Middle-Income Countries",
@@ -1669,7 +1821,45 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Edustories: A Collection of Real-world Case Studies from Classroom Practices",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.20484",
+    "relevance": "AUTO",
+    "score": 9,
+    "matched_terms": "dataset; intervention; llm",
+    "why_it_matters": "Despite the widely recognized potential of AI in education, most prior work has focused on individualized student assistance. In contrast, the majority of educational practice worldwide still takes place in collective classroom settings. To enable researchers to study AI assistance in collective teaching, we introduce Edustories, a dataset of 1,492 teacher-written case studies describing real elementary and high-school classroom situations involving challenging student behavior, pedagogical interventions, and their outcomes. Among many other applications, Edustories enables evaluating LLMs' ability to predict the success of teacher interventions, crucial for providing practicing teachers wit",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM",
+    "contribution_type": "Evaluation-Benchmark; Alignment-Steering; Dataset-Resource",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Artificial intelligence integration in higher education: a global systematic thematic synthesis of opportunities, risks, and emerging frontiers",
+    "year": 2026,
+    "venue": "Discover Education",
+    "type": "article",
+    "url": "https://doi.org/10.1007/s44217-026-02175-5",
+    "relevance": "AUTO",
+    "score": 9,
+    "matched_terms": "agent; framework; intervention",
+    "why_it_matters": "Artificial Intelligence (AI), and particularly Generative AI (GenAI), is increasingly influencing higher education in diverse ways, presenting an evolving duality of transformative potential and multifaceted challenges. This systematic thematic synthesis examines the promises and perils of AI in higher education (AIHEd), drawing on a systematically searched body of peer-reviewed literature published between December 2023 and January 2026. The search was conducted across Semantic Scholar and supplemented by targeted queries in Scopus and Web of Science, yielding 53 articles that met the inclusion criteria. Through a thematic synthesis informed by hermeneutic interpretation, eleven prominent t",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "Agent",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "A Hybrid Multimodal Siamese Network for Speech-based Kinship Verification Leveraging the Kin-FVs Dataset",
@@ -1688,7 +1878,26 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Style-Debiased DPO: Updating LLM Knowledge with Factuality-Aware Synthetic Preference Data",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.16532",
+    "relevance": "AUTO",
+    "score": 9,
+    "matched_terms": "benchmark; large language model; llm",
+    "why_it_matters": "Continued pretraining (CPT) with data augmentation such as paraphrasing can store inside a large language model (LLM) the knowledge of a small source corpus. The stored knowledge, however, is not always retrieved correctly. We study the eliciting side rather than the storing side: we use preference optimization, which learns from pairs of a preferred (chosen) and a dispreferred (rejected) response, so that the model elicits its stored knowledge more accurately. One proposed approach takes the model's own erroneous response as rejected and the gold answer as chosen, so as to suppress the error. When the target knowledge is partially known, however, most of these rejected responses are factual",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM",
+    "contribution_type": "Evaluation-Benchmark; Training-Tuning; Alignment-Steering; Dataset-Resource",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Clinician-supervised multimodal AI orchestration in spine care: evidence, framework, and future directions",
@@ -1707,26 +1916,45 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "AgentDynEx: Nudging the Mechanics and Dynamics of Multi-Agent Simulations",
+    "title": "Inequality and the Social Imagination",
     "year": 2026,
     "venue": "OpenAlex",
-    "type": "conference-paper",
-    "url": "https://doi.org/10.1145/3834580.3838752",
+    "type": "book",
+    "url": "https://doi.org/10.65758/isbn.9786277813598",
     "relevance": "AUTO",
     "score": 8,
-    "matched_terms": "agent; evaluation; large language model",
-    "why_it_matters": "Multi-agent large language model simulations have the potential to model complex human behaviors and interactions. If the mechanics are set up properly, unanticipated and valuable social dynamics can surface. However, it is challenging to consistently enforce simulation mechanics while still allowing for rich and emergent dynamics. We present AgentDynEx, an AI system that helps set up, track, and repair simulations. Specifically, AgentDynEx introduces milestones that act as checkpoints and failure conditions that act as guardrails to ensure dynamics are relevant and mechanics are respected as the simulation progresses. It also introduces a method called nudging, where the system dynamically ",
+    "matched_terms": "emotion; emotional",
+    "why_it_matters": "Inequality and the Social Imagination examines how class, culture, and power shape ordinary encounters and the possibilities people learn to imagine. Dr. Saira Siddiqui traces the social meanings attached to taste, language, respectability, and belonging, and considers how schools, workplaces, families, and the state reproduce unequal treatment. Across five chapters, the book connects these everyday processes with the emotional experience of shame, dignity, desire, and resentment. It questions the promise that individual mobility alone can resolve structural inequality, then explores institutions, cultural democracy, and collective imagination as resources for a more equal social life. The d",
     "source": "OpenAlex",
     "discovered_at": NaN,
-    "system_type": "LLM; Agent",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture",
+    "system_type": "Uncategorized",
+    "contribution_type": "Dataset-Resource",
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "Customizing AI for writing pedagogy: a systematic review of pedagogical goals, theoretical principles, and technical design",
+    "year": 2026,
+    "venue": "Educational Technology Research and Development",
+    "type": "review",
+    "url": "https://doi.org/10.1007/s11423-026-10697-w",
+    "relevance": "AUTO",
+    "score": 8,
+    "matched_terms": "alignment; fine-tuning",
+    "why_it_matters": "Abstract The rapid expansion of artificial intelligence (AI)–based writing tools in education has outpaced systematic understanding of how pedagogical intentions, theoretical commitments, and technical customization are translated into AI system design. Customization is conceptualized here as the deliberate modification of AI system behavior to align outputs with pedagogical intent. In response to this gap, this systematic review synthesizes 23 empirical studies from recent AI-in-education research to examine how AI systems are customized for writing pedagogy. Specifically, the review analyzes patterns of alignment among pedagogical goals, theoretical principles, customization methods, and i",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "Uncategorized",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Training-Tuning; Alignment-Steering",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Progress, Poetry, and Peace: Romantic Ideals and the Present Day",
@@ -1745,7 +1973,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Functional and Existential AI Dependence in Dental Students and Professionals: A Hybrid Network Analysis",
@@ -1764,7 +1992,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Techno-Wellbeing and Flourishing in Higher Education: Student Experiences of Using Generative AI",
@@ -1783,7 +2011,26 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+  },
+  {
+    "title": "A netnography of WWE fans grappling with AI storytelling on streaming platforms",
+    "year": 2026,
+    "venue": "Discover Global Society",
+    "type": "article",
+    "url": "https://doi.org/10.1007/s44282-026-00597-y",
+    "relevance": "AUTO",
+    "score": 8,
+    "matched_terms": "affective; framework",
+    "why_it_matters": "Abstract This netnographic study examines how World Wrestling Entertainment (WWE) fans on Reddit discursively construct and negotiate the possibility of artificial intelligence‑generated or AI‑assisted storytelling. Drawing on authorship and authenticity, platform affordances, affects, ritual and fan studies, and performance studies, the study analyses fan discourse across three subreddits in response to AI‑related announcements in late 2025 and early 2026. Findings reveal three dominant themes: a “forensic gaze” through which fans attempt to detect algorithmic authorship; an affective rejection of AI content as “AI slop,” framed as a betrayal of human artistry and labour; and parodic absorp",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "Uncategorized",
+    "contribution_type": "Framework-Architecture; Representation-Mechanism",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Watermarking large language models in Europe: interpreting the AI act in light of technology",
@@ -1802,26 +2049,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "Developing the productive emotion vocabulary test (PEVT) for adult speakers of English as an additional language",
-    "year": 2026,
-    "venue": "Bilingualism Language and Cognition",
-    "type": "article",
-    "url": "https://doi.org/10.1017/s1366728926101680",
-    "relevance": "AUTO",
-    "score": 8,
-    "matched_terms": "alignment; emotion",
-    "why_it_matters": "Abstract Emotion vocabulary (EV) is integral to language proficiency, yet it is rarely assessed, and existing tools are largely decontextualised and unvalidated for adult users of English as an additional language (Lx). We introduce the Productive Emotion Vocabulary Test (PEVT), a vignette-based free-recall task eliciting up to three responses. Twenty-two pictorial-text vignettes, redesigned from materials validated with German children, were administered to 107 adults, alongside LexTALE and a language background questionnaire. Eighteen vignettes elicited the target emotion or a close synonym as the dominant response, with substantial naming agreement. In mixed-effects analyses, context leng",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "Uncategorized",
-    "contribution_type": "Alignment-Steering",
-    "affect_focus": "Uncategorized",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
     "title": "Blurring the line: A more complete conceptualization of influencer-generated content and its implications for deception",
@@ -1840,44 +2068,25 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   },
   {
-    "title": "Context-Adaptive Emotional Speech Synthesis via Feature Control in Multi-Turn Dialogue (ChinaMM 2026)",
-    "year": 2026,
-    "venue": "Research Square",
-    "type": "preprint",
-    "url": "https://doi.org/10.21203/rs.3.rs-10310795/v1",
-    "relevance": "AUTO",
-    "score": 8,
-    "matched_terms": "emotion; emotional",
-    "why_it_matters": "Auto-discovered via OpenAlex.",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "Uncategorized",
-    "contribution_type": "Uncategorized",
-    "affect_focus": "Uncategorized",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
-  },
-  {
-    "title": "Authorship attribution and aesthetic evaluation of AI poetry: a case study with Haiku",
+    "title": "The Evolving Bottleneck in Speech Generation: Interface Co-design and Staged Alignment from CosyVoice to Qwen-Audio-3.0-TTS",
     "year": 2026,
     "venue": "arXiv (Cornell University)",
     "type": "preprint",
-    "url": "https://arxiv.org/abs/2609.15511",
+    "url": "https://doi.org/10.48550/arxiv.2609.16514",
     "relevance": "AUTO",
     "score": 8,
-    "matched_terms": "evaluation; large language model; llm",
-    "why_it_matters": "This paper investigates the generation and human evaluation of Japanese haiku by contemporary Large Language Models (LLMs), focusing on authorship perception and aesthetic judgment within a constrained poetic form. Using a few-shot prompting strategy, Japanese haiku were generated across a heterogeneous set of large language models, including open- and closed-source systems, medium-scale and large-scale architectures, models with native or adapted Japanese support, and multilingual proprietary models. These AI-generated haiku were combined with human-written ones and presented in a questionnaire distributed to students at Japanese universities in Tokyo. The survey assessed whether respondent",
+    "matched_terms": "alignment; causal",
+    "why_it_matters": "Speech synthesis systems are commonly narrated as a sequence of larger models, better tokenizers, and broader data. This technical retrospective offers a different account of the CosyVoice lineage, from CosyVoice through CosyVoice 2 and CosyVoice 3 to Qwen-Audio-3.0-TTS: progress came from repeatedly relocating the system's dominant bottleneck. Across the lineage, a stable decomposition separates an autoregressive language model that plans speech from a flow-matching model that renders acoustics. What changes is the contract between them. CosyVoice establishes supervised semantic tokens as a content-aligned interface; CosyVoice 2 makes that interface causally available for streaming and remo",
     "source": "OpenAlex",
     "discovered_at": NaN,
-    "system_type": "LLM",
-    "contribution_type": "Evaluation-Benchmark; Framework-Architecture",
+    "system_type": "LLM; Multimodal",
+    "contribution_type": "Framework-Architecture; Alignment-Steering; Representation-Mechanism",
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
-    "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-21T23:54:21.099492+00:00"
+    "first_seen": "2026-09-22T23:32:03.354767+00:00",
+    "last_seen": "2026-09-22T23:32:21.240704+00:00"
   }
 ]
