@@ -16,7 +16,7 @@
     "affect_focus": "Emotion-Understanding; Emotional-Intelligence",
     "theory": "Emotional-Intelligence-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Consensus-Driven Multi-Agent Cognitive Reasoning for Enhancing the Emotional Intelligence of Large Language Models",
@@ -35,7 +35,7 @@
     "affect_focus": "Emotional-Intelligence",
     "theory": "Emotional-Intelligence-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "PERM: Psychology-grounded Empathetic Reward Modeling for Large Language Models",
@@ -54,7 +54,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Empathy-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "At Your Own PACE: A Causal Framework for Evaluating EQ in LLMs",
@@ -73,7 +73,7 @@
     "affect_focus": "Emotional-Intelligence",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Persona-E²: A Human-Grounded Dataset for Personality-Shaped Emotional Responses to Textual Events",
@@ -92,7 +92,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Appraisal-Theory; Personality-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Appraisal Theory-Informed Emotion Prediction",
@@ -111,7 +111,7 @@
     "affect_focus": "Emotion-Understanding",
     "theory": "Appraisal-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Disentangling Emotion Understanding and Generation in Large Language Models",
@@ -130,7 +130,7 @@
     "affect_focus": "Emotion-Understanding",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "AEQ-Bench: Measuring Empathy of Omni-Modal Large Models",
@@ -149,7 +149,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Sentient Agent as a Judge: Evaluating Higher-Order Social Cognition in Large Language Models",
@@ -168,7 +168,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Theory-of-Mind",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Emotional intelligence in large language models is fragmented across perception, cognition, and interaction",
@@ -187,7 +187,7 @@
     "affect_focus": "Emotional-Intelligence",
     "theory": "Emotional-Intelligence-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Personalized Emotional Intelligence in Generative AI through Symbolic Affective Reasoning",
@@ -206,7 +206,7 @@
     "affect_focus": "Emotional-Intelligence; Personality-Individual-Differences",
     "theory": "Emotional-Intelligence-Theory",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Who Generates More Empathetic Responses—Humans or LLMs? A Comparative Evaluation with Human and LLM Judges",
@@ -225,7 +225,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "E^2-LLM: Bridging Neural Signals and Interpretable Affective Analysis",
@@ -244,7 +244,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T00:00:00+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Emotune: Exploring Context-Aware LLM Support for Driver Emotion Regulation",
@@ -263,7 +263,7 @@
     "affect_focus": "Empathy-Support; Emotion-Regulation; Dynamic-Affect",
     "theory": "Emotion-Regulation-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Chain of thought driven reinforcement alignment with KAN for multimodal sentiment analysis of tourist reviews",
@@ -282,7 +282,7 @@
     "affect_focus": "Emotion-Generation",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Beyond Labels: Training Cognitive Empathy with Context-Rich Synthetic Dialogues",
@@ -301,7 +301,7 @@
     "affect_focus": "Emotion-Understanding; Empathy-Support; Dynamic-Affect",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "From evolutionary individuality to cognitive integration: a cross-modular perspective on human–AI coevolution",
@@ -320,7 +320,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Appraisal-Theory; Theory-of-Mind",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Evaluating Multimodal Emotion Recognition in Proactive Conversational Agents: A User Study",
@@ -339,7 +339,7 @@
     "affect_focus": "Emotion-Understanding; Empathy-Support; Dynamic-Affect",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Human-AI collaboration for ethical, transparent, and equitable educational practices",
@@ -358,7 +358,7 @@
     "affect_focus": "Emotion-Understanding; Personality-Individual-Differences",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "VISH-GUARD: a multi-agent and LLM-powered framework for multilingual voice phishing detection",
@@ -377,7 +377,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "HealMe: A Personalized Therapy Assistant",
@@ -396,7 +396,26 @@
     "affect_focus": "Empathy-Support; Dynamic-Affect; Personality-Individual-Differences",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
+  },
+  {
+    "title": "Interpretable speech biomarkers of psychological resilience in major depressive disorder via expert-guided large language models",
+    "year": 2026,
+    "venue": "BMC Psychiatry",
+    "type": "article",
+    "url": "https://doi.org/10.1186/s12888-026-08584-y",
+    "relevance": "AUTO",
+    "score": 26,
+    "matched_terms": "emotion; emotional; framework; intervention; large language model; llm; mood; multimodal",
+    "why_it_matters": "Abstract Background Major depressive disorder (MDD) is highly prevalent and recurrent, but current clinical care focuses mainly on symptom reduction, overlooking the individual’s capacity for psychological resilience which is a key factor for long-term recovery. Traditional resilience assessments rely on subjective self-reports, lacking objective, scalable alternatives. Methods This study developed a Multi-Topic Emotion Interview (MTEI) paradigm and collected multimodal data from 248 MDD patients and 101 healthy controls between December 2024 and November 2025. A 4-week longitudinal follow-up ( n = 106) was conducted to evaluate model generalizability. We introduced an expert-guided Large La",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM; Multimodal",
+    "contribution_type": "Evaluation-Benchmark; Framework-Architecture; Alignment-Steering",
+    "affect_focus": "Personality-Individual-Differences",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-23T23:28:02.632146+00:00",
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Empathy Is Steerable but Multi-Axial: Mechanism Geometry and Persona Effects in LLMs",
@@ -415,7 +434,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Implementing a direct support staff intervention in services for people with intellectual disabilities and challenging behaviour using the ItFits framework: From needs to action",
@@ -434,7 +453,7 @@
     "affect_focus": "Emotional-Intelligence",
     "theory": "Emotional-Intelligence-Theory",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Fig_Emotional Guidance in Parasocial Networks and Its Influence on Public Sentiment During Emergencies A Data-Driven LLM-Based Approach",
@@ -453,7 +472,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Digital Twins for Opinion Dynamics: A Generative LLM Framework for Social Networks",
@@ -472,7 +491,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Mapping applications and evaluations of LLM-enabled AI chatbots for health purposes: a scoping review",
@@ -491,7 +510,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Spook the Machine: Gamified Exploration of Human Imagination of Machine Fear",
@@ -510,7 +529,7 @@
     "affect_focus": "Emotion-Generation; Personality-Individual-Differences",
     "theory": "Personality-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "When machines judge humanness: findings from an interactive reverse turing test by large language models",
@@ -529,7 +548,26 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Personality-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
+  },
+  {
+    "title": "From Biological Precursors to Artificial Cognition: Consciousness, Embodiment, and the MEM Architecture",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "type": "preprint",
+    "url": "https://doi.org/10.48550/arxiv.2609.23828",
+    "relevance": "AUTO",
+    "score": 21,
+    "matched_terms": "agent; causal; emotion; emotional; llm; memory; multimodal",
+    "why_it_matters": "This article asks under what conditions artificial intelligence could warrant a rational attribution of consciousness. Linguistic ability, multimodality, memory, planning, action control, and humanoid embodiment are not sufficient evidence of phenomenal experience. Biological precursors such as excitability, homeostasis, neural networks, and hierarchical representation instead identify functions whose counterparts may be engineered. The paper compares conventional LLMs, hybrid h-LLMs, vision-language-action systems, and embodied agents with the Motivated Emotional Mind (MEM) architecture. MEM adds receptor-grounded representations, regulatory self-monitoring and interoception, affect, sembli",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM; Agent; Multimodal",
+    "contribution_type": "Framework-Architecture; Representation-Mechanism",
+    "affect_focus": "Uncategorized",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-23T23:28:02.632146+00:00",
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Affective Shared Autonomy: Temporal Affect Dynamics and Subjective Evaluation in Bimanual Teleoperation Tasks",
@@ -548,7 +586,7 @@
     "affect_focus": "Dynamic-Affect",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Multi-Dimensional Prosody Judgment For Live Streaming Speech Synthesis",
@@ -567,7 +605,26 @@
     "affect_focus": "Emotion-Generation",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
+  },
+  {
+    "title": "Exploring young adult cancer survivors’ perspectives on generative AI chatbots for symptom support",
+    "year": 2026,
+    "venue": "Supportive Care in Cancer",
+    "type": "article",
+    "url": "https://doi.org/10.1007/s00520-026-11254-0",
+    "relevance": "AUTO",
+    "score": 20,
+    "matched_terms": "emotion; emotional; empathetic; intervention; large language model",
+    "why_it_matters": "Abstract Background Young adult cancer survivors (ages 18–39) often experience persistent treatment-related symptoms that negatively affect daily functioning, psychosocial well-being, and quality of life, yet report unmet educational needs for symptom management. Generative artificial intelligence (AI) technologies, such as large language model-powered chatbots, offer scalable, personalized, and empathetic symptom support but remain largely untested in young adults’ survivorship care. Objective This qualitative descriptive study explored young adult cancer survivors’ perspectives, preferences, and experiences related to the use of generative AI chatbots for oncology symptom management. Metho",
+    "source": "OpenAlex",
+    "discovered_at": NaN,
+    "system_type": "LLM",
+    "contribution_type": "Alignment-Steering; Dataset-Resource",
+    "affect_focus": "Empathy-Support; Personality-Individual-Differences",
+    "theory": "Uncategorized",
+    "first_seen": "2026-09-23T23:28:02.632146+00:00",
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Scaffolding students-AI dialogue for safe educational interactions",
@@ -586,7 +643,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Integrated Pedagogical Frameworks for Early School Education: Synergizing Generative Artificial Intelligence, Large Language Models, and Immersive Virtual Realit",
@@ -605,7 +662,7 @@
     "affect_focus": "Emotion-Regulation",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Behavioural Decision-Making in the Age of AI: Minds vs. Models",
@@ -624,7 +681,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Systemic Risks and Governance of Advanced Artificial Intelligence: A Structured Literature Review",
@@ -643,7 +700,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Appraisal-Theory",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Efficacy of artificial intelligence‑integrated emotional granularity growth at improving resilience and quality of life in young and middle aged colorectal cancer survivors: protocol for a pilot randomised controlled trial",
@@ -662,7 +719,7 @@
     "affect_focus": "Emotion-Regulation",
     "theory": "Emotion-Regulation-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Pragmatically speaking: humor in interactions with AI",
@@ -681,7 +738,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Theory-of-Mind; Personality-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "MOCC-R1: Reinforcing Reasoning-Response Consistency for Multimodal Counselor Response Generation",
@@ -700,7 +757,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Reusing a Multimodal LLaVA Model for Rapid Learning of Human Gaze Prediction",
@@ -719,7 +776,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
@@ -738,7 +795,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Evaluating fine-tuned, embedding-based, and zero-shot models for aspect-based sentiment analysis in South Slavic news",
@@ -757,7 +814,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Artificial Intelligence-Related Risks in Interventional Pulmonology: An Exploratory Enumeration and Ranking Study Across Five General-Purpose Large Language Models",
@@ -776,7 +833,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Appraisal-Theory",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "AN EXPERIENTIAL STUDY ON THE APPLICATION OF ARTIFICIAL INTELLIGENCE IN PSYCHOLOGICAL COUNSELING TECHNIQUE TRAINING FOR COLLEGE STUDENTS",
@@ -795,7 +852,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "What Parents Can See: Divergent Accounts of Youth AI Companion Use in Parenting and Teenager Subreddits",
@@ -814,7 +871,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "The role of generative AI in facilitating social interactions: A scoping review",
@@ -833,7 +890,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Learn Before You Judge: Progressive Knowledge-to-Decision Alignment for Explainable Hateful Meme Detection",
@@ -852,7 +909,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "What People Almost Did: Evaluating LLM Social Simulations Beyond Behavioral Fit",
@@ -871,7 +928,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Artificial intelligence and online political radicalization: State of the art on algorithmic bias, group dynamics and generative AI",
@@ -890,7 +947,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Large Language Models Predict Human Social Behavior via Interpretable Mechanisms",
@@ -909,7 +966,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Theory-of-Mind",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Retrieval-augmented multi-agent framework for evidence-centric medical reasoning",
@@ -928,7 +985,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "A population representative XAI framework for transparent dysglycemia screening in Indonesia",
@@ -947,7 +1004,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Interactive Memory Learning for Long-Term Conversations",
@@ -966,7 +1023,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Self-Emergence Agent Architecture:Behavior-Inertia HMM, Reflexive Metacognition,and Social-Contrastive Self-Modeling",
@@ -985,7 +1042,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Personality-Theory",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Large language models in healthcare: applications, evaluation frameworks, and governance pathways — a scoping review and multidimensional framework",
@@ -1004,7 +1061,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Modeling communicative intentions in therapist–client dialogue using large language models and graph analysis",
@@ -1023,7 +1080,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Xeno-Interpretability: Investigating the Alien Minds of LLMs",
@@ -1042,7 +1099,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Personality-Theory",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Machine Learning Modelling of Mental Disorders in the People of South Sudan",
@@ -1061,7 +1118,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Student engagement in ChatGPT-assisted mathematics learning: A phenomenological study",
@@ -1080,7 +1137,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Governing through emotion: affective legitimacy, discrimination, and the politics of crisis in India",
@@ -1099,7 +1156,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization",
@@ -1118,7 +1175,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Born in the wrong era: rethinking human-AI relations through the lens of anemoia",
@@ -1137,7 +1194,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
@@ -1156,7 +1213,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Theory-of-Mind",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "RACER-MSA: Reliability-adaptive and Counterfactual Evidence Reasoning for Multimodal Sentiment Detection and Emotion Classification",
@@ -1175,7 +1232,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Contextual Effects of Emotionally Valenced Feedback Prompts on LLM Response Style: A Pilot Study",
@@ -1194,7 +1251,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "One Example Is Enough to Pass Fairness Benchmarks: Rethinking Fairness Evaluation for Aligned LLMs",
@@ -1213,26 +1270,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
-  },
-  {
-    "title": "Can positive psychology interventions increase foreign language enjoyment? evidence from an eight-week quasi-experimental study with Indonesian EFL undergraduates",
-    "year": 2026,
-    "venue": "Research Studies in English Language Teaching and Learning",
-    "type": "article",
-    "url": "https://doi.org/10.62583/rseltl.v4i5.156",
-    "relevance": "AUTO",
-    "score": 12,
-    "matched_terms": "emotion; emotional; intervention",
-    "why_it_matters": "The aim of this study was to examine whether the incorporation of positive psychology interventions (PPIs) into regular English as a Foreign Language (EFL) class would increase university students’ foreign language enjoyment (FLE). A quantitative, quasi-experimental pretest–post-test design was used with 60 undergraduates learning EFL in two intact university classes. Classes were randomly assigned to the experimental group (n = 30), who underwent traditional EFL teaching with structured PPIs, and the control group (n = 30), who received syllabus-based foreign language instruction. During the eight-week intervention period, the experimental group received 15–20 minutes of Positive Psychology",
-    "source": "OpenAlex",
-    "discovered_at": NaN,
-    "system_type": "Uncategorized",
-    "contribution_type": "Evaluation-Benchmark; Alignment-Steering",
-    "affect_focus": "Uncategorized",
-    "theory": "Uncategorized",
-    "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Steering the Compass: Aligning Dynamic Psychological Counseling Conversations with Cognitive Behavioral Therapy Strategies",
@@ -1251,7 +1289,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Theory-of-Mind",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Theories of Mind as Domain-Specific Languages of Thought",
@@ -1270,7 +1308,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Theory-of-Mind",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Reading Emotions in the Token Space: Discriminative Adaptation of SpeechLLMs for Emotion Recognition",
@@ -1289,7 +1327,7 @@
     "affect_focus": "Emotion-Understanding",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "StressNet: Neuromorphic multimodal stress recognition from wearable physiological signals",
@@ -1308,7 +1346,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Sentiment classification of stock forum text based on a parameter-decoupled ERNIE-Transformer architecture",
@@ -1327,7 +1365,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Hearing to Translate: The Effectiveness of Speech Modality Integration into LLMs",
@@ -1346,7 +1384,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Rethinking Scale: The Efficacy of Fine-Tuned Open-Source LLMs in Large-Scale Reproducible Social Science Research",
@@ -1365,7 +1403,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "The convergence paradox: a constructivist account of perceived template convergence and originative agency under generative artificial intelligence",
@@ -1384,7 +1422,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Appraisal-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "A hybrid framework combining large language models and Shapley-based methods for explainable cyberbullying detection",
@@ -1403,7 +1441,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "BEYOND ACADEMIC ACHIEVEMENT: UTILIZING AI-GENERATED SOCIAL NARRATIVES TO ENHANCE THE SOCIAL DIMENSION OF INCLUSIVE EDUCATION",
@@ -1422,7 +1460,7 @@
     "affect_focus": "Empathy-Support; Personality-Individual-Differences",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "A comparative cross-sectional evaluation of generative AI chatbots for patient-oriented bacterial vaginosis health advice: safety, accuracy, guideline concordance, empathy, and readability",
@@ -1441,7 +1479,7 @@
     "affect_focus": "Empathy-Support",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Exploring the classroom management approaches of Overseas Filipino Teachers in Taiwan for managing challenging learner behaviors",
@@ -1460,7 +1498,7 @@
     "affect_focus": "Emotion-Regulation",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Data-Driven Sentiment Analysis of Public Opinion on National Football Team Coaching Using Naïve Bayes",
@@ -1479,7 +1517,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Adaptive Fusion-Driven Multimodal Sentiment Analysis Using U-Net++, Capsule Network, and Transformer-Enhanced Extreme Learning",
@@ -1498,7 +1536,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Ethical integration of generative artificial intelligence in Islamic religious education involves human mediation and source verification",
@@ -1517,7 +1555,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Awareness, attitudes, and utilization of large language models among healthcare students in Saudi Arabia: a cross-sectional analysis",
@@ -1536,7 +1574,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Appraisal-Theory",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Multi-task Learning with Active Learning for Arabic Offensive Speech Detection",
@@ -1555,7 +1593,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Algorithmic stratification in social media narrative framing: an agent-based testing of sex and educational disparities in career information access",
@@ -1574,7 +1612,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "D5.1 Developing the Teaching Factory 5.0. Phases 1, 2, 3",
@@ -1593,7 +1631,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "What We Love Online: A Deductive Thematic Analysis of Thoughtforms, Parasocial Agent Connection, and Bidirectional Fictophilia in the Digital Liminal",
@@ -1612,7 +1650,7 @@
     "affect_focus": "Emotion-Regulation",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Large language model enhanced public opinion monitoring for China’s portable energy market: A data driven analysis of social media comments",
@@ -1631,7 +1669,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Emotion Experience, Expression, and Perception: Emotion Analysis on Multimodal Social Media Posts",
@@ -1650,7 +1688,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Verifiable Social Reasoning for LLM Assistants",
@@ -1669,7 +1707,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Neural Mechanisms Underlying Natural Text Reading",
@@ -1688,7 +1726,7 @@
     "affect_focus": "Personality-Individual-Differences",
     "theory": "Theory-of-Mind",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Between Methodological Expansion and Epistemic Boundary Dissolution: Generative AI, Distributed Epistemic Processes, and the Reorganization of Scientific Responsibility",
@@ -1707,7 +1745,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Understanding older adults’ sharing intention toward AI-generated health misinformation: a heuristic-systematic and health belief perspective",
@@ -1726,7 +1764,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Optimizing Sparse Outcomes Through Dense Behavioral Signals via Value-Guided Preference Distillation",
@@ -1745,7 +1783,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "A Responsive Present, a Shared Past, a Social Other: Teens' Overreliance on Companion AI Chatbots",
@@ -1764,7 +1802,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Mapping the Research Landscape on Learning Outcomes",
@@ -1783,7 +1821,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Before the Arrest: Benchmarking LLMs on Criminal Profiling from Incomplete Evidence",
@@ -1802,7 +1840,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Potential Use of AI Chatbots by Patients With Bowel Tumors: Opportunities and Implications for Low- and Middle-Income Countries",
@@ -1821,7 +1859,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Edustories: A Collection of Real-world Case Studies from Classroom Practices",
@@ -1840,7 +1878,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Artificial intelligence integration in higher education: a global systematic thematic synthesis of opportunities, risks, and emerging frontiers",
@@ -1859,7 +1897,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "A Hybrid Multimodal Siamese Network for Speech-based Kinship Verification Leveraging the Kin-FVs Dataset",
@@ -1878,7 +1916,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Style-Debiased DPO: Updating LLM Knowledge with Factuality-Aware Synthetic Preference Data",
@@ -1897,7 +1935,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Clinician-supervised multimodal AI orchestration in spine care: evidence, framework, and future directions",
@@ -1916,7 +1954,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Inequality and the Social Imagination",
@@ -1935,7 +1973,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Customizing AI for writing pedagogy: a systematic review of pedagogical goals, theoretical principles, and technical design",
@@ -1954,7 +1992,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Progress, Poetry, and Peace: Romantic Ideals and the Present Day",
@@ -1973,7 +2011,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Functional and Existential AI Dependence in Dental Students and Professionals: A Hybrid Network Analysis",
@@ -1992,7 +2030,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Techno-Wellbeing and Flourishing in Higher Education: Student Experiences of Using Generative AI",
@@ -2011,7 +2049,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "A netnography of WWE fans grappling with AI storytelling on streaming platforms",
@@ -2030,7 +2068,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Watermarking large language models in Europe: interpreting the AI act in light of technology",
@@ -2049,7 +2087,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T11:03:15.348133+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "Blurring the line: A more complete conceptualization of influencer-generated content and its implications for deception",
@@ -2068,7 +2106,7 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-21T23:54:05.101282+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   },
   {
     "title": "The Evolving Bottleneck in Speech Generation: Interface Co-design and Staged Alignment from CosyVoice to Qwen-Audio-3.0-TTS",
@@ -2087,6 +2125,6 @@
     "affect_focus": "Uncategorized",
     "theory": "Uncategorized",
     "first_seen": "2026-09-22T23:32:03.354767+00:00",
-    "last_seen": "2026-09-22T23:32:21.240704+00:00"
+    "last_seen": "2026-09-23T23:28:24.879496+00:00"
   }
 ]
