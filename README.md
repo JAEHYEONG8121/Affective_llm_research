@@ -9,7 +9,7 @@
 [![Curated](https://img.shields.io/badge/curated-13-8a2be2)](#-browse-by-system)
 [![Sources](https://img.shields.io/badge/sources-arXiv%20%7C%20OpenAlex-orange)](#-automation)
 
-**Last refreshed:** 2026-11-08 09:15 KST · **Owner:** [JAEHYEONG8121](https://github.com/JAEHYEONG8121)
+**Last refreshed:** 2026-11-09 09:37 KST · **Owner:** [JAEHYEONG8121](https://github.com/JAEHYEONG8121)
 
 </div>
 
@@ -19,16 +19,9 @@
 
 > New papers are tracked by their **first appearance in this repository**. Existing papers no longer reappear as "new" on every daily run.
 
-### New in the last 24 hours · 6 papers
+### New in the last 24 hours · 0 papers
 
-| Paper | Venue | Focus | Method / Contribution |
-|---|---|---|---|
-| [CST-Bench: Benchmarking Counterfactual Spatial Transition Reasoning with Causal Transition On-Policy Self-Distillation](https://arxiv.org/abs/2611.07541v1) | arXiv · 2026 | — | 📊 `Evaluation-Benchmark` 🛠️ `Training-Tuning` 🧭 `Alignment-Steering` 🗂️ `Dataset-Resource` |
-| [The Memory Trap: Language Agents Overgeneralize from Benign Interactions](https://arxiv.org/abs/2611.07554v1) | arXiv · 2026 | `Empathy-Support` | 📊 `Evaluation-Benchmark` 🏗️ `Framework-Architecture` 🧭 `Alignment-Steering` |
-| [Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents](https://arxiv.org/abs/2611.07825v1) | arXiv · 2026 | — | 📊 `Evaluation-Benchmark` 🛠️ `Training-Tuning` 🧭 `Alignment-Steering` |
-| [Server-Side Sparse Assignment for Federated Mixture-of-Experts](https://arxiv.org/abs/2611.07093v1) | arXiv · 2026 | — | 🏗️ `Framework-Architecture` 🛠️ `Training-Tuning` 🧭 `Alignment-Steering` 🗂️ `Dataset-Resource` 🧠 `Representation-Mechanism` |
-| [Information Elicitation by Ordinal Agreement](https://arxiv.org/abs/2611.08366v1) | arXiv · 2026 | — | 📊 `Evaluation-Benchmark` 🛠️ `Training-Tuning` 🧭 `Alignment-Steering` 🗂️ `Dataset-Resource` 🧠 `Representation-Mechanism` |
-| [Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies](https://arxiv.org/abs/2611.07667v1) | arXiv · 2026 | — | 📊 `Evaluation-Benchmark` 🏗️ `Framework-Architecture` 🧭 `Alignment-Steering` 🗂️ `Dataset-Resource` |
+_No new papers in the last 24 hours._
 
 <details>
 <summary><b>🗓️ Show the last 7 days of additions</b></summary>
