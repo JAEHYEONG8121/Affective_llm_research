@@ -1,129 +1,464 @@
-<div align="center">
+# LLM 감정·정렬 연구 지도
 
-# Affective Atlas
+[분야별 문헌·근거](research/REVIEW.md) · [선정·검증 기준](research/METHODOLOGY.md) · [개발 환경](research/DEVELOPMENT.md)
 
-**인간의 감정·사회적 맥락을 이해하고, 인간에게 유용하게 정렬되는 AI를 위한 연구 지도**
+**8개 분야 · 24개 세부 주제 · 45편** · 2026-11-10
 
-[연구 지도](docs/index.html) · [분야별 문헌·근거](research/REVIEW.md) · [선정·검증 방법](research/METHODOLOGY.md) · [도구 비교](research/TOOLS.md)
+분야 → 세부 주제 → 논문 순서의 분류 지도. 논문 제목·학회·연도는 각 도식 아래 표에 제공한다.
 
-</div>
+**인용 데이터:** 직접 인용 관계와 인용 수 미수집. 현재 연결은 주제 분류 기준.
 
-모델의 감정 인식·추론·공감 행동과 **주관적인 감정 경험**은 서로 다른 주장이다. 이 저장소는 관찰 가능한 모델 행동, 심리학적 설명의 검증 가능성, 인간에게 미치는 효과를 중심으로 연구를 연결한다. 인간과 비슷한 언어 표현만으로 의식이나 감정 경험을 추론하지 않는다.
-
-**현재 범위 — 2026-11-10:** 8개 대분류 · 24개 소분류 · 읽기 후보 45편. 출판사 메타데이터·초록과 저자 저장소를 확인한 초기 지도다. 전체 원문 검토나 체계적 문헌고찰, 학계 전체의 인용 순위가 아니다. 기존 수집 데이터 360편과 수동 seed 13편은 보존했다.
-
-> **상태:** 학술 API가 환경 프록시에서 차단되어 인용 수와 논문 간 직접 인용 관계를 수집하지 못했다. 현재 지도에 보이는 선은 **주제 포함 관계**다. 읽기 후보를 피인용 상위 논문이나 검증된 후속 연구로 표시하지 않는다. ICLR·AAAI의 출판사 대조와 전 학회에 대한 균형 잡힌 확장은 미완료다.
-
-## 연구 구조
+## 분야 개요
 
 ```mermaid
 flowchart LR
-  R[인간–AI 연구 지도] --> E[감정 이해와 상황 추론]
-  E --> E1[맥락적 감정 인식]
-  E --> E2[감정 원인과 변화]
-  E --> E3[다중양식 이해]
-  R --> S[공감과 정서 지원]
-  S --> S1[공감적 응답]
-  S --> S2[지원 전략]
-  S --> S3[사용자 효과와 안전]
-  R --> C[사회적 인지와 상호작용]
-  C --> C1[신념·관점 추론]
-  C --> C2[사회적 의사결정]
-  C --> C3[인간 행동 시뮬레이션]
-  R --> A[선호·가치·행동 정렬]
-  A --> A1[선호 최적화]
-  A --> A2[인간·AI 피드백]
-  A --> A3[다원적 가치와 문화]
-  R --> P[개인화·기억·동적 적응]
-  P --> P1[사용자 모델]
-  P --> P2[장기 기억]
-  P --> P3[동적 선호]
-  R --> T[심리학 기반 설계와 기제]
-  T --> T1[Appraisal]
-  T --> T2[성격·상태 표현]
-  T --> T3[개입과 기제 검증]
-  R --> H[인간–AI 상호작용의 효과]
-  H --> H1[의인화와 관계]
-  H --> H2[신뢰·의존·자율성]
-  H --> H3[아첨·동조]
-  R --> V[평가 타당도와 방법론]
-  V --> V1[구성·생태 타당도]
-  V --> V2[인간·LLM 평가자]
-  V --> V3[강건성·재현성]
+  root["LLM 감정·정렬 연구"]
+  root --> t_emotion["감정 이해와 상황 추론"]
+  root --> t_support["공감과 정서 지원"]
+  root --> t_social["사회적 인지와 상호작용"]
+  root --> t_alignment["선호·가치·행동 정렬"]
+  root --> t_personalization["개인화·기억·동적 적응"]
+  root --> t_psychology["심리학 기반 설계와 기제"]
+  root --> t_hai["인간–AI 상호작용의 효과"]
+  root --> t_evaluation["평가 타당도와 연구 방법"]
 ```
 
-주제는 상호 배타적이지 않다. 한 논문을 여러 소분류에 연결하며, 주제 분류·직접 인용·내용상 확장·반론을 서로 다른 관계로 저장한다.
+[감정 이해와 상황 추론](#emotion) · [공감과 정서 지원](#support) · [사회적 인지와 상호작용](#social) · [선호·가치·행동 정렬](#alignment) · [개인화·기억·동적 적응](#personalization) · [심리학 기반 설계와 기제](#psychology) · [인간–AI 상호작용의 효과](#hai) · [평가 타당도와 연구 방법](#evaluation)
 
-## 출발점이 되는 읽기 후보
+<a id="emotion"></a>
 
-아래는 인용 수 순위가 아닌 **편집상 읽기 제안**이다. 분야별 전체 후보, 보고된 주장·결과를 담은 출처 초록, 검토할 가설과 한계는 [문헌 검토](research/REVIEW.md)에 있다.
+## 감정 이해와 상황 추론
 
-| 분야 | 출발 후보 | 함께 검토할 질문 |
-|---|---|---|
-| 감정 이해 | [DialogueCRN (ACL 2021)](https://aclanthology.org/2021.acl-long.547/), [ECFlow (ACL 2026)](https://aclanthology.org/2026.acl-long.539/) | 맥락 및 appraisal가 감정 변화 추론에 기여하는가? |
-| 정서 지원 | [EmpatheticDialogues (ACL 2019)](https://aclanthology.org/P19-1534/), [ESConv (ACL 2021)](https://aclanthology.org/2021.acl-long.269/) | 공감 표현·지원 전략·사용자 효과는 어떻게 다른가? |
-| 사회적 인지 | [FANToM (EMNLP 2023)](https://aclanthology.org/2023.emnlp-main.890/), [SOTOPIA-π (ACL 2024)](https://aclanthology.org/2024.acl-long.698/) | 단일 문항의 신념 추론이 상호작용으로 전이되는가? |
-| 선호와 가치 정렬 | [DPO (2023)](https://arxiv.org/abs/2305.18290), [OpinionQA (ICML 2023)](https://proceedings.mlr.press/v202/santurkar23a.html) | 평균 선호 최적화가 누구의 관점을 반영하는가? |
-| 개인화와 기억 | [LaMP (ACL 2024)](https://aclanthology.org/2024.acl-long.399/), [The Personalization Trap (ACL 2026)](https://aclanthology.org/2026.acl-short.43/) | 개인 기억이 유용한 맥락과 편향을 어떻게 함께 바꾸는가? |
-| 심리학 기반 설계 | [InCharacter (ACL 2024)](https://aclanthology.org/2024.acl-long.102/), [The Practical Impacts… (EMNLP 2025)](https://aclanthology.org/2025.emnlp-main.785/) | 심리학 변수가 동일 예산의 일반 상태 표현보다 유용한가? |
-| 인간–AI 효과 | [Humanizing Machines (EMNLP 2025)](https://aclanthology.org/2025.emnlp-main.164/), [Feeling Right vs. Being Right (ACL 2026)](https://aclanthology.org/2026.acl-long.2046/) | 만족·의인화·신뢰·자율성은 어떤 조건에서 충돌하는가? |
-| 평가 방법 | [MT-Bench (2023)](https://arxiv.org/abs/2306.05685), [ESC-Judge (EMNLP 2025)](https://aclanthology.org/2025.emnlp-main.811/) | 평가자의 점수가 사람에게 실제로 도움이 되는 상호작용을 예측하는가? |
-
-## 인터랙티브 지도
-
-GitHub README에서는 임의의 JavaScript를 실행할 수 없어 hover 지도를 정적 웹사이트로 제공한다. 생성된 `docs/index.html`을 HTTP로 제공하거나 GitHub Pages로 배포하면 사용할 수 있다. 지도 데이터는 HTML에 함께 포함해 별도 JSON 경로가 없는 미리보기에서도 표시된다. 아직 공개 배포하지 않았다.
-
-- 분야·소분류·역할·연도·텍스트 필터와 읽기 순서/연도/조회된 인용 수 정렬
-- 노드 hover: 제목·링크·연도·학회·서지 확인 상태
-- 노드 또는 목록 선택: 초록, 출처, 검토 가설, 실험 질문
-- 주제 트리와 근거가 있는 논문 관계망의 별도 화면
-- CSV와 [Local Citation Network용 JSON](docs/data/local-citation-network.json) 내보내기
-
-그래프 엔진을 새로 작성하지 않고 **vis-network**를 사용한다. **[Local Citation Network](https://github.com/LocalCitationNetwork/LocalCitationNetwork.github.io)**를 [원형 그대로 포함](docs/tools/local-citation-network/)해 직접 인용 탐색, Top Cited/Top Citing, 데이터 내보내기 기능을 재사용한다. 해당 디렉터리에는 원저작권과 GPL-3.0 라이선스를 보존했다. [도구 비교·고정 버전](research/TOOLS.md)을 참조한다.
-
-## 로컬 개발
-
-Python 3.11(CI) 또는 검증된 3.12를 사용한다. 별도 서버나 GPU, LLM API 키는 필요하지 않다.
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python scripts/build_research_map.py
-python -m unittest discover -s tests -v
-python -m http.server 8000 --directory docs
+```mermaid
+flowchart LR
+  topic["감정 이해와 상황 추론"]
+  topic --> s0["맥락적 감정 인식"]
+  topic --> s1["감정 원인과 변화"]
+  topic --> s2["다중양식 감정 이해"]
+  p0["DialogueCRN<br/>ACL · 2021"]
+  s0 --> p0
+  p1["MMToM-QA<br/>ACL · 2024"]
+  s2 --> p1
+  p2["ERCThinker<br/>ACL · 2026"]
+  s0 --> p2
+  s1 --> p2
+  p3["EmoS<br/>ACL · 2026"]
+  s2 --> p3
+  p4["The Personalization Trap<br/>ACL · 2026"]
+  s1 --> p4
+  p5["Why Do Emotions Change? Appraisal-Guided…<br/>ACL · 2026"]
+  s1 --> p5
+  click p0 href "https://aclanthology.org/2021.acl-long.547/" "DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations · ACL · 2021" _blank
+  click p1 href "https://aclanthology.org/2024.acl-long.851/" "MMToM-QA: Multimodal Theory of Mind Question Answering · ACL · 2024" _blank
+  click p2 href "https://aclanthology.org/2026.acl-long.1825/" "ERCThinker: Fast-Slow Thinking for Emotion Recognition in Conversation · ACL · 2026" _blank
+  click p3 href "https://aclanthology.org/2026.acl-long.1813/" "EmoS: A High-Fidelity Multimodal Benchmark for Fine-grained Streaming Emotional Understanding · ACL · 2026" _blank
+  click p4 href "https://aclanthology.org/2026.acl-short.43/" "The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs · ACL · 2026" _blank
+  click p5 href "https://aclanthology.org/2026.acl-long.539/" "Why Do Emotions Change? Appraisal-Guided Reasoning for Emotion–Cause Triplet Extraction in Conversations · ACL · 2026" _blank
 ```
 
-브라우저 검증은 Node.js 24와 Playwright를 사용한다. 설치된 시스템 Chromium이
-있으면 사용하고, 없으면 Playwright Chromium을 설치한다.
+| 논문 | 학회 | 연도 | 검토 역할 |
+|---|---|---:|---|
+| [DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations](https://aclanthology.org/2021.acl-long.547/) | ACL | 2021 | 기초 |
+| [MMToM-QA: Multimodal Theory of Mind Question Answering](https://aclanthology.org/2024.acl-long.851/) | ACL | 2024 | 평가 |
+| [ERCThinker: Fast-Slow Thinking for Emotion Recognition in Conversation](https://aclanthology.org/2026.acl-long.1825/) | ACL | 2026 | 최근 |
+| [EmoS: A High-Fidelity Multimodal Benchmark for Fine-grained Streaming Emotional Understanding](https://aclanthology.org/2026.acl-long.1813/) | ACL | 2026 | 최근 |
+| [The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs](https://aclanthology.org/2026.acl-short.43/) | ACL | 2026 | 반례·한계 |
+| [Why Do Emotions Change? Appraisal-Guided Reasoning for Emotion–Cause Triplet Extraction in Conversations](https://aclanthology.org/2026.acl-long.539/) | ACL | 2026 | 최근 |
 
-```bash
-npm ci --ignore-scripts
-npx playwright install chromium  # 시스템 Chromium이 없는 경우
-npm run test:browser
+<a id="support"></a>
+
+## 공감과 정서 지원
+
+```mermaid
+flowchart LR
+  topic["공감과 정서 지원"]
+  topic --> s0["공감적 응답"]
+  topic --> s1["지원 전략과 대화 과정"]
+  topic --> s2["사용자 효과와 안전"]
+  p0["Towards Empathetic Open-domain Conversation…<br/>ACL · 2019"]
+  s0 --> p0
+  p1["Towards Emotional Support Dialog Systems<br/>ACL · 2021"]
+  s1 --> p1
+  s2 --> p1
+  p2["MISC<br/>ACL · 2022"]
+  s1 --> p2
+  p3["Be Helpful but Don’t Talk too Much - Enhancing…<br/>EMNLP · 2024"]
+  s2 --> p3
+  p4["Can Large Language Models be Good Emotional…<br/>ACL · 2024"]
+  s0 --> p4
+  p5["ESCoT<br/>ACL · 2024"]
+  s1 --> p5
+  p6["ESC-Judge<br/>EMNLP · 2025"]
+  s2 --> p6
+  p7["From Personas to Talks<br/>EMNLP · 2025"]
+  s0 --> p7
+  p8["MultiAgentESC<br/>EMNLP · 2025"]
+  s1 --> p8
+  p9["TEA-Bench<br/>ACL · 2026"]
+  s2 --> p9
+  click p0 href "https://aclanthology.org/P19-1534/" "Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset · ACL · 2019" _blank
+  click p1 href "https://aclanthology.org/2021.acl-long.269/" "Towards Emotional Support Dialog Systems · ACL · 2021" _blank
+  click p2 href "https://aclanthology.org/2022.acl-long.25/" "MISC: A Mixed Strategy-Aware Model integrating COMET for Emotional Support Conversation · ACL · 2022" _blank
+  click p3 href "https://aclanthology.org/2024.emnlp-main.118/" "Be Helpful but Don’t Talk too Much - Enhancing Helpfulness in Conversations through Relevance in Multi-Turn Emotional Support · EMNLP · 2024" _blank
+  click p4 href "https://aclanthology.org/2024.acl-long.813/" "Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation · ACL · 2024" _blank
+  click p5 href "https://aclanthology.org/2024.acl-long.723/" "ESCoT: Towards Interpretable Emotional Support Dialogue Systems · ACL · 2024" _blank
+  click p6 href "https://aclanthology.org/2025.emnlp-main.811/" "ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents · EMNLP · 2025" _blank
+  click p7 href "https://aclanthology.org/2025.emnlp-main.277/" "From Personas to Talks: Revisiting the Impact of Personas on LLM-Synthesized Emotional Support Conversations · EMNLP · 2025" _blank
+  click p8 href "https://aclanthology.org/2025.emnlp-main.232/" "MultiAgentESC: A LLM-based Multi-Agent Collaboration Framework for Emotional Support Conversation · EMNLP · 2025" _blank
+  click p9 href "https://aclanthology.org/2026.acl-long.2152/" "TEA-Bench: A Systematic Benchmarking of Tool-enhanced Emotional Support Dialogue Agent · ACL · 2026" _blank
 ```
 
-학술 API 접근 복구 후 인용 데이터를 갱신한다. `--add-citing`은 후보별 최대 20편의 미검토 피인용 이웃을 추가한다. 발견 경로를 주제 관련성이나 내용상 계승의 증거로 해석하지 않는다.
+| 논문 | 학회 | 연도 | 검토 역할 |
+|---|---|---:|---|
+| [Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset](https://aclanthology.org/P19-1534/) | ACL | 2019 | 기초 |
+| [Towards Emotional Support Dialog Systems](https://aclanthology.org/2021.acl-long.269/) | ACL | 2021 | 기초 |
+| [MISC: A Mixed Strategy-Aware Model integrating COMET for Emotional Support Conversation](https://aclanthology.org/2022.acl-long.25/) | ACL | 2022 | 접근 확장 |
+| [Be Helpful but Don’t Talk too Much - Enhancing Helpfulness in Conversations through Relevance in Multi-Turn Emotional Support](https://aclanthology.org/2024.emnlp-main.118/) | EMNLP | 2024 | 반례·한계 |
+| [Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation](https://aclanthology.org/2024.acl-long.813/) | ACL | 2024 | 반례·한계 |
+| [ESCoT: Towards Interpretable Emotional Support Dialogue Systems](https://aclanthology.org/2024.acl-long.723/) | ACL | 2024 | 접근 확장 |
+| [ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents](https://aclanthology.org/2025.emnlp-main.811/) | EMNLP | 2025 | 최근 |
+| [From Personas to Talks: Revisiting the Impact of Personas on LLM-Synthesized Emotional Support Conversations](https://aclanthology.org/2025.emnlp-main.277/) | EMNLP | 2025 | 반례·한계 |
+| [MultiAgentESC: A LLM-based Multi-Agent Collaboration Framework for Emotional Support Conversation](https://aclanthology.org/2025.emnlp-main.232/) | EMNLP | 2025 | 최근 |
+| [TEA-Bench: A Systematic Benchmarking of Tool-enhanced Emotional Support Dialogue Agent](https://aclanthology.org/2026.acl-long.2152/) | ACL | 2026 | 평가 |
 
-```bash
-python scripts/enrich_citations.py --add-citing --max-citing 20
-python scripts/build_research_map.py
+<a id="social"></a>
+
+## 사회적 인지와 상호작용
+
+```mermaid
+flowchart LR
+  topic["사회적 인지와 상호작용"]
+  topic --> s0["Theory of Mind"]
+  topic --> s1["사회적 의사결정"]
+  topic --> s2["인간 행동 시뮬레이션"]
+  p0["Generative Agents<br/>UIST · 2023"]
+  s2 --> p0
+  p1["SOTOPIA<br/>학회 미확인 · 2023"]
+  s1 --> p1
+  p2["FANToM<br/>EMNLP · 2023"]
+  s0 --> p2
+  p3["Theory of Mind for Multi-Agent Collaboration…<br/>EMNLP · 2023"]
+  s1 --> p3
+  p4["InCharacter<br/>ACL · 2024"]
+  s2 --> p4
+  p5["Limits of Theory of Mind Modelling in Dialogue-…<br/>ACL · 2024"]
+  s0 --> p5
+  p6["MMToM-QA<br/>ACL · 2024"]
+  s0 --> p6
+  p7["SOTOPIA-π<br/>ACL · 2024"]
+  s1 --> p7
+  p8["ToMBench<br/>ACL · 2024"]
+  s0 --> p8
+  p9["MultiAgentESC<br/>EMNLP · 2025"]
+  s1 --> p9
+  p10["On Emergent Social World Models — Evidence for…<br/>ACL · 2026"]
+  s0 --> p10
+  click p0 href "https://arxiv.org/abs/2304.03442" "Generative Agents: Interactive Simulacra of Human Behavior · UIST · 2023" _blank
+  click p1 href "https://arxiv.org/abs/2310.11667" "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents · 학회 미확인 · 2023" _blank
+  click p2 href "https://aclanthology.org/2023.emnlp-main.890/" "FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions · EMNLP · 2023" _blank
+  click p3 href "https://aclanthology.org/2023.emnlp-main.13/" "Theory of Mind for Multi-Agent Collaboration via Large Language Models · EMNLP · 2023" _blank
+  click p4 href "https://aclanthology.org/2024.acl-long.102/" "InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews · ACL · 2024" _blank
+  click p5 href "https://aclanthology.org/2024.acl-long.266/" "Limits of Theory of Mind Modelling in Dialogue-Based Collaborative Plan Acquisition · ACL · 2024" _blank
+  click p6 href "https://aclanthology.org/2024.acl-long.851/" "MMToM-QA: Multimodal Theory of Mind Question Answering · ACL · 2024" _blank
+  click p7 href "https://aclanthology.org/2024.acl-long.698/" "SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents · ACL · 2024" _blank
+  click p8 href "https://aclanthology.org/2024.acl-long.847/" "ToMBench: Benchmarking Theory of Mind in Large Language Models · ACL · 2024" _blank
+  click p9 href "https://aclanthology.org/2025.emnlp-main.232/" "MultiAgentESC: A LLM-based Multi-Agent Collaboration Framework for Emotional Support Conversation · EMNLP · 2025" _blank
+  click p10 href "https://aclanthology.org/2026.acl-long.1735/" "On Emergent Social World Models — Evidence for Functional Integration of Theory of Mind and Pragmatic Reasoning in Language Models · ACL · 2026" _blank
 ```
 
-필요한 외부 도메인은 `api.openalex.org`, `export.arxiv.org`다. 본문·출판사 대조에는 `aclanthology.org`, `proceedings.mlr.press`, `proceedings.neurips.cc`, `openreview.net`, `ojs.aaai.org` 등이 추가로 필요하다. 환경 설정에서 기존 규칙을 보존하며 추가한다. 서비스가 인증을 요구하는지는 실제 응답으로 확인한다.
+| 논문 | 학회 | 연도 | 검토 역할 |
+|---|---|---:|---|
+| [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | UIST | 2023 | 기초 |
+| [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://arxiv.org/abs/2310.11667) | 학회 미확인 | 2023 | 기초 |
+| [FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions](https://aclanthology.org/2023.emnlp-main.890/) | EMNLP | 2023 | 반례·한계 |
+| [Theory of Mind for Multi-Agent Collaboration via Large Language Models](https://aclanthology.org/2023.emnlp-main.13/) | EMNLP | 2023 | 접근 확장 |
+| [InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews](https://aclanthology.org/2024.acl-long.102/) | ACL | 2024 | 평가 |
+| [Limits of Theory of Mind Modelling in Dialogue-Based Collaborative Plan Acquisition](https://aclanthology.org/2024.acl-long.266/) | ACL | 2024 | 반례·한계 |
+| [MMToM-QA: Multimodal Theory of Mind Question Answering](https://aclanthology.org/2024.acl-long.851/) | ACL | 2024 | 평가 |
+| [SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents](https://aclanthology.org/2024.acl-long.698/) | ACL | 2024 | 접근 확장 |
+| [ToMBench: Benchmarking Theory of Mind in Large Language Models](https://aclanthology.org/2024.acl-long.847/) | ACL | 2024 | 평가 |
+| [MultiAgentESC: A LLM-based Multi-Agent Collaboration Framework for Emotional Support Conversation](https://aclanthology.org/2025.emnlp-main.232/) | EMNLP | 2025 | 최근 |
+| [On Emergent Social World Models — Evidence for Functional Integration of Theory of Mind and Pragmatic Reasoning in Language Models](https://aclanthology.org/2026.acl-long.1735/) | ACL | 2026 | 최근 |
 
-## 데이터와 자동화
+<a id="alignment"></a>
 
-| 경로 | 용도 |
-|---|---|
-| `research/taxonomy.json` | 대·소분류, 검증할 가설과 연구 질문 |
-| `research/catalog.json` | 선별 후보, 서지·초록·출처·검토 상태와 논문 관계 |
-| `research/REVIEW.md` | 같은 데이터에서 생성한 분야별 검토 문서 |
-| `research/sources/` | 저자·출판사 저장소의 확인한 자료 사본 |
-| `docs/data/` | 웹 지도, CSV, 외부 도구용 파일 |
-| `web/index.template.html` | 화면 문구·구조의 원본. 빌드 시 데이터를 포함한 `docs/index.html` 생성 |
-| `papers/papers.csv`, `papers/papers.json` | 기존 키워드 기반 발견 후보. 검증된 연구 지도와 구분 |
-| `papers/seed.csv` | 기존 수동 등록 13편. 재검증 전까지 출판 정보 확정에 사용하지 않음 |
-| `papers/discovery.md` | 기존 수집기의 발견 보고서 |
+## 선호·가치·행동 정렬
 
-기존 GitHub Actions는 매일 06:00 KST에 발견 보고서를 갱신한다. README는 더 이상 수집기가 덮어쓰지 않는다. 출처 오류가 나면 실패로 처리하고 기존 결과를 보존한다. 정적 지도 빌드는 네트워크 없이 실행된다. [Pages 워크플로](.github/workflows/pages.yml)는 수동 실행용이며, GitHub 저장소의 Pages 소스를 GitHub Actions로 설정해야 한다.
+```mermaid
+flowchart LR
+  topic["선호·가치·행동 정렬"]
+  topic --> s0["선호 최적화"]
+  topic --> s1["인간·AI 피드백"]
+  topic --> s2["다원적 가치와 문화"]
+  p0["Training a Helpful and Harmless Assistant with…<br/>학회 미확인 · 2022"]
+  s0 --> p0
+  s1 --> p0
+  p1["Direct Preference Optimization<br/>NeurIPS · 2023"]
+  s0 --> p1
+  p2["Whose Opinions Do Language Models Reflect?<br/>ICML · PMLR 202 · 2023"]
+  s2 --> p2
+  p3["Break the Checkbox<br/>EMNLP · 2025"]
+  s2 --> p3
+  p4["Latent Inter-User Difference Modeling for LLM…<br/>EMNLP · 2025"]
+  s0 --> p4
+  p5["Self-Augmented Preference Alignment for…<br/>EMNLP · 2025"]
+  s0 --> p5
+  p6["Unintended Harms of Value-Aligned LLMs<br/>ACL · 2025"]
+  s2 --> p6
+  p7["Evaluating Language Model Pluralism through In-…<br/>ACL · 2026"]
+  s2 --> p7
+  click p0 href "https://arxiv.org/abs/2204.05862" "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback · 학회 미확인 · 2022" _blank
+  click p1 href "https://arxiv.org/abs/2305.18290" "Direct Preference Optimization: Your Language Model is Secretly a Reward Model · NeurIPS · 2023" _blank
+  click p2 href "https://proceedings.mlr.press/v202/santurkar23a.html" "Whose Opinions Do Language Models Reflect? · ICML · PMLR 202 · 2023" _blank
+  click p3 href "https://aclanthology.org/2025.emnlp-main.2/" "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs · EMNLP · 2025" _blank
+  click p4 href "https://aclanthology.org/2025.emnlp-main.536/" "Latent Inter-User Difference Modeling for LLM Personalization · EMNLP · 2025" _blank
+  click p5 href "https://aclanthology.org/2025.emnlp-main.625/" "Self-Augmented Preference Alignment for Sycophancy Reduction in LLMs · EMNLP · 2025" _blank
+  click p6 href "https://aclanthology.org/2025.acl-long.1532/" "Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights · ACL · 2025" _blank
+  click p7 href "https://aclanthology.org/2026.acl-long.1957/" "Evaluating Language Model Pluralism through In-the-wild Crowd Discussions · ACL · 2026" _blank
+```
+
+| 논문 | 학회 | 연도 | 검토 역할 |
+|---|---|---:|---|
+| [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2204.05862) | 학회 미확인 | 2022 | 기초 |
+| [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290) | NeurIPS | 2023 | 기초 |
+| [Whose Opinions Do Language Models Reflect?](https://proceedings.mlr.press/v202/santurkar23a.html) | ICML · PMLR 202 | 2023 | 기초 |
+| [Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs](https://aclanthology.org/2025.emnlp-main.2/) | EMNLP | 2025 | 반례·한계 |
+| [Latent Inter-User Difference Modeling for LLM Personalization](https://aclanthology.org/2025.emnlp-main.536/) | EMNLP | 2025 | 최근 |
+| [Self-Augmented Preference Alignment for Sycophancy Reduction in LLMs](https://aclanthology.org/2025.emnlp-main.625/) | EMNLP | 2025 | 최근 |
+| [Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights](https://aclanthology.org/2025.acl-long.1532/) | ACL | 2025 | 반례·한계 |
+| [Evaluating Language Model Pluralism through In-the-wild Crowd Discussions](https://aclanthology.org/2026.acl-long.1957/) | ACL | 2026 | 최근 |
+
+<a id="personalization"></a>
+
+## 개인화·기억·동적 적응
+
+```mermaid
+flowchart LR
+  topic["개인화·기억·동적 적응"]
+  topic --> s0["사용자 모델과 검색"]
+  topic --> s1["장기 대화 기억"]
+  topic --> s2["동적 선호와 적응"]
+  p0["Generative Agents<br/>UIST · 2023"]
+  s1 --> p0
+  p1["LaMP<br/>ACL · 2024"]
+  s0 --> p1
+  p2["Flexibly Utilize Memory for Long-Term…<br/>EMNLP · 2025"]
+  s1 --> p2
+  p3["From Personas to Talks<br/>EMNLP · 2025"]
+  s0 --> p3
+  p4["Latent Inter-User Difference Modeling for LLM…<br/>EMNLP · 2025"]
+  s2 --> p4
+  p5["Toward Multi-Session Personalized Conversation<br/>EMNLP · 2025"]
+  s1 --> p5
+  p6["Mem-Gallery<br/>ACL · 2026"]
+  s1 --> p6
+  p7["Preference Heads in Large Language Models<br/>ACL · 2026"]
+  s2 --> p7
+  p8["The Personalization Trap<br/>ACL · 2026"]
+  s1 --> p8
+  click p0 href "https://arxiv.org/abs/2304.03442" "Generative Agents: Interactive Simulacra of Human Behavior · UIST · 2023" _blank
+  click p1 href "https://aclanthology.org/2024.acl-long.399/" "LaMP: When Large Language Models Meet Personalization · ACL · 2024" _blank
+  click p2 href "https://aclanthology.org/2025.emnlp-main.1069/" "Flexibly Utilize Memory for Long-Term Conversation via a Fragment-then-Compose Framework · EMNLP · 2025" _blank
+  click p3 href "https://aclanthology.org/2025.emnlp-main.277/" "From Personas to Talks: Revisiting the Impact of Personas on LLM-Synthesized Emotional Support Conversations · EMNLP · 2025" _blank
+  click p4 href "https://aclanthology.org/2025.emnlp-main.536/" "Latent Inter-User Difference Modeling for LLM Personalization · EMNLP · 2025" _blank
+  click p5 href "https://aclanthology.org/2025.emnlp-main.580/" "Toward Multi-Session Personalized Conversation: A Large-Scale Dataset and Hierarchical Tree Framework for Implicit Reasoning · EMNLP · 2025" _blank
+  click p6 href "https://aclanthology.org/2026.acl-long.1892/" "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents · ACL · 2026" _blank
+  click p7 href "https://aclanthology.org/2026.acl-long.2205/" "Preference Heads in Large Language Models: A Mechanistic Framework for Interpretable Personalization · ACL · 2026" _blank
+  click p8 href "https://aclanthology.org/2026.acl-short.43/" "The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs · ACL · 2026" _blank
+```
+
+| 논문 | 학회 | 연도 | 검토 역할 |
+|---|---|---:|---|
+| [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | UIST | 2023 | 기초 |
+| [LaMP: When Large Language Models Meet Personalization](https://aclanthology.org/2024.acl-long.399/) | ACL | 2024 | 기초 |
+| [Flexibly Utilize Memory for Long-Term Conversation via a Fragment-then-Compose Framework](https://aclanthology.org/2025.emnlp-main.1069/) | EMNLP | 2025 | 최근 |
+| [From Personas to Talks: Revisiting the Impact of Personas on LLM-Synthesized Emotional Support Conversations](https://aclanthology.org/2025.emnlp-main.277/) | EMNLP | 2025 | 반례·한계 |
+| [Latent Inter-User Difference Modeling for LLM Personalization](https://aclanthology.org/2025.emnlp-main.536/) | EMNLP | 2025 | 최근 |
+| [Toward Multi-Session Personalized Conversation: A Large-Scale Dataset and Hierarchical Tree Framework for Implicit Reasoning](https://aclanthology.org/2025.emnlp-main.580/) | EMNLP | 2025 | 최근 |
+| [Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents](https://aclanthology.org/2026.acl-long.1892/) | ACL | 2026 | 평가 |
+| [Preference Heads in Large Language Models: A Mechanistic Framework for Interpretable Personalization](https://aclanthology.org/2026.acl-long.2205/) | ACL | 2026 | 최근 |
+| [The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs](https://aclanthology.org/2026.acl-short.43/) | ACL | 2026 | 반례·한계 |
+
+<a id="psychology"></a>
+
+## 심리학 기반 설계와 기제
+
+```mermaid
+flowchart LR
+  topic["심리학 기반 설계와 기제"]
+  topic --> s0["Appraisal와 인지적 정서 모델"]
+  topic --> s1["성격·명시적 상태 표현"]
+  topic --> s2["개입과 기제 검증"]
+  p0["ESCoT<br/>ACL · 2024"]
+  s0 --> p0
+  p1["InCharacter<br/>ACL · 2024"]
+  s1 --> p1
+  p2["The Practical Impacts of Theoretical Constructs…<br/>EMNLP · 2025"]
+  s0 --> p2
+  p3["On Emergent Social World Models — Evidence for…<br/>ACL · 2026"]
+  s2 --> p3
+  p4["Preference Heads in Large Language Models<br/>ACL · 2026"]
+  s2 --> p4
+  p5["Psychological Steering in LLMs<br/>ACL · 2026"]
+  s2 --> p5
+  p6["Trait Activation in Silicon<br/>ACL · 2026"]
+  s1 --> p6
+  p7["Why Do Emotions Change? Appraisal-Guided…<br/>ACL · 2026"]
+  s0 --> p7
+  click p0 href "https://aclanthology.org/2024.acl-long.723/" "ESCoT: Towards Interpretable Emotional Support Dialogue Systems · ACL · 2024" _blank
+  click p1 href "https://aclanthology.org/2024.acl-long.102/" "InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews · ACL · 2024" _blank
+  click p2 href "https://aclanthology.org/2025.emnlp-main.785/" "The Practical Impacts of Theoretical Constructs on Empathy Modeling · EMNLP · 2025" _blank
+  click p3 href "https://aclanthology.org/2026.acl-long.1735/" "On Emergent Social World Models — Evidence for Functional Integration of Theory of Mind and Pragmatic Reasoning in Language Models · ACL · 2026" _blank
+  click p4 href "https://aclanthology.org/2026.acl-long.2205/" "Preference Heads in Large Language Models: A Mechanistic Framework for Interpretable Personalization · ACL · 2026" _blank
+  click p5 href "https://aclanthology.org/2026.acl-long.79/" "Psychological Steering in LLMs: An Evaluation of Effectiveness and Trustworthiness · ACL · 2026" _blank
+  click p6 href "https://aclanthology.org/2026.acl-long.1792/" "Trait Activation in Silicon: A Situation-Aware Framework for Psychologically Grounded Role-Playing · ACL · 2026" _blank
+  click p7 href "https://aclanthology.org/2026.acl-long.539/" "Why Do Emotions Change? Appraisal-Guided Reasoning for Emotion–Cause Triplet Extraction in Conversations · ACL · 2026" _blank
+```
+
+| 논문 | 학회 | 연도 | 검토 역할 |
+|---|---|---:|---|
+| [ESCoT: Towards Interpretable Emotional Support Dialogue Systems](https://aclanthology.org/2024.acl-long.723/) | ACL | 2024 | 접근 확장 |
+| [InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews](https://aclanthology.org/2024.acl-long.102/) | ACL | 2024 | 평가 |
+| [The Practical Impacts of Theoretical Constructs on Empathy Modeling](https://aclanthology.org/2025.emnlp-main.785/) | EMNLP | 2025 | 반례·한계 |
+| [On Emergent Social World Models — Evidence for Functional Integration of Theory of Mind and Pragmatic Reasoning in Language Models](https://aclanthology.org/2026.acl-long.1735/) | ACL | 2026 | 최근 |
+| [Preference Heads in Large Language Models: A Mechanistic Framework for Interpretable Personalization](https://aclanthology.org/2026.acl-long.2205/) | ACL | 2026 | 최근 |
+| [Psychological Steering in LLMs: An Evaluation of Effectiveness and Trustworthiness](https://aclanthology.org/2026.acl-long.79/) | ACL | 2026 | 최근 |
+| [Trait Activation in Silicon: A Situation-Aware Framework for Psychologically Grounded Role-Playing](https://aclanthology.org/2026.acl-long.1792/) | ACL | 2026 | 최근 |
+| [Why Do Emotions Change? Appraisal-Guided Reasoning for Emotion–Cause Triplet Extraction in Conversations](https://aclanthology.org/2026.acl-long.539/) | ACL | 2026 | 최근 |
+
+<a id="hai"></a>
+
+## 인간–AI 상호작용의 효과
+
+```mermaid
+flowchart LR
+  topic["인간–AI 상호작용의 효과"]
+  topic --> s0["의인화와 관계 형성"]
+  topic --> s1["신뢰·의존·사용자 자율성"]
+  topic --> s2["아첨과 부적절한 동조"]
+  p0["Humanizing Machines<br/>EMNLP · 2025"]
+  s0 --> p0
+  p1["Self-Augmented Preference Alignment for…<br/>EMNLP · 2025"]
+  s2 --> p1
+  p2["Unintended Harms of Value-Aligned LLMs<br/>ACL · 2025"]
+  s1 --> p2
+  p3["Feeling Right vs. Being Right<br/>ACL · 2026"]
+  s1 --> p3
+  s2 --> p3
+  p4["HumanLLM<br/>ACL · 2026"]
+  s0 --> p4
+  p5["The Personalization Trap<br/>ACL · 2026"]
+  s1 --> p5
+  click p0 href "https://aclanthology.org/2025.emnlp-main.164/" "Humanizing Machines: Rethinking LLM Anthropomorphism Through a Multi-Level Framework of Design · EMNLP · 2025" _blank
+  click p1 href "https://aclanthology.org/2025.emnlp-main.625/" "Self-Augmented Preference Alignment for Sycophancy Reduction in LLMs · EMNLP · 2025" _blank
+  click p2 href "https://aclanthology.org/2025.acl-long.1532/" "Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights · ACL · 2025" _blank
+  click p3 href "https://aclanthology.org/2026.acl-long.2046/" "Feeling Right vs. Being Right: How AI Sycophancy Affects Value-Laden Deliberation · ACL · 2026" _blank
+  click p4 href "https://aclanthology.org/2026.acl-long.1783/" "HumanLLM: Benchmarking and Improving LLM Anthropomorphism via Human Cognitive Patterns · ACL · 2026" _blank
+  click p5 href "https://aclanthology.org/2026.acl-short.43/" "The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs · ACL · 2026" _blank
+```
+
+| 논문 | 학회 | 연도 | 검토 역할 |
+|---|---|---:|---|
+| [Humanizing Machines: Rethinking LLM Anthropomorphism Through a Multi-Level Framework of Design](https://aclanthology.org/2025.emnlp-main.164/) | EMNLP | 2025 | 최근 |
+| [Self-Augmented Preference Alignment for Sycophancy Reduction in LLMs](https://aclanthology.org/2025.emnlp-main.625/) | EMNLP | 2025 | 최근 |
+| [Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights](https://aclanthology.org/2025.acl-long.1532/) | ACL | 2025 | 반례·한계 |
+| [Feeling Right vs. Being Right: How AI Sycophancy Affects Value-Laden Deliberation](https://aclanthology.org/2026.acl-long.2046/) | ACL | 2026 | 최근 |
+| [HumanLLM: Benchmarking and Improving LLM Anthropomorphism via Human Cognitive Patterns](https://aclanthology.org/2026.acl-long.1783/) | ACL | 2026 | 최근 |
+| [The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs](https://aclanthology.org/2026.acl-short.43/) | ACL | 2026 | 반례·한계 |
+
+<a id="evaluation"></a>
+
+## 평가 타당도와 연구 방법
+
+```mermaid
+flowchart LR
+  topic["평가 타당도와 연구 방법"]
+  topic --> s0["구성·생태 타당도"]
+  topic --> s1["인간 평가와 LLM 평가자"]
+  topic --> s2["강건성·오염·재현성"]
+  p0["Towards Empathetic Open-domain Conversation…<br/>ACL · 2019"]
+  s0 --> p0
+  p1["Judging LLM-as-a-Judge with MT-Bench and…<br/>학회 미확인 · 2023"]
+  s0 --> p1
+  s1 --> p1
+  p2["SOTOPIA<br/>학회 미확인 · 2023"]
+  s1 --> p2
+  p3["Whose Opinions Do Language Models Reflect?<br/>ICML · PMLR 202 · 2023"]
+  s0 --> p3
+  p4["FANToM<br/>EMNLP · 2023"]
+  s2 --> p4
+  p5["Be Helpful but Don’t Talk too Much - Enhancing…<br/>EMNLP · 2024"]
+  s0 --> p5
+  p6["Can Large Language Models be Good Emotional…<br/>ACL · 2024"]
+  s0 --> p6
+  p7["Limits of Theory of Mind Modelling in Dialogue-…<br/>ACL · 2024"]
+  s2 --> p7
+  p8["ToMBench<br/>ACL · 2024"]
+  s0 --> p8
+  p9["Break the Checkbox<br/>EMNLP · 2025"]
+  s0 --> p9
+  p10["ESC-Judge<br/>EMNLP · 2025"]
+  s1 --> p10
+  p11["The Practical Impacts of Theoretical Constructs…<br/>EMNLP · 2025"]
+  s0 --> p11
+  p12["HumanLLM<br/>ACL · 2026"]
+  s0 --> p12
+  p13["Mem-Gallery<br/>ACL · 2026"]
+  s2 --> p13
+  p14["TEA-Bench<br/>ACL · 2026"]
+  s0 --> p14
+  click p0 href "https://aclanthology.org/P19-1534/" "Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset · ACL · 2019" _blank
+  click p1 href "https://arxiv.org/abs/2306.05685" "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena · 학회 미확인 · 2023" _blank
+  click p2 href "https://arxiv.org/abs/2310.11667" "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents · 학회 미확인 · 2023" _blank
+  click p3 href "https://proceedings.mlr.press/v202/santurkar23a.html" "Whose Opinions Do Language Models Reflect? · ICML · PMLR 202 · 2023" _blank
+  click p4 href "https://aclanthology.org/2023.emnlp-main.890/" "FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions · EMNLP · 2023" _blank
+  click p5 href "https://aclanthology.org/2024.emnlp-main.118/" "Be Helpful but Don’t Talk too Much - Enhancing Helpfulness in Conversations through Relevance in Multi-Turn Emotional Support · EMNLP · 2024" _blank
+  click p6 href "https://aclanthology.org/2024.acl-long.813/" "Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation · ACL · 2024" _blank
+  click p7 href "https://aclanthology.org/2024.acl-long.266/" "Limits of Theory of Mind Modelling in Dialogue-Based Collaborative Plan Acquisition · ACL · 2024" _blank
+  click p8 href "https://aclanthology.org/2024.acl-long.847/" "ToMBench: Benchmarking Theory of Mind in Large Language Models · ACL · 2024" _blank
+  click p9 href "https://aclanthology.org/2025.emnlp-main.2/" "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs · EMNLP · 2025" _blank
+  click p10 href "https://aclanthology.org/2025.emnlp-main.811/" "ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents · EMNLP · 2025" _blank
+  click p11 href "https://aclanthology.org/2025.emnlp-main.785/" "The Practical Impacts of Theoretical Constructs on Empathy Modeling · EMNLP · 2025" _blank
+  click p12 href "https://aclanthology.org/2026.acl-long.1783/" "HumanLLM: Benchmarking and Improving LLM Anthropomorphism via Human Cognitive Patterns · ACL · 2026" _blank
+  click p13 href "https://aclanthology.org/2026.acl-long.1892/" "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents · ACL · 2026" _blank
+  click p14 href "https://aclanthology.org/2026.acl-long.2152/" "TEA-Bench: A Systematic Benchmarking of Tool-enhanced Emotional Support Dialogue Agent · ACL · 2026" _blank
+```
+
+| 논문 | 학회 | 연도 | 검토 역할 |
+|---|---|---:|---|
+| [Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset](https://aclanthology.org/P19-1534/) | ACL | 2019 | 기초 |
+| [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | 학회 미확인 | 2023 | 기초 |
+| [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://arxiv.org/abs/2310.11667) | 학회 미확인 | 2023 | 기초 |
+| [Whose Opinions Do Language Models Reflect?](https://proceedings.mlr.press/v202/santurkar23a.html) | ICML · PMLR 202 | 2023 | 기초 |
+| [FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions](https://aclanthology.org/2023.emnlp-main.890/) | EMNLP | 2023 | 반례·한계 |
+| [Be Helpful but Don’t Talk too Much - Enhancing Helpfulness in Conversations through Relevance in Multi-Turn Emotional Support](https://aclanthology.org/2024.emnlp-main.118/) | EMNLP | 2024 | 반례·한계 |
+| [Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation](https://aclanthology.org/2024.acl-long.813/) | ACL | 2024 | 반례·한계 |
+| [Limits of Theory of Mind Modelling in Dialogue-Based Collaborative Plan Acquisition](https://aclanthology.org/2024.acl-long.266/) | ACL | 2024 | 반례·한계 |
+| [ToMBench: Benchmarking Theory of Mind in Large Language Models](https://aclanthology.org/2024.acl-long.847/) | ACL | 2024 | 평가 |
+| [Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs](https://aclanthology.org/2025.emnlp-main.2/) | EMNLP | 2025 | 반례·한계 |
+| [ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents](https://aclanthology.org/2025.emnlp-main.811/) | EMNLP | 2025 | 최근 |
+| [The Practical Impacts of Theoretical Constructs on Empathy Modeling](https://aclanthology.org/2025.emnlp-main.785/) | EMNLP | 2025 | 반례·한계 |
+| [HumanLLM: Benchmarking and Improving LLM Anthropomorphism via Human Cognitive Patterns](https://aclanthology.org/2026.acl-long.1783/) | ACL | 2026 | 최근 |
+| [Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents](https://aclanthology.org/2026.acl-long.1892/) | ACL | 2026 | 평가 |
+| [TEA-Bench: A Systematic Benchmarking of Tool-enhanced Emotional Support Dialogue Agent](https://aclanthology.org/2026.acl-long.2152/) | ACL | 2026 | 평가 |
+
+## 자료
+
+- [논문별 초록·출처·가설·검토 질문](research/REVIEW.md)
+- [대·소분류](research/taxonomy.json) · [논문 데이터](research/catalog.json) · [CSV](docs/data/catalog.csv)
+- [기존 발견 보고서](papers/discovery.md) · [기존 수동 등록](papers/seed.csv)
+- [외부 도구 비교](research/TOOLS.md) · [Local Citation Network용 데이터](docs/data/local-citation-network.json)
+
+<details>
+<summary>검증 범위</summary>
+
+출판사 메타데이터·초록 또는 저자 저장소를 확인한 초기 문헌 지도다. 역할은 편집상 분류이며 인용 수 순위가 아니다. 전문 독해·재현과 학회별 균형 있는 확장은 진행 중이다. 학회를 확인하지 못한 항목은 미확인으로 표시한다. [검증 기준과 남은 조사](research/METHODOLOGY.md)에 확인 범위를 기록한다.
+
+</details>
+
+<details>
+<summary>선택 도구</summary>
+
+README만으로 분야별 지도와 논문 목록을 열람할 수 있다. 확대·검색이 필요한 경우 로컬 웹 지도와 기존 인용망 도구를 사용할 수 있다. 별도 사이트 배포는 필요하지 않다. 실행 방법은 [개발 환경](research/DEVELOPMENT.md)에 있다.
+
+</details>

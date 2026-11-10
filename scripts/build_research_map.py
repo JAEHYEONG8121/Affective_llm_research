@@ -6,6 +6,7 @@ import io
 import json
 import html
 from pathlib import Path
+from readme_map import render_readme
 
 ROOT = Path(__file__).resolve().parents[1]
 ROLE = {'foundation': '기초 읽기', 'development': '접근 확장', 'benchmark': '평가', 'counterpoint': '반례·한계 검토', 'recent': '최근 검토'}
@@ -38,6 +39,7 @@ def build(root=ROOT):
     catalog = json.loads((root / 'research/catalog.json').read_text())
     topics = json.loads((root / 'research/taxonomy.json').read_text())
     validate(catalog, topics)
+    (root / 'README.md').write_text(render_readme(catalog, topics))
     out = root / 'docs/data'
     out.mkdir(parents=True, exist_ok=True)
     map_data = dict(**catalog, topics=topics)

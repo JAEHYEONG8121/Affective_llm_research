@@ -3,6 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "description": "Static literature map; browser tooling is development-only",
-  "scripts": {"test:browser": "node tests/browser-smoke.cjs"},
-  "devDependencies": {"playwright": "1.62.1"}
+  "scripts": {
+    "test:browser": "node tests/browser-smoke.cjs && node tests/readme-diagrams.cjs"
+  },
+  "devDependencies": {
+    "mermaid": "11.12.0",
+    "playwright": "1.62.1"
+  }
 }
