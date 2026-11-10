@@ -1,0 +1,202 @@
+[
+  {
+    "id": "emotion",
+    "label": "감정 이해와 상황 추론",
+    "scope": "모델이 감정을 경험하는가가 아니라, 누구의 어떤 감정을 어떤 근거로 예측하는가를 평가한다.",
+    "subtopics": [
+      {
+        "id": "emotion.recognition",
+        "label": "맥락적 감정 인식",
+        "question": "긴 대화와 화자별 맥락이 감정 분류를 개선하는가?",
+        "review_gap": "명시적 감정 단어를 제거하고 화자·문화·대화 길이를 바꿔 전이를 평가한다."
+      },
+      {
+        "id": "emotion.cause",
+        "label": "감정 원인과 변화",
+        "question": "감정 원인 및 변화의 구조적 추론이 표면 단서 분류보다 유용한가?",
+        "review_gap": "설명 생성의 유창성과 실제 원인 식별 정확도를 분리한다."
+      },
+      {
+        "id": "emotion.multimodal",
+        "label": "다중양식 감정 이해",
+        "question": "음성·시각·텍스트의 불일치를 모델이 처리하는가?",
+        "review_gap": "양식 제거·충돌·문화 차이 조건에서 성능을 검증한다."
+      }
+    ]
+  },
+  {
+    "id": "support",
+    "label": "공감과 정서 지원",
+    "scope": "공감 표현, 적절한 지원 전략, 사용자에게 생기는 효과를 서로 다른 측정 대상으로 둔다.",
+    "subtopics": [
+      {
+        "id": "support.generation",
+        "label": "공감적 응답",
+        "question": "공감 대화 데이터와 학습이 사람이 선호하는 응답을 만드는가?",
+        "review_gap": "공감 표현 점수와 실질적인 도움을 구분한다."
+      },
+      {
+        "id": "support.strategy",
+        "label": "지원 전략과 대화 과정",
+        "question": "경청·질문·조언의 타이밍을 학습하면 대화가 개선되는가?",
+        "review_gap": "같은 예산과 대화 길이에서 전략 선택의 기여를 비교한다."
+      },
+      {
+        "id": "support.outcomes",
+        "label": "사용자 효과와 안전",
+        "question": "높은 선호 점수가 장기적인 정서 지원 효과로 이어지는가?",
+        "review_gap": "사용자 연구와 임상 효과를 혼동하지 않고 동의·위험·탈락을 검토한다."
+      }
+    ]
+  },
+  {
+    "id": "social",
+    "label": "사회적 인지와 상호작용",
+    "scope": "신념·관점·의도 추론 능력과 사회적으로 그럴듯한 언어 생성을 구분한다.",
+    "subtopics": [
+      {
+        "id": "social.belief",
+        "label": "Theory of Mind",
+        "question": "대화 참여자별로 접근 가능한 정보와 잘못된 신념을 추적하는가?",
+        "review_gap": "문항 암기·표현 변화·고차 신념에 대한 강건성을 검증한다."
+      },
+      {
+        "id": "social.interaction",
+        "label": "사회적 의사결정",
+        "question": "사회적 상호작용 학습이 새로운 상황의 협력과 협상을 개선하는가?",
+        "review_gap": "LLM 평가자와 LLM 상대의 공유 편향을 통제한다."
+      },
+      {
+        "id": "social.simulation",
+        "label": "인간 행동 시뮬레이션",
+        "question": "기억·계획을 가진 에이전트가 실제 인간 행동 분포를 재현하는가?",
+        "review_gap": "그럴듯함과 예측 타당성을 구분하고 실제 인간 데이터로 외적 타당도를 검증한다."
+      }
+    ]
+  },
+  {
+    "id": "alignment",
+    "label": "선호·가치·행동 정렬",
+    "scope": "누구의 어떤 목표에 대한 정렬인지 명시하고, 평균 선호와 개인·집단 차이를 분리한다.",
+    "subtopics": [
+      {
+        "id": "alignment.preference",
+        "label": "선호 최적화",
+        "question": "쌍별 선호 학습이 원하는 응답 분포를 효율적으로 유도하는가?",
+        "review_gap": "보상 과최적화·분포 이동·선호 잡음을 같은 조건에서 비교한다."
+      },
+      {
+        "id": "alignment.feedback",
+        "label": "인간·AI 피드백",
+        "question": "인간 또는 AI 피드백은 도움됨·안전함의 어떤 부분을 포착하는가?",
+        "review_gap": "평가자·보상 모델·정책 모델의 의존성을 분리한다."
+      },
+      {
+        "id": "alignment.pluralism",
+        "label": "다원적 가치와 문화",
+        "question": "하나의 평균적 선호로 다양한 집단의 관점을 표현할 수 있는가?",
+        "review_gap": "집단 내 이질성·언어·시점 차이를 포함하고 규범과 기술적 분포 재현을 구분한다."
+      }
+    ]
+  },
+  {
+    "id": "personalization",
+    "label": "개인화·기억·동적 적응",
+    "scope": "사용자를 고정된 persona로 환원하지 않고 불확실성과 시간에 따른 변화를 다룬다.",
+    "subtopics": [
+      {
+        "id": "personalization.profile",
+        "label": "사용자 모델과 검색",
+        "question": "개인 기록 검색이 사용자별 과제를 개선하는가?",
+        "review_gap": "표면 단서와 실제 선호를 구분하고 개인정보 최소화를 검토한다."
+      },
+      {
+        "id": "personalization.memory",
+        "label": "장기 대화 기억",
+        "question": "기억은 필요한 맥락을 보존하면서 오래된 정보와 오류를 갱신하는가?",
+        "review_gap": "단순 검색 대비 기억 삭제·수정·모순 처리의 이득을 측정한다."
+      },
+      {
+        "id": "personalization.adaptation",
+        "label": "동적 선호와 적응",
+        "question": "사용자 선호가 변할 때 개인화 모델이 안전하게 적응하는가?",
+        "review_gap": "정적 프로필과 동적 적응을 분리하고 선호 변화 실험을 설계한다."
+      }
+    ]
+  },
+  {
+    "id": "psychology",
+    "label": "심리학 기반 설계와 기제",
+    "scope": "심리학 이론은 설계 가설이다. 이론적 명칭을 붙인 것만으로 인간과 같은 기제가 입증되지는 않는다.",
+    "subtopics": [
+      {
+        "id": "psychology.appraisal",
+        "label": "Appraisal와 인지적 정서 모델",
+        "question": "평가(appraisal) 변수가 일반적 중간 추론보다 감정 변화를 더 잘 설명하는가?",
+        "review_gap": "동일 모델·토큰·파라미터 예산의 비심리학 baseline 및 변수 개입이 필요하다."
+      },
+      {
+        "id": "psychology.representation",
+        "label": "성격·명시적 상태 표현",
+        "question": "명시적 심리 상태가 행동의 일관성과 예측 가능성을 개선하는가?",
+        "review_gap": "심리 척도 응답과 실제 상호작용 행동의 일관성을 분리한다."
+      },
+      {
+        "id": "psychology.mechanism",
+        "label": "개입과 기제 검증",
+        "question": "상태 표현 개입이 예측한 행동 변화로 연결되는가?",
+        "review_gap": "probe 상관과 인과적 개입을 구분하고 대조 상태를 설계한다."
+      }
+    ]
+  },
+  {
+    "id": "hai",
+    "label": "인간–AI 상호작용의 효과",
+    "scope": "의인화, 신뢰, 의존, 동의와 인간의 판단·행동 변화를 연구한다.",
+    "subtopics": [
+      {
+        "id": "hai.anthropomorphism",
+        "label": "의인화와 관계 형성",
+        "question": "인간처럼 보이는 표현이 사용자의 능력·경험 귀속을 바꾸는가?",
+        "review_gap": "사용자의 귀속과 모델의 실제 속성을 구분하고 장기 추적이 필요하다."
+      },
+      {
+        "id": "hai.trust",
+        "label": "신뢰·의존·사용자 자율성",
+        "question": "사용자가 능력과 한계에 맞춰 신뢰를 조절하는가?",
+        "review_gap": "만족·신뢰·정확도·자율성의 상충을 따로 측정한다."
+      },
+      {
+        "id": "hai.sycophancy",
+        "label": "아첨과 부적절한 동조",
+        "question": "사용자 선호 최적화가 사실성·비판적 피드백과 충돌하는가?",
+        "review_gap": "정서적 인정과 주장에 대한 동의를 구분해 조작한다."
+      }
+    ]
+  },
+  {
+    "id": "evaluation",
+    "label": "평가 타당도와 연구 방법",
+    "scope": "벤치마크 점수, 인간 선호, 실제 사용자 효과가 동일한 구성개념을 측정하는지 묻는다.",
+    "subtopics": [
+      {
+        "id": "evaluation.validity",
+        "label": "구성·생태 타당도",
+        "question": "벤치마크가 측정하려는 능력과 실제 사용 효과가 연결되는가?",
+        "review_gap": "다중 지표·인간 연구·분포 외 검증으로 삼각측량한다."
+      },
+      {
+        "id": "evaluation.judge",
+        "label": "인간 평가와 LLM 평가자",
+        "question": "LLM 평가자는 인간의 판단을 어떤 조건에서 대리할 수 있는가?",
+        "review_gap": "순서·길이·자기 선호·문화 편향과 평가자 일치도를 보고한다."
+      },
+      {
+        "id": "evaluation.robustness",
+        "label": "강건성·오염·재현성",
+        "question": "평가 결과는 표현 변경·모델 변경·데이터 오염에 견디는가?",
+        "review_gap": "비공개 holdout·반사실적 변형·평가 코드와 버전을 고정한다."
+      }
+    ]
+  }
+]

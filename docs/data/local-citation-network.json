@@ -1,0 +1,1919 @@
+[
+  {
+    "source": {
+      "references": [
+        "P19-1534",
+        "2021.acl-long.269",
+        "2021.acl-long.547",
+        "2022.acl-long.25",
+        "2023.emnlp-main.890",
+        "2023.emnlp-main.13",
+        "2024.acl-long.102",
+        "2024.acl-long.698",
+        "2024.acl-long.723",
+        "2024.acl-long.813",
+        "2024.acl-long.847",
+        "2024.acl-long.851",
+        "2024.acl-long.266",
+        "2024.emnlp-main.118",
+        "2024.acl-long.399",
+        "2025.emnlp-main.232",
+        "2025.emnlp-main.277",
+        "2025.emnlp-main.164",
+        "2025.emnlp-main.785",
+        "2025.emnlp-main.811",
+        "2025.emnlp-main.2",
+        "2025.emnlp-main.536",
+        "2025.emnlp-main.580",
+        "2025.emnlp-main.1069",
+        "2025.emnlp-main.625",
+        "2025.acl-long.1532",
+        "2026.acl-long.539",
+        "2026.acl-short.43",
+        "2026.acl-long.2046",
+        "2026.acl-long.1783",
+        "2026.acl-long.79",
+        "2026.acl-long.1792",
+        "2026.acl-long.1735",
+        "2026.acl-long.1813",
+        "2026.acl-long.1825",
+        "2026.acl-long.1957",
+        "2026.acl-long.2205",
+        "2026.acl-long.1892",
+        "2026.acl-long.2152",
+        "dpo",
+        "hh-rlhf",
+        "mtbench",
+        "generative-agents",
+        "sotopia",
+        "opinionqa"
+      ]
+    },
+    "seedArticles": [
+      {
+        "id": "P19-1534",
+        "doi": "10.18653/v1/P19-1534",
+        "title": "Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset",
+        "authors": [
+          {
+            "name": "Hannah Rashkin",
+            "LN": "Hannah Rashkin",
+            "FN": ""
+          },
+          {
+            "name": "Eric Michael Smith",
+            "LN": "Eric Michael Smith",
+            "FN": ""
+          },
+          {
+            "name": "Margaret Li",
+            "LN": "Margaret Li",
+            "FN": ""
+          },
+          {
+            "name": "Y-Lan Boureau",
+            "LN": "Y-Lan Boureau",
+            "FN": ""
+          }
+        ],
+        "year": 2019,
+        "journal": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+        "abstract": "One challenge for dialogue agents is recognizing feelings in the conversation partner and replying accordingly, a key communicative skill. While it is straightforward for humans to recognize and acknowledge others’ feelings in a conversation, this is a significant challenge for AI systems due to the paucity of suitable publicly-available datasets for training and evaluation. This work proposes a new benchmark for empathetic dialogue generation and EmpatheticDialogues, a novel dataset of 25k conversations grounded in emotional situations. Our experiments indicate that dialogue models that use our dataset are perceived to be more empathetic by human evaluators, compared to models merely trained on large-scale Internet conversation data. We also present empirical comparisons of dialogue model adaptations for empathetic responding, leveraging existing models or datasets without requiring lengthy re-training of the full model.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2021.acl-long.269",
+        "doi": "10.18653/v1/2021.acl-long.269",
+        "title": "Towards Emotional Support Dialog Systems",
+        "authors": [
+          {
+            "name": "Siyang Liu",
+            "LN": "Siyang Liu",
+            "FN": ""
+          },
+          {
+            "name": "Chujie Zheng",
+            "LN": "Chujie Zheng",
+            "FN": ""
+          },
+          {
+            "name": "Orianna Demasi",
+            "LN": "Orianna Demasi",
+            "FN": ""
+          },
+          {
+            "name": "Sahand Sabour",
+            "LN": "Sahand Sabour",
+            "FN": ""
+          },
+          {
+            "name": "Yu Li",
+            "LN": "Yu Li",
+            "FN": ""
+          },
+          {
+            "name": "Zhou Yu",
+            "LN": "Zhou Yu",
+            "FN": ""
+          },
+          {
+            "name": "Yong Jiang",
+            "LN": "Yong Jiang",
+            "FN": ""
+          },
+          {
+            "name": "Minlie Huang",
+            "LN": "Minlie Huang",
+            "FN": ""
+          }
+        ],
+        "year": 2021,
+        "journal": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+        "abstract": "Emotional support is a crucial ability for many conversation scenarios, including social interactions, mental health support, and customer service chats. Following reasonable procedures and using various support skills can help to effectively provide support. However, due to the lack of a well-designed task and corpora of effective emotional support conversations, research on building emotional support into dialog systems remains lacking. In this paper, we define the Emotional Support Conversation (ESC) task and propose an ESC Framework, which is grounded on the Helping Skills Theory. We construct an Emotion Support Conversation dataset (ESConv) with rich annotation (especially support strategy) in a help-seeker and supporter mode. To ensure a corpus of high-quality conversations that provide examples of effective emotional support, we take extensive effort to design training tutorials for supporters and several mechanisms for quality control during data collection. Finally, we evaluate state-of-the-art dialog models with respect to the ability to provide emotional support. Our results show the importance of support strategies in providing effective emotional support and the utility of ESConv in training more emotional support systems.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2021.acl-long.547",
+        "doi": "10.18653/v1/2021.acl-long.547",
+        "title": "DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations",
+        "authors": [
+          {
+            "name": "Dou Hu",
+            "LN": "Dou Hu",
+            "FN": ""
+          },
+          {
+            "name": "Lingwei Wei",
+            "LN": "Lingwei Wei",
+            "FN": ""
+          },
+          {
+            "name": "Xiaoyong Huai",
+            "LN": "Xiaoyong Huai",
+            "FN": ""
+          }
+        ],
+        "year": 2021,
+        "journal": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+        "abstract": "Emotion Recognition in Conversations (ERC) has gained increasing attention for developing empathetic machines. Recently, many approaches have been devoted to perceiving conversational context by deep learning models. However, these approaches are insufficient in understanding the context due to lacking the ability to extract and integrate emotional clues. In this work, we propose novel Contextual Reasoning Networks (DialogueCRN) to fully understand the conversational context from a cognitive perspective. Inspired by the Cognitive Theory of Emotion, we design multi-turn reasoning modules to extract and integrate emotional clues. The reasoning module iteratively performs an intuitive retrieving process and a conscious reasoning process, which imitates human unique cognitive thinking. Extensive experiments on three public benchmark datasets demonstrate the effectiveness and superiority of the proposed model.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2022.acl-long.25",
+        "doi": "10.18653/v1/2022.acl-long.25",
+        "title": "MISC: A Mixed Strategy-Aware Model integrating COMET for Emotional Support Conversation",
+        "authors": [
+          {
+            "name": "Quan Tu",
+            "LN": "Quan Tu",
+            "FN": ""
+          },
+          {
+            "name": "Yanran Li",
+            "LN": "Yanran Li",
+            "FN": ""
+          },
+          {
+            "name": "Jianwei Cui",
+            "LN": "Jianwei Cui",
+            "FN": ""
+          },
+          {
+            "name": "Bin Wang",
+            "LN": "Bin Wang",
+            "FN": ""
+          },
+          {
+            "name": "Ji-Rong Wen",
+            "LN": "Ji-Rong Wen",
+            "FN": ""
+          },
+          {
+            "name": "Rui Yan",
+            "LN": "Rui Yan",
+            "FN": ""
+          }
+        ],
+        "year": 2022,
+        "journal": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Applying existing methods to emotional support conversation—which provides valuable assistance to people who are in need—has two major limitations: (a) they generally employ a conversation-level emotion label, which is too coarse-grained to capture user’s instant mental state; (b) most of them focus on expressing empathy in the response(s) rather than gradually reducing user’s distress. To address the problems, we propose a novel model \\textbf{MISC}, which firstly infers the user’s fine-grained emotional status, and then responds skillfully using a mixture of strategy. Experimental results on the benchmark dataset demonstrate the effectiveness of our method and reveal the benefits of fine-grained emotion understanding as well as mixed-up strategy modeling.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2023.emnlp-main.890",
+        "doi": "10.18653/v1/2023.emnlp-main.890",
+        "title": "FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions",
+        "authors": [
+          {
+            "name": "Hyunwoo Kim",
+            "LN": "Hyunwoo Kim",
+            "FN": ""
+          },
+          {
+            "name": "Melanie Sclar",
+            "LN": "Melanie Sclar",
+            "FN": ""
+          },
+          {
+            "name": "Xuhui Zhou",
+            "LN": "Xuhui Zhou",
+            "FN": ""
+          },
+          {
+            "name": "Ronan Bras",
+            "LN": "Ronan Bras",
+            "FN": ""
+          },
+          {
+            "name": "Gunhee Kim",
+            "LN": "Gunhee Kim",
+            "FN": ""
+          },
+          {
+            "name": "Yejin Choi",
+            "LN": "Yejin Choi",
+            "FN": ""
+          },
+          {
+            "name": "Maarten Sap",
+            "LN": "Maarten Sap",
+            "FN": ""
+          }
+        ],
+        "year": 2023,
+        "journal": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "Theory of mind (ToM) evaluations currently focus on testing models using passive narratives that inherently lack interactivity. We introduce FANToM, a new benchmark designed to stress-test ToM within information-asymmetric conversational contexts via question answering. Our benchmark draws upon important theoretical requisites from psychology and necessary empirical considerations when evaluating large language models (LLMs). In particular, we formulate multiple types of questions that demand the same underlying reasoning to identify illusory or false sense of ToM capabilities in LLMs. We show that FANToM is challenging for state-of-the-art LLMs, which perform significantly worse than humans even with chain-of-thought reasoning or fine-tuning.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2023.emnlp-main.13",
+        "doi": "10.18653/v1/2023.emnlp-main.13",
+        "title": "Theory of Mind for Multi-Agent Collaboration via Large Language Models",
+        "authors": [
+          {
+            "name": "Huao Li",
+            "LN": "Huao Li",
+            "FN": ""
+          },
+          {
+            "name": "Yu Chong",
+            "LN": "Yu Chong",
+            "FN": ""
+          },
+          {
+            "name": "Simon Stepputtis",
+            "LN": "Simon Stepputtis",
+            "FN": ""
+          },
+          {
+            "name": "Joseph Campbell",
+            "LN": "Joseph Campbell",
+            "FN": ""
+          },
+          {
+            "name": "Dana Hughes",
+            "LN": "Dana Hughes",
+            "FN": ""
+          },
+          {
+            "name": "Charles Lewis",
+            "LN": "Charles Lewis",
+            "FN": ""
+          },
+          {
+            "name": "Katia Sycara",
+            "LN": "Katia Sycara",
+            "FN": ""
+          }
+        ],
+        "year": 2023,
+        "journal": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "While Large Language Models (LLMs) have demonstrated impressive accomplishments in both reasoning and planning, their abilities in multi-agent collaborations remains largely unexplored. This study evaluates LLM-based agents in a multi-agent cooperative text game with Theory of Mind (ToM) inference tasks, comparing their performance with Multi-Agent Reinforcement Learning (MARL) and planning-based baselines. We observed evidence of emergent collaborative behaviors and high-order Theory of Mind capabilities among LLM-based agents. Our results reveal limitations in LLM-based agents’ planning optimization due to systematic failures in managing long-horizon contexts and hallucination about the task state. We explore the use of explicit belief state representations to mitigate these issues, finding that it enhances task performance and the accuracy of ToM inferences for LLM-based agents.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2024.acl-long.102",
+        "doi": "10.18653/v1/2024.acl-long.102",
+        "title": "InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews",
+        "authors": [
+          {
+            "name": "Xintao Wang",
+            "LN": "Xintao Wang",
+            "FN": ""
+          },
+          {
+            "name": "Yunze Xiao",
+            "LN": "Yunze Xiao",
+            "FN": ""
+          },
+          {
+            "name": "Jen-tse Huang",
+            "LN": "Jen-tse Huang",
+            "FN": ""
+          },
+          {
+            "name": "Siyu Yuan",
+            "LN": "Siyu Yuan",
+            "FN": ""
+          },
+          {
+            "name": "Rui Xu",
+            "LN": "Rui Xu",
+            "FN": ""
+          },
+          {
+            "name": "Haoran Guo",
+            "LN": "Haoran Guo",
+            "FN": ""
+          },
+          {
+            "name": "Quan Tu",
+            "LN": "Quan Tu",
+            "FN": ""
+          },
+          {
+            "name": "Yaying Fei",
+            "LN": "Yaying Fei",
+            "FN": ""
+          },
+          {
+            "name": "Ziang Leng",
+            "LN": "Ziang Leng",
+            "FN": ""
+          },
+          {
+            "name": "Wei Wang",
+            "LN": "Wei Wang",
+            "FN": ""
+          },
+          {
+            "name": "Jiangjie Chen",
+            "LN": "Jiangjie Chen",
+            "FN": ""
+          },
+          {
+            "name": "Cheng Li",
+            "LN": "Cheng Li",
+            "FN": ""
+          },
+          {
+            "name": "Yanghua Xiao",
+            "LN": "Yanghua Xiao",
+            "FN": ""
+          }
+        ],
+        "year": 2024,
+        "journal": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Role-playing agents (RPAs), powered by large language models, have emerged as a flourishing field of applications. However, a key challenge lies in assessing whether RPAs accurately reproduce the personas of target characters, namely their character fidelity. Existing methods mainly focus on the knowledge and linguistic patterns of characters. This paper, instead, introduces a novel perspective to evaluate the personality fidelity of RPAs with psychological scales. Overcoming drawbacks of previous self-report assessments on RPAs, we propose InCharacter, namely Interviewing Character agents for personality tests. Experiments include various types of RPAs and LLMs, covering 32 distinct characters on 14 widely used psychological scales. The results validate the effectiveness of InCharacter in measuring RPA personalities. Then, with InCharacter, we show that state-of-the-art RPAs exhibit personalities highly aligned with the human-perceived personalities of the characters, achieving an accuracy up to 80.7%.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2024.acl-long.698",
+        "doi": "10.18653/v1/2024.acl-long.698",
+        "title": "SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents",
+        "authors": [
+          {
+            "name": "Ruiyi Wang",
+            "LN": "Ruiyi Wang",
+            "FN": ""
+          },
+          {
+            "name": "Haofei Yu",
+            "LN": "Haofei Yu",
+            "FN": ""
+          },
+          {
+            "name": "Wenxin Zhang",
+            "LN": "Wenxin Zhang",
+            "FN": ""
+          },
+          {
+            "name": "Zhengyang Qi",
+            "LN": "Zhengyang Qi",
+            "FN": ""
+          },
+          {
+            "name": "Maarten Sap",
+            "LN": "Maarten Sap",
+            "FN": ""
+          },
+          {
+            "name": "Yonatan Bisk",
+            "LN": "Yonatan Bisk",
+            "FN": ""
+          },
+          {
+            "name": "Graham Neubig",
+            "LN": "Graham Neubig",
+            "FN": ""
+          },
+          {
+            "name": "Hao Zhu",
+            "LN": "Hao Zhu",
+            "FN": ""
+          }
+        ],
+        "year": 2024,
+        "journal": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Humans learn social skills through both imitation and social interaction. This social learning process is largely understudied by existing research on building language agents. Motivated by this gap, we propose an interactive learning method, SOTOPIA-π, that improves the social intelligence of language agents. This method leverages behavior cloning and self-reinforcement based training on filtered social interaction data according to large language model (LLM) rating. We show that our training method allows a 7B LLM to reach the social goal completion ability of an expert model (GPT-4-based agent) without the loss of more generic abilities, such as the ability to answer knowledge-based questions. We also demonstrate that this training paradigm uncovers some weaknesses in standard evaluation and safety training paradigms that (1) LLM-based evaluation of social intelligence overestimates the abilities of the language agents trained specifically for social interaction, and that (2) despite not training for better safety or question answering (QA) ability, our methods improve the safety of language agents and maintain general QA ability on the MMLU benchmark.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2024.acl-long.723",
+        "doi": "10.18653/v1/2024.acl-long.723",
+        "title": "ESCoT: Towards Interpretable Emotional Support Dialogue Systems",
+        "authors": [
+          {
+            "name": "Tenggan Zhang",
+            "LN": "Tenggan Zhang",
+            "FN": ""
+          },
+          {
+            "name": "Xinjie Zhang",
+            "LN": "Xinjie Zhang",
+            "FN": ""
+          },
+          {
+            "name": "Jinming Zhao",
+            "LN": "Jinming Zhao",
+            "FN": ""
+          },
+          {
+            "name": "Li Zhou",
+            "LN": "Li Zhou",
+            "FN": ""
+          },
+          {
+            "name": "Qin Jin",
+            "LN": "Qin Jin",
+            "FN": ""
+          }
+        ],
+        "year": 2024,
+        "journal": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Understanding the reason for emotional support response is crucial for establishing connections between users and emotional support dialogue systems. Previous works mostly focus on generating better responses but ignore interpretability, which is extremely important for constructing reliable dialogue systems. To empower the system with better interpretability, we propose an emotional support response generation scheme, named \\textbf{E}motion-Focused and \\textbf{S}trategy-Driven \\textbf{C}hain-\\textbf{o}f-\\textbf{T}hought (\\textbf{ESCoT}), mimicking the process of \\textit{identifying}, \\textit{understanding}, and \\textit{regulating} emotions. Specially, we construct a new dataset with ESCoT in two steps: (1) \\textit{Dialogue Generation} where we first generate diverse conversation situations, then enhance dialogue generation using richer emotional support strategies based on these situations; (2) \\textit{Chain Supplement} where we focus on supplementing selected dialogues with elements such as emotion, stimuli, appraisal, and strategy reason, forming the manually verified chains. Additionally, we further develop a model to generate dialogue responses with better interpretability. We also conduct extensive experiments and human evaluations to validate the effectiveness of the proposed ESCoT and generated dialogue responses. Our dataset, code, and model will be released.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2024.acl-long.813",
+        "doi": "10.18653/v1/2024.acl-long.813",
+        "title": "Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation",
+        "authors": [
+          {
+            "name": "Dongjin Kang",
+            "LN": "Dongjin Kang",
+            "FN": ""
+          },
+          {
+            "name": "Sunghwan Kim",
+            "LN": "Sunghwan Kim",
+            "FN": ""
+          },
+          {
+            "name": "Taeyoon Kwon",
+            "LN": "Taeyoon Kwon",
+            "FN": ""
+          },
+          {
+            "name": "Seungjun Moon",
+            "LN": "Seungjun Moon",
+            "FN": ""
+          },
+          {
+            "name": "Hyunsouk Cho",
+            "LN": "Hyunsouk Cho",
+            "FN": ""
+          },
+          {
+            "name": "Youngjae Yu",
+            "LN": "Youngjae Yu",
+            "FN": ""
+          },
+          {
+            "name": "Dongha Lee",
+            "LN": "Dongha Lee",
+            "FN": ""
+          },
+          {
+            "name": "Jinyoung Yeo",
+            "LN": "Jinyoung Yeo",
+            "FN": ""
+          }
+        ],
+        "year": 2024,
+        "journal": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Emotional Support Conversation (ESC) is a task aimed at alleviating individuals’ emotional distress through daily conversation. Given its inherent complexity and non-intuitive nature, ESConv dataset incorporates support strategies to facilitate the generation of appropriate responses. Recently, despite the remarkable conversational ability of large language models (LLMs), previous studies have suggested that they often struggle with providing useful emotional support. Hence, this work initially analyzes the results of LLMs on ESConv, revealing challenges in selecting the correct strategy and a notable preference for a specific strategy. Motivated by these, we explore the impact of the inherent preference in LLMs on providing emotional support, and consequently, we observe that exhibiting high preference for specific strategies hinders effective emotional support, aggravating its robustness in predicting the appropriate strategy. Moreover, we conduct a methodological study to offer insights into the necessary approaches for LLMs to serve as proficient emotional supporters. Our findings emphasize that (1) low preference for specific strategies hinders the progress of emotional support, (2) external assistance helps reduce preference bias, and (3) existing LLMs alone cannot become good emotional supporters. These insights suggest promising avenues for future research to enhance the emotional intelligence of LLMs.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2024.acl-long.847",
+        "doi": "10.18653/v1/2024.acl-long.847",
+        "title": "ToMBench: Benchmarking Theory of Mind in Large Language Models",
+        "authors": [
+          {
+            "name": "Zhuang Chen",
+            "LN": "Zhuang Chen",
+            "FN": ""
+          },
+          {
+            "name": "Jincenzi Wu",
+            "LN": "Jincenzi Wu",
+            "FN": ""
+          },
+          {
+            "name": "Jinfeng Zhou",
+            "LN": "Jinfeng Zhou",
+            "FN": ""
+          },
+          {
+            "name": "Bosi Wen",
+            "LN": "Bosi Wen",
+            "FN": ""
+          },
+          {
+            "name": "Guanqun Bi",
+            "LN": "Guanqun Bi",
+            "FN": ""
+          },
+          {
+            "name": "Gongyao Jiang",
+            "LN": "Gongyao Jiang",
+            "FN": ""
+          },
+          {
+            "name": "Yaru Cao",
+            "LN": "Yaru Cao",
+            "FN": ""
+          },
+          {
+            "name": "Mengting Hu",
+            "LN": "Mengting Hu",
+            "FN": ""
+          },
+          {
+            "name": "Yunghwei Lai",
+            "LN": "Yunghwei Lai",
+            "FN": ""
+          },
+          {
+            "name": "Zexuan Xiong",
+            "LN": "Zexuan Xiong",
+            "FN": ""
+          },
+          {
+            "name": "Minlie Huang",
+            "LN": "Minlie Huang",
+            "FN": ""
+          }
+        ],
+        "year": 2024,
+        "journal": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Theory of Mind (ToM) is the cognitive capability to perceive and ascribe mental states to oneself and others. Recent research has sparked a debate over whether large language models (LLMs) exhibit a form of ToM. However, existing ToM evaluations are hindered by challenges such as constrained scope, subjective judgment, and unintended contamination, yielding inadequate assessments. To address this gap, we introduce ToMBench with three key characteristics: a systematic evaluation framework encompassing 8 tasks and 31 abilities in social cognition, a multiple-choice question format to support automated and unbiased evaluation, and a build-from-scratch bilingual inventory to strictly avoid data leakage. Based on ToMBench, we conduct extensive experiments to evaluate the ToM performance of 10 popular LLMs across tasks and abilities. We find that even the most advanced LLMs like GPT-4 lag behind human performance by over 10% points, indicating that LLMs have not achieved a human-level theory of mind yet. Our aim with ToMBench is to enable an efficient and effective evaluation of LLMs’ ToM capabilities, thereby facilitating the development of LLMs with inherent social intelligence.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2024.acl-long.851",
+        "doi": "10.18653/v1/2024.acl-long.851",
+        "title": "MMToM-QA: Multimodal Theory of Mind Question Answering",
+        "authors": [
+          {
+            "name": "Chuanyang Jin",
+            "LN": "Chuanyang Jin",
+            "FN": ""
+          },
+          {
+            "name": "Yutong Wu",
+            "LN": "Yutong Wu",
+            "FN": ""
+          },
+          {
+            "name": "Jing Cao",
+            "LN": "Jing Cao",
+            "FN": ""
+          },
+          {
+            "name": "Jiannan Xiang",
+            "LN": "Jiannan Xiang",
+            "FN": ""
+          },
+          {
+            "name": "Yen-Ling Kuo",
+            "LN": "Yen-Ling Kuo",
+            "FN": ""
+          },
+          {
+            "name": "Zhiting Hu",
+            "LN": "Zhiting Hu",
+            "FN": ""
+          },
+          {
+            "name": "Tomer Ullman",
+            "LN": "Tomer Ullman",
+            "FN": ""
+          },
+          {
+            "name": "Antonio Torralba",
+            "LN": "Antonio Torralba",
+            "FN": ""
+          },
+          {
+            "name": "Joshua Tenenbaum",
+            "LN": "Joshua Tenenbaum",
+            "FN": ""
+          },
+          {
+            "name": "Tianmin Shu",
+            "LN": "Tianmin Shu",
+            "FN": ""
+          }
+        ],
+        "year": 2024,
+        "journal": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Theory of Mind (ToM), the ability to understand people’s mental states, is an essential ingredient for developing machines with human-level social intelligence. Recent machine learning models, particularly large language models, seem to show some aspects of ToM understanding. However, existing ToM benchmarks use unimodal datasets – either video or text. Human ToM, on the other hand, is more than video or text understanding. People can flexibly reason about another person’s mind based on conceptual representations (e.g., goals, beliefs, plans) extracted from any available data. To address this, we introduce a multimodal Theory of Mind question answering (MMToM-QA) benchmark. MMToM-QA comprehensively evaluates machine ToM both on multimodal data and on different kinds of unimodal data about a person’s activity in a household environment. To engineer multimodal ToM capacity, we propose a novel method, BIP-ALM (Bayesian Inverse Planning Accelerated by Language Models). BIP-ALM extracts unified representations from multimodal data and utilizes language models for scalable Bayesian inverse planning. We conducted a systematic comparison of human performance, BIP-ALM, and state-of-the-art models, including GPT-4. The experiments demonstrate that large language models and large multimodal models still lack robust ToM capacity. BIP-ALM, on the other hand, shows promising results, by leveraging the power of both model-based mental inference and language models.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2024.acl-long.266",
+        "doi": "10.18653/v1/2024.acl-long.266",
+        "title": "Limits of Theory of Mind Modelling in Dialogue-Based Collaborative Plan Acquisition",
+        "authors": [
+          {
+            "name": "Matteo Bortoletto",
+            "LN": "Matteo Bortoletto",
+            "FN": ""
+          },
+          {
+            "name": "Constantin Ruhdorfer",
+            "LN": "Constantin Ruhdorfer",
+            "FN": ""
+          },
+          {
+            "name": "Adnen Abdessaied",
+            "LN": "Adnen Abdessaied",
+            "FN": ""
+          },
+          {
+            "name": "Lei Shi",
+            "LN": "Lei Shi",
+            "FN": ""
+          },
+          {
+            "name": "Andreas Bulling",
+            "LN": "Andreas Bulling",
+            "FN": ""
+          }
+        ],
+        "year": 2024,
+        "journal": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Recent work on dialogue-based collaborative plan acquisition (CPA) has suggested that Theory of Mind (ToM) modelling can improve missing knowledge prediction in settings with asymmetric skill-sets and knowledge. Although ToM was claimed to be important for effective collaboration, its real impact on this novel task remains under-explored. By representing plans as graphs and by exploiting task-specific constraints we show that, as performance on CPA nearly doubles when predicting one’s own missing knowledge, the improvements due to ToM modelling diminish. This phenomenon persists even when evaluating existing baseline methods. To better understand the relevance of ToM for CPA, we report a principled performance comparison of models with and without ToM features. Results across different models and ablations consistently suggest that learned ToM features are indeed more likely to reflect latent patterns in the data with no perceivable link to ToM. This finding calls for a deeper understanding of the role of ToM in CPA and beyond, as well as new methods for modelling and evaluating mental states in computational collaborative agents.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2024.emnlp-main.118",
+        "doi": "10.18653/v1/2024.emnlp-main.118",
+        "title": "Be Helpful but Don’t Talk too Much - Enhancing Helpfulness in Conversations through Relevance in Multi-Turn Emotional Support",
+        "authors": [
+          {
+            "name": "Junlin Li",
+            "LN": "Junlin Li",
+            "FN": ""
+          },
+          {
+            "name": "Bo Peng",
+            "LN": "Bo Peng",
+            "FN": ""
+          },
+          {
+            "name": "Yu-Yin Hsu",
+            "LN": "Yu-Yin Hsu",
+            "FN": ""
+          },
+          {
+            "name": "Chu-Ren Huang",
+            "LN": "Chu-Ren Huang",
+            "FN": ""
+          }
+        ],
+        "year": 2024,
+        "journal": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "For a conversation to help and support, speakers should maintain an “effect-effort” tradeoff. As outlined in the gist of “Cognitive Relevance Principle”, helpful speakers should optimize the “cognitive relevance” through maximizing the “cognitive effects” and minimizing the “processing effort” imposed on listeners. Although preference learning methods have given rise a boon of studies in pursuit of“effect-optimization”, none have delved into the critical “effort-optimiazation” to fully cultivate the awareness of “optimal relevance” into thecognition of conversation agents. To address this gap, we integrate the “Cognitive Relevance Principle” into emotional support agents in the environment of multi-turn conversation. The results demonstrate a significant and robust improvement against the baseline systems with respect to response quality, human-likedness and supportivenss. This study offers compelling evidence for the effectiveness of the “Relevance Principle” in generating human-like, helpful, and harmless emotional support conversations. The source code will be available at https://github.com/CN-Eyetk/VLESA-ORL.git",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2024.acl-long.399",
+        "doi": "10.18653/v1/2024.acl-long.399",
+        "title": "LaMP: When Large Language Models Meet Personalization",
+        "authors": [
+          {
+            "name": "Alireza Salemi",
+            "LN": "Alireza Salemi",
+            "FN": ""
+          },
+          {
+            "name": "Sheshera Mysore",
+            "LN": "Sheshera Mysore",
+            "FN": ""
+          },
+          {
+            "name": "Michael Bendersky",
+            "LN": "Michael Bendersky",
+            "FN": ""
+          },
+          {
+            "name": "Hamed Zamani",
+            "LN": "Hamed Zamani",
+            "FN": ""
+          }
+        ],
+        "year": 2024,
+        "journal": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "This paper highlights the importance of personalization in large language models and introduces the LaMP benchmark — a novel benchmark for training and evaluating language models for producing personalized outputs. LaMP offers a comprehensive evaluation framework with diverse language tasks and multiple entries for each user profile. It consists of seven personalized tasks, spanning three text classification and four text generation tasks. We additionally propose two retrieval augmentation approaches that retrieve personal items from each user profile for personalizing language model outputs. To this aim, we study various retrieval models, including term matching, semantic matching, and time-aware methods. Extensive experiments on LaMP for zero-shot and fine-tuned language models demonstrate the efficacy of the proposed retrieval augmentation approach and highlight the impact of personalization in various natural language tasks.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.emnlp-main.232",
+        "doi": "10.18653/v1/2025.emnlp-main.232",
+        "title": "MultiAgentESC: A LLM-based Multi-Agent Collaboration Framework for Emotional Support Conversation",
+        "authors": [
+          {
+            "name": "Yangyang Xu",
+            "LN": "Yangyang Xu",
+            "FN": ""
+          },
+          {
+            "name": "Jinpeng Hu",
+            "LN": "Jinpeng Hu",
+            "FN": ""
+          },
+          {
+            "name": "Zhuoer Zhao",
+            "LN": "Zhuoer Zhao",
+            "FN": ""
+          },
+          {
+            "name": "Zhangling Duan",
+            "LN": "Zhangling Duan",
+            "FN": ""
+          },
+          {
+            "name": "Xiao Sun",
+            "LN": "Xiao Sun",
+            "FN": ""
+          },
+          {
+            "name": "Xun Yang",
+            "LN": "Xun Yang",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "The development of Emotional Support Conversation (ESC) systems is critical for delivering mental health support tailored to the needs of help-seekers. Recent advances in large language models (LLMs) have contributed to progress in this domain, while most existing studies focus on generating responses directly and overlook the integration of domain-specific reasoning and expert interaction.Therefore, in this paper, we propose a training-free Multi-Agent collaboration framework for ESC (MultiAgentESC).The framework is designed to emulate the human-like process of providing emotional support through three stages: dialogue analysis, strategy deliberation, and response generation.At each stage, a multi-agent system is employed to iteratively enhance information understanding and reasoning, simulating real-world decision-making processes by incorporating diverse interactions among these expert agents.Additionally, we introduce a novel response-centered approach to handle the one-to-many problem on strategy selection, where multiple valid strategies are initially employed to generate diverse responses, followed by the selection of the optimal response through multi-agent collaboration.Experiments on the ESConv dataset reveal that our proposed framework excels at providing emotional support as well as diversifying support strategy selection.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.emnlp-main.277",
+        "doi": "10.18653/v1/2025.emnlp-main.277",
+        "title": "From Personas to Talks: Revisiting the Impact of Personas on LLM-Synthesized Emotional Support Conversations",
+        "authors": [
+          {
+            "name": "Shenghan Wu",
+            "LN": "Shenghan Wu",
+            "FN": ""
+          },
+          {
+            "name": "Yimo Zhu",
+            "LN": "Yimo Zhu",
+            "FN": ""
+          },
+          {
+            "name": "Wynne Hsu",
+            "LN": "Wynne Hsu",
+            "FN": ""
+          },
+          {
+            "name": "Mong-Li Lee",
+            "LN": "Mong-Li Lee",
+            "FN": ""
+          },
+          {
+            "name": "Yang Deng",
+            "LN": "Yang Deng",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "The rapid advancement of Large Language Models (LLMs) has revolutionized the generation of emotional support conversations (ESC), offering scalable solutions with reduced costs and enhanced data privacy. This paper explores the role of personas in the creation of ESC by LLMs. Our research utilizes established psychological frameworks to measure and infuse persona traits into LLMs, which then generate dialogues in the emotional support scenario. We conduct extensive evaluations to understand the stability of persona traits in dialogues, examining shifts in traits post-generation and their impact on dialogue quality and strategy distribution. Experimental results reveal several notable findings: 1) LLMs can infer core persona traits, 2) subtle shifts in emotionality and extraversion occur, influencing the dialogue dynamics, and 3) the application of persona traits modifies the distribution of emotional support strategies, enhancing the relevance and empathetic quality of the responses. These findings highlight the potential of persona-driven LLMs in crafting more personalized, empathetic, and effective emotional support dialogues, which has significant implications for the future design of AI-driven emotional support systems.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.emnlp-main.164",
+        "doi": "10.18653/v1/2025.emnlp-main.164",
+        "title": "Humanizing Machines: Rethinking LLM Anthropomorphism Through a Multi-Level Framework of Design",
+        "authors": [
+          {
+            "name": "Yunze Xiao",
+            "LN": "Yunze Xiao",
+            "FN": ""
+          },
+          {
+            "name": "Lynnette Hui Xian Ng",
+            "LN": "Lynnette Hui Xian Ng",
+            "FN": ""
+          },
+          {
+            "name": "Jiarui Liu",
+            "LN": "Jiarui Liu",
+            "FN": ""
+          },
+          {
+            "name": "Mona T. Diab",
+            "LN": "Mona T. Diab",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "Large Language Models (LLMs) increasingly exhibit anthropomorphism characteristics – human-like qualities portrayed across their outlook, language, behavior, and reasoning functions. Such characteristics enable more intuitive and engaging human-AI interactions. However, current research on anthropomorphism remains predominantly risk-focused, emphasizing over-trust and user deception while offering limited design guidance. We argue that anthropomorphism should instead be treated as a concept of design that can be intentionally tuned to support user goals. Drawing from multiple disciplines, we propose that the anthropomorphism of an LLM-based artifact should reflect the interaction between artifact designers and interpreters. This interaction is facilitated by cues embedded in the artifact by the designers and the (cognitive) responses of the interpreters to the cues. Cues are categorized into four dimensions: perceptive, linguistic, behavioral, and cognitive. By analyzing the manifestation and effectiveness of each cue, we provide a unified taxonomy with actionable levers for practitioners. Consequently, we advocate for function-oriented evaluations of anthropomorphic design.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.emnlp-main.785",
+        "doi": "10.18653/v1/2025.emnlp-main.785",
+        "title": "The Practical Impacts of Theoretical Constructs on Empathy Modeling",
+        "authors": [
+          {
+            "name": "Allison Lahnala",
+            "LN": "Allison Lahnala",
+            "FN": ""
+          },
+          {
+            "name": "Charles Welch",
+            "LN": "Charles Welch",
+            "FN": ""
+          },
+          {
+            "name": "David Jurgens",
+            "LN": "David Jurgens",
+            "FN": ""
+          },
+          {
+            "name": "Lucie Flek",
+            "LN": "Lucie Flek",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "Conceptual operationalizations of empathy in NLP are varied, with some having specific behaviors and properties, while others are more abstract. How these variations relate to one another and capture properties of empathy observable in text remains unclear. To provide insight into this, we analyze the transfer performance of empathy models adapted to empathy tasks with different theoretical groundings. We study (1) the dimensionality of empathy definitions, (2) the correspondence between the defined dimensions and measured/observed properties, and (3) the conduciveness of the data to represent them, finding they have a significant impact to performance compared to other transfer setting features. Characterizing the theoretical grounding of empathy tasks as direct, abstract, or adjacent further indicates that tasks that directly predict specified empathy components have higher transferability. Our work provides empirical evidence for the need for precise and multidimensional empathy operationalizations.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.emnlp-main.811",
+        "doi": "10.18653/v1/2025.emnlp-main.811",
+        "title": "ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents",
+        "authors": [
+          {
+            "name": "Navid Madani",
+            "LN": "Navid Madani",
+            "FN": ""
+          },
+          {
+            "name": "Rohini Srihari",
+            "LN": "Rohini Srihari",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "Large Language Models (LLMs) increasingly power mental-health chatbots, yet the field still lacks a scalable, theory-grounded way to decide which model is more effective to deploy. We present ESC-Judge, the first end-to-end evaluation framework that (i) grounds head-to-head comparison of Emotional-Support LLMs (ES-LLMs) in an established psychological theory—Clara Hill’s Exploration–Insight–Action (E-I-A) counselling model—thereby delivering a structured, interpretable lens on performance, and (ii) fully automates the pipeline at scale. ESC-Judge proceeds in three stages: (1) it synthesizes realistic help-seeker roles by sampling empirically salient attributes (stressors, personality, life history); (2) it has two candidate ES-Agents conduct separate sessions with the same role, isolating model-specific strategies; and (3) it asks a specialised judge LLM to issue pairwise preferences across rubric-anchored skills that exhaustively cover the E-I-A spectrum. In our empirical study, ESC-Judge matches PhD-level annotators in 85% of Exploration, 83% of Insight, and 86% of Action decisions, demonstrating human-level reliability at a fraction of the cost. We release all code, prompts, synthetic roles, transcripts, and judgment scripts to catalyze transparent progress in emotionally supportive AI",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.emnlp-main.2",
+        "doi": "10.18653/v1/2025.emnlp-main.2",
+        "title": "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs",
+        "authors": [
+          {
+            "name": "Mohsinul Kabir",
+            "LN": "Mohsinul Kabir",
+            "FN": ""
+          },
+          {
+            "name": "Ajwad Abrar",
+            "LN": "Ajwad Abrar",
+            "FN": ""
+          },
+          {
+            "name": "Sophia Ananiadou",
+            "LN": "Sophia Ananiadou",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "A large number of studies rely on closed-style multiple-choice surveys to evaluate cultural alignment in Large Language Models (LLMs). In this work, we challenge this constrained evaluation paradigm and explore more realistic, unconstrained approaches. Using the World Values Survey (WVS) and Hofstede Cultural Dimensions as case studies, we demonstrate that LLMs exhibit stronger cultural alignment in less constrained settings, where responses are not forced. Additionally, we show that even minor changes, such as reordering survey choices, lead to inconsistent outputs, exposing the limitations of closed-style evaluations. Our findings advocate for more robust and flexible evaluation frameworks that focus on specific cultural proxies, encouraging more nuanced and accurate assessments of cultural alignment in LLMs.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.emnlp-main.536",
+        "doi": "10.18653/v1/2025.emnlp-main.536",
+        "title": "Latent Inter-User Difference Modeling for LLM Personalization",
+        "authors": [
+          {
+            "name": "Yilun Qiu",
+            "LN": "Yilun Qiu",
+            "FN": ""
+          },
+          {
+            "name": "Tianhao Shi",
+            "LN": "Tianhao Shi",
+            "FN": ""
+          },
+          {
+            "name": "Xiaoyan Zhao",
+            "LN": "Xiaoyan Zhao",
+            "FN": ""
+          },
+          {
+            "name": "Fengbin Zhu",
+            "LN": "Fengbin Zhu",
+            "FN": ""
+          },
+          {
+            "name": "Yang Zhang",
+            "LN": "Yang Zhang",
+            "FN": ""
+          },
+          {
+            "name": "Fuli Feng",
+            "LN": "Fuli Feng",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "Large language models (LLMs) are increasingly integrated into users’ daily lives, leading to a growing demand for personalized outputs.Previous work focuses on leveraging a user’s own history, overlooking inter-user differences that are crucial for effective personalization.While recent work has attempted to model such differences, the reliance on language-based prompts often hampers the effective extraction of meaningful distinctions.To address these issues, we propose Difference-aware Embedding-based Personalization (DEP), a framework that models inter-user differences in the latent space instead of relying on language prompts. DEP constructs soft prompts by contrasting a user’s embedding with those of peers who engaged with similar content, highlighting relative behavioral signals.A sparse autoencoder then filters and compresses both user-specific and difference-aware embeddings, preserving only task-relevant features before injecting them into a frozen LLM.Experiments on personalized review generation show that DEP consistently outperforms baseline methods across multiple metrics.Our code is available at https://github.com/SnowCharmQ/DEP.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.emnlp-main.580",
+        "doi": "10.18653/v1/2025.emnlp-main.580",
+        "title": "Toward Multi-Session Personalized Conversation: A Large-Scale Dataset and Hierarchical Tree Framework for Implicit Reasoning",
+        "authors": [
+          {
+            "name": "Xintong Li",
+            "LN": "Xintong Li",
+            "FN": ""
+          },
+          {
+            "name": "Jalend Bantupalli",
+            "LN": "Jalend Bantupalli",
+            "FN": ""
+          },
+          {
+            "name": "Ria Dharmani",
+            "LN": "Ria Dharmani",
+            "FN": ""
+          },
+          {
+            "name": "Yuwei Zhang",
+            "LN": "Yuwei Zhang",
+            "FN": ""
+          },
+          {
+            "name": "Jingbo Shang",
+            "LN": "Jingbo Shang",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "There has been a surge in the use of large language models (LLM) conversational agents to generate responses based on long-term history from multiple sessions. However, existing long-term open-domain dialogue datasets lack complex, real-world personalization and fail to capture implicit reasoning—where relevant information is embedded in subtle, syntactic, or semantically distant connections rather than explicit statements. In such cases, traditional retrieval methods fail to capture relevant context, and long-context modeling also becomes inefficient due to numerous complicated persona-related details. To address this gap, we introduce ImplexConv, a large-scale long-term dataset with 2,500 examples, each containing approximately 100 conversation sessions, designed to study implicit reasoning in personalized dialogues. Additionally, we propose TaciTree, a novel hierarchical tree framework that structures conversation history into multiple levels of summarization. Instead of brute-force searching all data, TaciTree enables an efficient, level-based retrieval process where models refine their search by progressively selecting relevant details. Our experiments demonstrate that TaciTree significantly improves the ability of LLMs to reason over long-term conversations with implicit contextual dependencies.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.emnlp-main.1069",
+        "doi": "10.18653/v1/2025.emnlp-main.1069",
+        "title": "Flexibly Utilize Memory for Long-Term Conversation via a Fragment-then-Compose Framework",
+        "authors": [
+          {
+            "name": "Cai Ke",
+            "LN": "Cai Ke",
+            "FN": ""
+          },
+          {
+            "name": "Yiming Du",
+            "LN": "Yiming Du",
+            "FN": ""
+          },
+          {
+            "name": "Bin Liang",
+            "LN": "Bin Liang",
+            "FN": ""
+          },
+          {
+            "name": "Yifan Xiang",
+            "LN": "Yifan Xiang",
+            "FN": ""
+          },
+          {
+            "name": "Lin Gui",
+            "LN": "Lin Gui",
+            "FN": ""
+          },
+          {
+            "name": "Zhongyang Li",
+            "LN": "Zhongyang Li",
+            "FN": ""
+          },
+          {
+            "name": "Baojun Wang",
+            "LN": "Baojun Wang",
+            "FN": ""
+          },
+          {
+            "name": "Yue Yu",
+            "LN": "Yue Yu",
+            "FN": ""
+          },
+          {
+            "name": "Hui Wang",
+            "LN": "Hui Wang",
+            "FN": ""
+          },
+          {
+            "name": "Kam-Fai Wong",
+            "LN": "Kam-Fai Wong",
+            "FN": ""
+          },
+          {
+            "name": "Ruifeng Xu",
+            "LN": "Ruifeng Xu",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "Large language models (LLMs) have made significant breakthroughs in extracting useful information from conversation history to enhance the response in long-term conversations. Summarizing useful information from historical conversations has achieved remarkable performance, which, however, may introduce irrelevant or redundant information, making it difficult to flexibly choose and integrate key information from different sessions during memory retrieval. To address this issue, we propose a Fragment-then-Compose framework, a novel memory utilization approach for long-term open-domain conversation, called FraCom. To be specific, inspired by the concept of proposition representation from Cognitive Psychology, we first represent the conversation history as a series of predicates plus arguments for propositional representation to preserve key information useful for memory (“Fragment”). Then, we compose propositional graphs for the conversation history based on the connection between shared arguments (“Compose”). During retrieval, we retrieve relevant propositions from the graph based on arguments from the current query. This essentially allows for flexible and effective utilization of related information in long-term memory for better response generation towards a query. Experimental results on four long-term open-domain conversation datasets demonstrate the effectiveness of our FraCom in memory utilization and its ability to enhance response generation for LLMs.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.emnlp-main.625",
+        "doi": "10.18653/v1/2025.emnlp-main.625",
+        "title": "Self-Augmented Preference Alignment for Sycophancy Reduction in LLMs",
+        "authors": [
+          {
+            "name": "Chien-Hung Chen",
+            "LN": "Chien-Hung Chen",
+            "FN": ""
+          },
+          {
+            "name": "Hen-Hsen Huang",
+            "LN": "Hen-Hsen Huang",
+            "FN": ""
+          },
+          {
+            "name": "Hsin-Hsi Chen",
+            "LN": "Hsin-Hsi Chen",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "Sycophancy causes models to produce answers that cater to user expectations rather than providing truthful responses. Sycophantic behavior in models can erode user trust by creating a perception of dishonesty or bias. This lack of authenticity may lead users to question the reliability and objectivity of the system’s responses. Although Reinforcement Learning from Human Feedback (RLHF) is effective in aligning models with human preferences, previous studies have observed that it can simultaneously amplify sycophantic behavior. However, these studies primarily focused on proprietary models and employed indirect analysis to demonstrate the influence of human feedback. Our study focuses on sycophancy in open-source models, which are more reproducible and transparent for research. We investigated the impact of human feedback on sycophancy by directly comparing models aligned with human feedback to those not aligned. To address sycophancy, we proposed assessing the user’s expected answer rather than ignoring it. Consequently, we developed the Sycophancy Answer Assessment (SAA) dataset and introduced Self-Augmented Preference Alignment, demonstrating that these methods effectively enhance the model’s assessment ability and significantly reduce sycophancy across tasks.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2025.acl-long.1532",
+        "doi": "10.18653/v1/2025.acl-long.1532",
+        "title": "Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights",
+        "authors": [
+          {
+            "name": "Sooyung Choi",
+            "LN": "Sooyung Choi",
+            "FN": ""
+          },
+          {
+            "name": "Jaehyeok Lee",
+            "LN": "Jaehyeok Lee",
+            "FN": ""
+          },
+          {
+            "name": "Xiaoyuan Yi",
+            "LN": "Xiaoyuan Yi",
+            "FN": ""
+          },
+          {
+            "name": "Jing Yao",
+            "LN": "Jing Yao",
+            "FN": ""
+          },
+          {
+            "name": "Xing Xie",
+            "LN": "Xing Xie",
+            "FN": ""
+          },
+          {
+            "name": "JinYeong Bak",
+            "LN": "JinYeong Bak",
+            "FN": ""
+          }
+        ],
+        "year": 2025,
+        "journal": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "The application scope of Large Language Models (LLMs) continues to expand, leading to increasing interest in personalized LLMs that align with human values. However, aligning these models with individual values raises significant safety concerns, as certain values may correlate with harmful information. In this paper, we identify specific safety risks associated with value-aligned LLMs and investigate the psychological principles behind these challenges. Our findings reveal two key insights. (1) Value-aligned LLMs are more prone to harmful behavior compared to non-fine-tuned models and exhibit slightly higher risks in traditional safety evaluations than other fine-tuned models. (2) These safety issues arise because value-aligned LLMs genuinely generate text according to the aligned values, which can amplify harmful outcomes. Using a dataset with detailed safety categories, we find significant correlations between value alignment and safety risks, supported by psychological hypotheses. This study offers insights into the “black box” of value alignment and proposes in-context alignment methods to enhance the safety of value-aligned LLMs.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.539",
+        "doi": "10.18653/v1/2026.acl-long.539",
+        "title": "Why Do Emotions Change? Appraisal-Guided Reasoning for Emotion–Cause Triplet Extraction in Conversations",
+        "authors": [
+          {
+            "name": "Qiao Liang",
+            "LN": "Qiao Liang",
+            "FN": ""
+          },
+          {
+            "name": "Ying Shen",
+            "LN": "Ying Shen",
+            "FN": ""
+          },
+          {
+            "name": "Yao Liu",
+            "LN": "Yao Liu",
+            "FN": ""
+          },
+          {
+            "name": "Tiantian Chen",
+            "LN": "Tiantian Chen",
+            "FN": ""
+          },
+          {
+            "name": "Lin Zhang",
+            "LN": "Lin Zhang",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Multimodal Emotion–Cause Triplet Extraction in Conversations (MECTEC) is fundamental for fine-grained affect understanding, yet it remains challenging in multi-turn, multi-speaker settings. Existing methods often make locally plausible predictions but struggle to maintain conversation-level consistency under within-speaker emotion shifts and core events. To address this, we propose ECFlow, a unified framework that combines appraisal-guided structured generation with graph-structured reinforcement learning. ECFlow operationalizes cognitive appraisal theory into a controllable intermediate reasoning trace and constructs UMECS, a unified supervision dataset with cognitively grounded traces. It then lifts predicted and gold triplets into an Emotion–Cause Flow Graph and optimizes verifiable, structure-aware rewards for emotion-shift coherence and core-event consistency, together with task-oriented triplet rewards. Experiments on public MECTEC benchmarks show that ECFlow consistently outperforms strong baselines, achieving state-of-the-art triplet extraction and improved structure-aware metrics on emotion shifts and core events. Our code and dataset are available at https://anonymous.4open.science/r/ECFlow-E908.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-short.43",
+        "doi": "10.18653/v1/2026.acl-short.43",
+        "title": "The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs",
+        "authors": [
+          {
+            "name": "Xi Fang",
+            "LN": "Xi Fang",
+            "FN": ""
+          },
+          {
+            "name": "Weijie Xu",
+            "LN": "Weijie Xu",
+            "FN": ""
+          },
+          {
+            "name": "Yuchong Zhang",
+            "LN": "Yuchong Zhang",
+            "FN": ""
+          },
+          {
+            "name": "Scott Nickleach",
+            "LN": "Scott Nickleach",
+            "FN": ""
+          },
+          {
+            "name": "Stephanie Eckman",
+            "LN": "Stephanie Eckman",
+            "FN": ""
+          },
+          {
+            "name": "Chandan K. Reddy",
+            "LN": "Chandan K. Reddy",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+        "abstract": "When an AI assistant remembers that Sarah is a single mother working two jobs, does it interpret her stress differently than if she were a wealthy executive? As personalized AI systems increasingly incorporate long-term user memory, understanding how this memory shapes emotional reasoning is critical. We investigate how user memory affects emotional intelligence in large language models (LLMs) by evaluating 15 models on human validated emotional intelligence tests. We find that identical scenarios paired with different user profiles produce systematically divergent emotional interpretations. Across validated user-independent emotional scenarios and diverse user profiles, systematic biases emerged in several high-performing LLMs where advantaged profiles received more accurate emotional interpretations. Moreover, LLMs demonstrate significant disparities across demographic factors in emotion understanding and supportive recommendations tasks, indicating that personalization mechanisms can embed social hierarchies into models’ emotional reasoning. These results highlight a key challenge for memory-enhanced AI: systems designed for personalization may inadvertently reinforce social inequalities.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.2046",
+        "doi": "10.18653/v1/2026.acl-long.2046",
+        "title": "Feeling Right vs. Being Right: How AI Sycophancy Affects Value-Laden Deliberation",
+        "authors": [
+          {
+            "name": "Jeongwoo Ryu",
+            "LN": "Jeongwoo Ryu",
+            "FN": ""
+          },
+          {
+            "name": "Soomin Kim",
+            "LN": "Soomin Kim",
+            "FN": ""
+          },
+          {
+            "name": "Jinsu Eun",
+            "LN": "Jinsu Eun",
+            "FN": ""
+          },
+          {
+            "name": "Kyusik Kim",
+            "LN": "Kyusik Kim",
+            "FN": ""
+          },
+          {
+            "name": "Changhoon Oh",
+            "LN": "Changhoon Oh",
+            "FN": ""
+          },
+          {
+            "name": "Bongwon Suh",
+            "LN": "Bongwon Suh",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "As people increasingly turn to AI for personal deliberation beyond task-oriented assistance, concerns about sycophancy in these value-laden contexts have grown. Unlike human flattery, which is intentional and self-interested, AI sycophancy emerges as a byproduct of RLHF’s reward structure for user-preference alignment. Yet the observable behavior is similar: both produce responses that preserve what users want to hear. Focusing on this phenomenon through Goffman’s face-work framework, we operationalize AI sycophancy as excessive face-saving, either active (preserving positive face through agreement) or passive (preserving negative face by withholding challenge). In a mixed-methods study (N=31), participants engaged with AI across three moral dilemmas under these conditions and a non-sycophantic neutral baseline. Sycophantic responses increased decision confidence but reduced open-minded thinking; participants felt supported yet found the conversations unproductive. Neutral responses, though initially uncomfortable, promoted cognitive flexibility and meaningful deliberation. These findings reveal a confidence-competence trade-off in AI-mediated moral reasoning and suggest that effective AI for personal deliberation requires calibrated friction, not unconditional agreement.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.1783",
+        "doi": "10.18653/v1/2026.acl-long.1783",
+        "title": "HumanLLM: Benchmarking and Improving LLM Anthropomorphism via Human Cognitive Patterns",
+        "authors": [
+          {
+            "name": "Xintao Wang",
+            "LN": "Xintao Wang",
+            "FN": ""
+          },
+          {
+            "name": "Jian Yang",
+            "LN": "Jian Yang",
+            "FN": ""
+          },
+          {
+            "name": "Weiyuan Li",
+            "LN": "Weiyuan Li",
+            "FN": ""
+          },
+          {
+            "name": "Rui Xie",
+            "LN": "Rui Xie",
+            "FN": ""
+          },
+          {
+            "name": "Jen-tse Huang",
+            "LN": "Jen-tse Huang",
+            "FN": ""
+          },
+          {
+            "name": "Jun Gao",
+            "LN": "Jun Gao",
+            "FN": ""
+          },
+          {
+            "name": "Shuai Huang",
+            "LN": "Shuai Huang",
+            "FN": ""
+          },
+          {
+            "name": "Yueping Kang",
+            "LN": "Yueping Kang",
+            "FN": ""
+          },
+          {
+            "name": "Yuanli Guo",
+            "LN": "Yuanli Guo",
+            "FN": ""
+          },
+          {
+            "name": "Hongwei Feng",
+            "LN": "Hongwei Feng",
+            "FN": ""
+          },
+          {
+            "name": "Yanghua Xiao",
+            "LN": "Yanghua Xiao",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in reasoning and generation, serving as the foundation for advanced persona simulation and Role-Playing Language Agents (RPLAs). However, achieving authentic alignment with human cognitive and behavioral patterns remains a critical challenge for these agents. We present HumanLLM, a framework treating psychological patterns as interacting causal forces.We construct 244 patterns from \\sim12,000 academic papers and synthesize 11,359 scenarios where 2-5 patterns reinforce, conflict, or modulate each other, with multi-turn conversations expressing inner thoughts, actions, and dialogue.Our dual-level checklists evaluate both individual pattern fidelity and emergent multi-pattern dynamics, achieving strong human alignment (r=0.90) while revealing that holistic metrics conflate simulation accuracy with social desirability.HumanLLM-8B outperforms Qwen3-32B on multi-pattern dynamics despite 4\\times fewer parameters, demonstrating that authentic anthropomorphism requires cognitive modeling—simulating not just what humans do, but the psychological processes generating those behaviors.Our dataset, code, and model are available at:https://github.com/YJGoodbye2024/HumanLLM",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.79",
+        "doi": "10.18653/v1/2026.acl-long.79",
+        "title": "Psychological Steering in LLMs: An Evaluation of Effectiveness and Trustworthiness",
+        "authors": [
+          {
+            "name": "Amin Banayeeanzade",
+            "LN": "Amin Banayeeanzade",
+            "FN": ""
+          },
+          {
+            "name": "Ala N. Tak",
+            "LN": "Ala N. Tak",
+            "FN": ""
+          },
+          {
+            "name": "Fatemeh Bahrani",
+            "LN": "Fatemeh Bahrani",
+            "FN": ""
+          },
+          {
+            "name": "Anahita Bolourani",
+            "LN": "Anahita Bolourani",
+            "FN": ""
+          },
+          {
+            "name": "Leonardo Blas",
+            "LN": "Leonardo Blas",
+            "FN": ""
+          },
+          {
+            "name": "Emilio Ferrara",
+            "LN": "Emilio Ferrara",
+            "FN": ""
+          },
+          {
+            "name": "Jonathan Gratch",
+            "LN": "Jonathan Gratch",
+            "FN": ""
+          },
+          {
+            "name": "Sai Praneeth Karimireddy",
+            "LN": "Sai Praneeth Karimireddy",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "The ability to control LLMs’ emulated emotional states and personality traits is an essential step in enabling rich, human-centered interactions in socially interactive settings. We introduce PsySET, a Psychologically-informed benchmark to evaluate LLM Steering Effectiveness and Trustworthiness across the emotion and personality domains. Our study spans four models from different LLM families paired with various steering strategies, including prompting, fine-tuning, and representation engineering. Our results indicate that prompting is consistently effective but limited in intensity control, whereas vector injections achieve finer controllability while slightly reducing output quality. Moreover, we explore the trustworthiness of steered LLMs by assessing safety, truthfulness, fairness, and ethics, highlighting potential side effects and behavioral shifts. Notably, we observe idiosyncratic effects; for instance, even a positive emotion like joy can degrade robustness to adversarial factuality, lower privacy awareness, and increase preferential bias. Meanwhile, anger predictably elevates toxicity yet strengthens leakage resistance. Our framework establishes the first holistic evaluation of emotion and personality steering, offering insights into its interpretability and reliability for socially interactive applications.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.1792",
+        "doi": "10.18653/v1/2026.acl-long.1792",
+        "title": "Trait Activation in Silicon: A Situation-Aware Framework for Psychologically Grounded Role-Playing",
+        "authors": [
+          {
+            "name": "Zuolong Li",
+            "LN": "Zuolong Li",
+            "FN": ""
+          },
+          {
+            "name": "Pingyu Wu",
+            "LN": "Pingyu Wu",
+            "FN": ""
+          },
+          {
+            "name": "Xianwen Huang",
+            "LN": "Xianwen Huang",
+            "FN": ""
+          },
+          {
+            "name": "Tianyi Wei",
+            "LN": "Tianyi Wei",
+            "FN": ""
+          },
+          {
+            "name": "Wenbo Zhou",
+            "LN": "Wenbo Zhou",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Role-playing agents (RPAs) have made significant strides in mimicking static character identities. However, their personality simulations remain superficial, lacking a profound understanding of complex human psychological mechanisms. We identify a critical bottleneck termed “Personality Inertia”—a behavioral rigidity where RLHF-induced alignment bias traps models in a sanitized, “helpful assistant” persona. This inertia prevents models from adapting to diverse social contexts or expressing essential but negative traits under pressure. To bridge this gap, we propose PD-LLM, a situation-aware framework grounded in Trait Activation Theory. PD-LLM introduces Bipolar Latent Decomposition, which decouples personality traits into bidirectional LoRA adapters. These adapters are dynamically modulated by a situation-aware module based on the DIAMONDS taxonomy, allowing for precise behavioral regulation. Empirical results show that while baseline methods fail to synchronize multidimensional traits under pressure, PD-LLM achieves superior performance in both static fidelity and dynamic adaptability. By advancing from prompt engineering to intrinsic parameter control, PD-LLM effectively overcomes personality rigidity, facilitating the creation of vivid and psychologically consistent agents.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.1735",
+        "doi": "10.18653/v1/2026.acl-long.1735",
+        "title": "On Emergent Social World Models — Evidence for Functional Integration of Theory of Mind and Pragmatic Reasoning in Language Models",
+        "authors": [
+          {
+            "name": "Polina Tsvilodub",
+            "LN": "Polina Tsvilodub",
+            "FN": ""
+          },
+          {
+            "name": "Jan-Felix Klumpp",
+            "LN": "Jan-Felix Klumpp",
+            "FN": ""
+          },
+          {
+            "name": "Amir Mohammadpour",
+            "LN": "Amir Mohammadpour",
+            "FN": ""
+          },
+          {
+            "name": "Jennifer Hu",
+            "LN": "Jennifer Hu",
+            "FN": ""
+          },
+          {
+            "name": "Michael Franke",
+            "LN": "Michael Franke",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "This paper investigates whether LMs recruit shared computational mechanisms for general Theory of Mind (ToM) and language-specific pragmatic reasoning in order to contribute to the general question of whether LMs may be said to have emergent “social world models”, i.e., representations of mental states that are repurposed across tasks (the functional integration hypothesis). Using behavioral evaluations and causal-mechanistic experiments via functional localization methods inspired by cognitive neuroscience, we analyze LMs’ performance across seven subcategories of ToM abilities (Beaudoin et al., 2020) on a substantially larger localizer dataset than used in prior like-minded work. Results from stringent hypothesis-driven statistical testing offer suggestive evidence for the functional integration hypothesis, indicating that LMs may develop interconnected “social world models” rather than isolated competencies. This work contributes novel ToM localizer data, methodological refinements to functional localization techniques, and empirical insights into the emergence of social cognition in artificial systems.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.1813",
+        "doi": "10.18653/v1/2026.acl-long.1813",
+        "title": "EmoS: A High-Fidelity Multimodal Benchmark for Fine-grained Streaming Emotional Understanding",
+        "authors": [
+          {
+            "name": "Pengze Guo",
+            "LN": "Pengze Guo",
+            "FN": ""
+          },
+          {
+            "name": "Jingxi Liang",
+            "LN": "Jingxi Liang",
+            "FN": ""
+          },
+          {
+            "name": "Zhiwen Xie",
+            "LN": "Zhiwen Xie",
+            "FN": ""
+          },
+          {
+            "name": "Qifeng Wang",
+            "LN": "Qifeng Wang",
+            "FN": ""
+          },
+          {
+            "name": "Derek F. Wong",
+            "LN": "Derek F. Wong",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "In the context of today’s high-pressure, aging society, the demand for large-scale emotional models capable of providing empathetic support is more critical than ever. However, existing benchmarks fail to simultaneously achieve ecological validity, signal clarity, and reliable fine-grained labeling. We introduce EmoS, a high-fidelity bilingual benchmark designed to resolve the limitations of ecological validity and noise in existing datasets by combining strictly filtered static slices with a dynamic Streaming Monologue subset. Supported by a rigorous dual-layer human annotation pipeline, EmoS provides trusted ground truth that captures continuous emotional evolution. Empirical results show that fine-tuning MLLMs (multimodal large language models) on EmoS yields significant gains over zero-shot baselines, laying the foundation for the training and evaluation of future emotion recognition models and empathy models. The dataset and code are publicly available at https://github.com/NLP2CT/EmoS.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.1825",
+        "doi": "10.18653/v1/2026.acl-long.1825",
+        "title": "ERCThinker: Fast-Slow Thinking for Emotion Recognition in Conversation",
+        "authors": [
+          {
+            "name": "Yumeng Fu",
+            "LN": "Yumeng Fu",
+            "FN": ""
+          },
+          {
+            "name": "Weitao Huang",
+            "LN": "Weitao Huang",
+            "FN": ""
+          },
+          {
+            "name": "Junjie Wu",
+            "LN": "Junjie Wu",
+            "FN": ""
+          },
+          {
+            "name": "Hao Teng",
+            "LN": "Hao Teng",
+            "FN": ""
+          },
+          {
+            "name": "Shouduo Shang",
+            "LN": "Shouduo Shang",
+            "FN": ""
+          },
+          {
+            "name": "Meishan Zhang",
+            "LN": "Meishan Zhang",
+            "FN": ""
+          },
+          {
+            "name": "Bingquan Liu",
+            "LN": "Bingquan Liu",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Emotion Recognition in Conversation (ERC) aims to identify the emotional states of speakers in conversations. Existing ERC methods perform either fast thinking or slow thinking for emotion predictions. The former lacks interpretability of emotion predictions, and the latter focuses on emotion analysis at shallow semantics. Such insufficient reasoning chains fall short in capturing deep semantics within conversations. To address these limitations, we propose ERCThinker, a Fast-Slow thinking framework for the task of ERC. First, we design different thinking strategies with fine-grained emotion reasoning chains to capture deep semantics that contain topic, discourse structure, speaker characteristic, scene, and emotion shift. Second, we develop an adaptive thinking mechanism in both strategy-level and utterance-level, guiding the model to dynamically perform thinking switching across various scenarios. Furthermore, we utilize Agent-as-Judge to score reasoning chains as reward signals for more accurate emotion predictions. To support training, we construct EmotionCueCoT, the emotion reasoning dataset with supervision in both explanation and judgment. Extensive experiments on various ERC benchmark datasets demonstrate that ERCThinker achieves state-of-the-art performance in both explanation and judgment, making progress in the realm of ERC.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.1957",
+        "doi": "10.18653/v1/2026.acl-long.1957",
+        "title": "Evaluating Language Model Pluralism through In-the-wild Crowd Discussions",
+        "authors": [
+          {
+            "name": "Gagan Mundada",
+            "LN": "Gagan Mundada",
+            "FN": ""
+          },
+          {
+            "name": "Rohan Surana",
+            "LN": "Rohan Surana",
+            "FN": ""
+          },
+          {
+            "name": "Nandhini Swaminathan",
+            "LN": "Nandhini Swaminathan",
+            "FN": ""
+          },
+          {
+            "name": "Bodhisattwa Prasad Majumder",
+            "LN": "Bodhisattwa Prasad Majumder",
+            "FN": ""
+          },
+          {
+            "name": "Junda Wu",
+            "LN": "Junda Wu",
+            "FN": ""
+          },
+          {
+            "name": "Julian McAuley",
+            "LN": "Julian McAuley",
+            "FN": ""
+          },
+          {
+            "name": "Zhouhang Xie",
+            "LN": "Zhouhang Xie",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "When answering subjective questions, an ideal LLM should surface diverse plausible perspectives rather than favoring a single viewpoint, a characteristic known as pluralism. Recent studies show that modern LLMs optimized through preference alignment systematically favor certain positions on subjective queries, making pluralism evaluation increasingly important. However, existing evaluation methods focus dominantly on multiple-choice and question-answering tasks, leaving open-ended generation largely unaddressed.We propose PLURALEVAL, an evaluation framework that assesses LLM pluralism in open-ended generation by comparing outputs against free-form crowd responses. Our approach decomposes ground-truth responses into atomic, non-overlapping claims, then evaluates whether LLMs adequately cover this diverse claim space. We then introduce WildSCOPE, a multi-domain dataset of natural crowd responses, and demonstrate that PLURALEVAL captures novel insights, such as the collapse of pluralism through sycophancy, where LLM systematically degrades in overton pluralism when a user’s belief is revealed. Finally, we discuss the value and actionable insights for preserving and encouraging pluralism from LLM deployers’ side.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.2205",
+        "doi": "10.18653/v1/2026.acl-long.2205",
+        "title": "Preference Heads in Large Language Models: A Mechanistic Framework for Interpretable Personalization",
+        "authors": [
+          {
+            "name": "Weixu Zhang",
+            "LN": "Weixu Zhang",
+            "FN": ""
+          },
+          {
+            "name": "Ye Yuan",
+            "LN": "Ye Yuan",
+            "FN": ""
+          },
+          {
+            "name": "Changjiang Han",
+            "LN": "Changjiang Han",
+            "FN": ""
+          },
+          {
+            "name": "Yuxing Tian",
+            "LN": "Yuxing Tian",
+            "FN": ""
+          },
+          {
+            "name": "Zipeng Sun",
+            "LN": "Zipeng Sun",
+            "FN": ""
+          },
+          {
+            "name": "Linfeng Du",
+            "LN": "Linfeng Du",
+            "FN": ""
+          },
+          {
+            "name": "Jikun Kang",
+            "LN": "Jikun Kang",
+            "FN": ""
+          },
+          {
+            "name": "Hong Kang",
+            "LN": "Hong Kang",
+            "FN": ""
+          },
+          {
+            "name": "Xue Liu",
+            "LN": "Xue Liu",
+            "FN": ""
+          },
+          {
+            "name": "Haolun Wu",
+            "LN": "Haolun Wu",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Large Language Models (LLMs) exhibit strong implicit personalization ability, yet most existing approaches treat this behavior as a black box, relying on prompt engineering or fine tuning on user data. In this work, we adopt a mechanistic interpretability perspective and hypothesize the existence of a sparse set of Preference Heads, attention heads that encode user specific stylistic and topical preferences and exert a causal influence on generation. We introduce Differential Preference Steering (DPS), a training free framework that (1) identifies Preference Heads through causal masking analysis and (2) leverages them for controllable and interpretable personalization at inference time. DPS computes a Preference Contribution Score (PCS) for each attention head, directly measuring its causal impact on user aligned outputs. During decoding, we contrast model predictions with and without Preference Heads, amplifying the difference between personalized and generic logits to selectively strengthen preference aligned continuations. Experiments on widely used personalization benchmarks across multiple LLMs demonstrate consistent gains in personalization fidelity while preserving content coherence and low computational overhead. Beyond empirical improvements, DPS provides a mechanistic explanation of where and how personalization emerges within transformer architectures.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.1892",
+        "doi": "10.18653/v1/2026.acl-long.1892",
+        "title": "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents",
+        "authors": [
+          {
+            "name": "Yuanchen Bei",
+            "LN": "Yuanchen Bei",
+            "FN": ""
+          },
+          {
+            "name": "Tianxin Wei",
+            "LN": "Tianxin Wei",
+            "FN": ""
+          },
+          {
+            "name": "Xuying Ning",
+            "LN": "Xuying Ning",
+            "FN": ""
+          },
+          {
+            "name": "Yanjun Zhao",
+            "LN": "Yanjun Zhao",
+            "FN": ""
+          },
+          {
+            "name": "Zhining Liu",
+            "LN": "Zhining Liu",
+            "FN": ""
+          },
+          {
+            "name": "Xiao Lin",
+            "LN": "Xiao Lin",
+            "FN": ""
+          },
+          {
+            "name": "Yada Zhu",
+            "LN": "Yada Zhu",
+            "FN": ""
+          },
+          {
+            "name": "Hendrik Hamann",
+            "LN": "Hendrik Hamann",
+            "FN": ""
+          },
+          {
+            "name": "Jingrui He",
+            "LN": "Jingrui He",
+            "FN": ""
+          },
+          {
+            "name": "Hanghang Tong",
+            "LN": "Hanghang Tong",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Long-term memory is a critical capability for multimodal large language model (MLLM) agents, particularly in conversational settings where information accumulates and evolves over time. However, existing benchmarks either evaluate multi-session memory in text-only conversations or assess multimodal understanding within localized contexts, failing to evaluate how multimodal memory is preserved, organized, and evolved across long-term conversational trajectories. Thus, we introduce Mem-Gallery, a new benchmark for evaluating multimodal long-term conversational memory in MLLM agents. Mem-Gallery features high-quality multi-session conversations grounded in both visual and textual information, with long interaction horizons and rich multimodal dependencies. Building on this dataset, we propose a systematic evaluation framework that assesses key memory capabilities along three functional dimensions: memory extraction and test-time adaptation, memory reasoning, and memory knowledge management. Extensive benchmarking across twelve memory systems reveals several key findings, highlighting the necessity of explicit multimodal information retention and memory organization, the persistent limitations in memory reasoning and knowledge management, as well as the efficiency bottleneck of current models. Our benchmark and dataset are available at https://github.com/YuanchenBei/Mem-Gallery.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "2026.acl-long.2152",
+        "doi": "10.18653/v1/2026.acl-long.2152",
+        "title": "TEA-Bench: A Systematic Benchmarking of Tool-enhanced Emotional Support Dialogue Agent",
+        "authors": [
+          {
+            "name": "Xingyu Sui",
+            "LN": "Xingyu Sui",
+            "FN": ""
+          },
+          {
+            "name": "Yanyan Zhao",
+            "LN": "Yanyan Zhao",
+            "FN": ""
+          },
+          {
+            "name": "Yulin Hu",
+            "LN": "Yulin Hu",
+            "FN": ""
+          },
+          {
+            "name": "Jiahe Guo",
+            "LN": "Jiahe Guo",
+            "FN": ""
+          },
+          {
+            "name": "Weixiang Zhao",
+            "LN": "Weixiang Zhao",
+            "FN": ""
+          },
+          {
+            "name": "Bing Qin",
+            "LN": "Bing Qin",
+            "FN": ""
+          }
+        ],
+        "year": 2026,
+        "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "abstract": "Emotional Support Conversation requires not only affective expression but also grounded instrumental support to provide trustworthy guidance. However, existing ESC systems and benchmarks largely focus on affective support in text-only settings, overlooking how external tools can enable factual grounding and reduce hallucination in multi-turn emotional support. We introduce TEA-Bench, the first interactive benchmark for evaluating tool-augmented agents in ESC, featuring realistic emotional scenarios, an MCP-style tool environment, and process-level metrics that jointly assess the quality and factual grounding of emotional support. Experiments on nine LLMs show that tool augmentation generally improves emotional support quality and reduces hallucination, but the gains are strongly capacity-dependent: stronger models use tools more selectively and effectively, while weaker models benefit only marginally. We further release TEA-Dialog, a dataset of tool-enhanced ESC dialogues, and find that supervised fine-tuning improves in-distribution support but generalizes poorly. Our results underscore the importance of tool use in building reliable emotional support agents.",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "dpo",
+        "doi": null,
+        "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "authors": [],
+        "year": 2023,
+        "journal": "NeurIPS 2023",
+        "abstract": null,
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "hh-rlhf",
+        "doi": null,
+        "title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
+        "authors": [],
+        "year": 2022,
+        "journal": "Venue not verified",
+        "abstract": null,
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "mtbench",
+        "doi": null,
+        "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+        "authors": [],
+        "year": 2023,
+        "journal": "Venue not verified",
+        "abstract": null,
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "generative-agents",
+        "doi": null,
+        "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+        "authors": [],
+        "year": 2023,
+        "journal": "UIST 2023",
+        "abstract": null,
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "sotopia",
+        "doi": null,
+        "title": "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents",
+        "authors": [],
+        "year": 2023,
+        "journal": "Venue not verified",
+        "abstract": null,
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      },
+      {
+        "id": "opinionqa",
+        "doi": null,
+        "title": "Whose Opinions Do Language Models Reflect?",
+        "authors": [
+          {
+            "name": "Shibani Santurkar",
+            "LN": "Shibani Santurkar",
+            "FN": ""
+          },
+          {
+            "name": "Esin Durmus",
+            "LN": "Esin Durmus",
+            "FN": ""
+          },
+          {
+            "name": "Faisal Ladhak",
+            "LN": "Faisal Ladhak",
+            "FN": ""
+          },
+          {
+            "name": "Cinoo Lee",
+            "LN": "Cinoo Lee",
+            "FN": ""
+          },
+          {
+            "name": "Percy Liang",
+            "LN": "Percy Liang",
+            "FN": ""
+          },
+          {
+            "name": "Tatsunori Hashimoto",
+            "LN": "Tatsunori Hashimoto",
+            "FN": ""
+          }
+        ],
+        "year": 2023,
+        "journal": "ICML 2023 · PMLR 202",
+        "abstract": "Language models (LMs) are increasingly being used in open-ended contexts,   where the opinions they reflect in response to subjective queries can have a profound   impact, both on user satisfaction, and shaping the views of society at large. We   put forth a quantitative framework to investigate the opinions reflected by LMs   – by leveraging high-quality public opinion polls. Using this framework, we create   OpinionQA, a dataset for evaluating the alignment of LM opinions with those of 60   US demographic groups over topics ranging from abortion to automation. Across topics,   we find substantial misalignment between the views reflected by current LMs and   those of US demographic groups: on par with the Democrat-Republican divide on climate   change. Notably, this misalignment persists even after explicitly steering the LMs   towards particular groups. Our analysis not only confirms prior observations about   the left-leaning tendencies of some human feedback-tuned LMs, but also surfaces   groups whose opinions are poorly reflected by current LMs (e.g., 65+ and widowed   individuals).",
+        "references": [],
+        "citationsCount": null,
+        "referencesCount": null
+      }
+    ],
+    "citedArticles": [],
+    "citingArticles": [],
+    "tabLabel": "Affective research — verified edges only",
+    "tabTitle": "Curated reading candidates; unknown references are not zero references",
+    "API": "Curated offline catalog",
+    "allCited": false,
+    "allCiting": false,
+    "timestamp": 1794268800000,
+    "localCitationNetworkVersion": 1.32
+  }
+]

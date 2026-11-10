@@ -19,7 +19,7 @@ CFG = yaml.safe_load((ROOT / "config/queries.yaml").read_text(encoding="utf-8"))
 SEED = ROOT / "papers/seed.csv"
 OUT_CSV = ROOT / "papers/papers.csv"
 OUT_JSON = ROOT / "papers/papers.json"
-README = ROOT / "README.md"
+README = ROOT / "papers/discovery.md"
 
 KST = ZoneInfo("Asia/Seoul")
 UA = {"User-Agent": "affective-llm-research-watch/3.0 (research bot; GitHub Actions)"}
@@ -97,7 +97,11 @@ def fetch_arxiv(max_results: int = 40) -> list[dict]:
             + quote(q)
             + f"&start=0&max_results={max_results}&sortBy=submittedDate&sortOrder=descending"
         )
-        feed = feedparser.parse(url)
+        response = requests.get(url, headers=UA, timeout=30)
+        response.raise_for_status()
+        feed = feedparser.parse(response.content)
+        if feed.bozo:
+            raise ValueError("arXiv returned an invalid feed")
         for e in feed.entries:
             title = clean(e.title)
             abstract = clean(getattr(e, "summary", ""))
@@ -417,17 +421,16 @@ def main():
         except Exception as e:
             errors.append(f"{fn.__name__}: {e}")
 
+    if errors:
+        raise RuntimeError("Discovery failed; existing outputs were preserved: " + "; ".join(errors))
+
     rows = preserve_history(rows, existing)
-    df = dedupe(rows)
+    df = dedupe(rows + list(existing.values()))
     OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(OUT_CSV, index=False)
     OUT_JSON.write_text(json.dumps(df.to_dict("records"), ensure_ascii=False, indent=2), encoding="utf-8")
     README.write_text(render_readme(df), encoding="utf-8")
 
-    if errors:
-        print("Completed with source errors:")
-        for e in errors:
-            print(" -", e)
     print(f"Wrote {len(df)} papers to {OUT_CSV}")
 
 

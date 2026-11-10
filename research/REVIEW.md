@@ -1,0 +1,1267 @@
+# 연구 지도: 근거와 검토 질문
+
+기준일: 2026-11-10. 45편의 편집상 후보, 8개 대분류, 24개 소분류.
+
+이 문서는 전체 원문 검토를 마친 systematic review가 아니다. 출판사 메타데이터·초록 또는 저자 저장소를 확인한 범위를 표시한다. 아래 “검토할 공백”은 검토자의 연구 질문이며, 저자가 증명한 한계나 아직 아무도 연구하지 않았다는 주장이 아니다.
+
+## 범위와 출처
+
+- **ACL**: official metadata, selected 2019–2026 papers
+- **EMNLP**: official metadata, selected 2023–2025 papers
+- **ICML**: one official PMLR anchor
+- **NeurIPS**: DPO author-repository bibliography only
+- **ICLR**: pending publisher verification
+- **AAAI**: pending publisher verification
+- **CHI/UIST**: UIST author-repository bibliography only
+
+논문 간 인용 관계와 인용 수는 학술 API 접근이 복구된 뒤 확장한다. 현재의 주제 분류선은 인용선이 아니다. “최근”은 이 후보군의 출판 연도를 뜻하며 학계 전체의 유행 순위를 뜻하지 않는다.
+
+## 감정 이해와 상황 추론
+
+모델이 감정을 경험하는가가 아니라, 누구의 어떤 감정을 어떤 근거로 예측하는가를 평가한다.
+
+### 맥락적 감정 인식
+
+**검증할 가설**: 긴 대화와 화자별 맥락이 감정 분류를 개선하는가?
+
+**검토할 공백·실험**: 명시적 감정 단어를 제거하고 화자·문화·대화 길이를 바꿔 전이를 평가한다.
+
+#### [DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations](https://aclanthology.org/2021.acl-long.547/)
+
+2021 · Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers) · 기초 읽기
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Emotion Recognition in Conversations (ERC) has gained increasing attention for developing empathetic machines. Recently, many approaches have been devoted to perceiving conversational context by deep learning models. However, these approaches are insufficient in understanding the context due to lacking the ability to extract and integrate emotional clues. In this work, we propose novel Contextual Reasoning Networks (DialogueCRN) to fully understand the conversational context from a cognitive perspective. Inspired by the Cognitive Theory of Emotion, we design multi-turn reasoning modules to extract and integrate emotional clues. The reasoning module iteratively performs an intuitive retrieving process and a conscious reasoning process, which imitates human unique cognitive thinking. Extensive experiments on three public benchmark datasets demonstrate the effectiveness and superiority of the proposed model.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2021.acl.xml) (확인 2026-11-10)
+
+#### [ERCThinker: Fast-Slow Thinking for Emotion Recognition in Conversation](https://aclanthology.org/2026.acl-long.1825/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Emotion Recognition in Conversation (ERC) aims to identify the emotional states of speakers in conversations. Existing ERC methods perform either fast thinking or slow thinking for emotion predictions. The former lacks interpretability of emotion predictions, and the latter focuses on emotion analysis at shallow semantics. Such insufficient reasoning chains fall short in capturing deep semantics within conversations. To address these limitations, we propose ERCThinker, a Fast-Slow thinking framework for the task of ERC. First, we design different thinking strategies with fine-grained emotion reasoning chains to capture deep semantics that contain topic, discourse structure, speaker characteristic, scene, and emotion shift. Second, we develop an adaptive thinking mechanism in both strategy-level and utterance-level, guiding the model to dynamically perform thinking switching across various scenarios. Furthermore, we utilize Agent-as-Judge to score reasoning chains as reward signals for more accurate emotion predictions. To support training, we construct EmotionCueCoT, the emotion reasoning dataset with supervision in both explanation and judgment. Extensive experiments on various ERC benchmark datasets demonstrate that ERCThinker achieves state-of-the-art performance in both explanation and judgment, making progress in the realm of ERC.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+### 감정 원인과 변화
+
+**검증할 가설**: 감정 원인 및 변화의 구조적 추론이 표면 단서 분류보다 유용한가?
+
+**검토할 공백·실험**: 설명 생성의 유창성과 실제 원인 식별 정확도를 분리한다.
+
+#### [ERCThinker: Fast-Slow Thinking for Emotion Recognition in Conversation](https://aclanthology.org/2026.acl-long.1825/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Emotion Recognition in Conversation (ERC) aims to identify the emotional states of speakers in conversations. Existing ERC methods perform either fast thinking or slow thinking for emotion predictions. The former lacks interpretability of emotion predictions, and the latter focuses on emotion analysis at shallow semantics. Such insufficient reasoning chains fall short in capturing deep semantics within conversations. To address these limitations, we propose ERCThinker, a Fast-Slow thinking framework for the task of ERC. First, we design different thinking strategies with fine-grained emotion reasoning chains to capture deep semantics that contain topic, discourse structure, speaker characteristic, scene, and emotion shift. Second, we develop an adaptive thinking mechanism in both strategy-level and utterance-level, guiding the model to dynamically perform thinking switching across various scenarios. Furthermore, we utilize Agent-as-Judge to score reasoning chains as reward signals for more accurate emotion predictions. To support training, we construct EmotionCueCoT, the emotion reasoning dataset with supervision in both explanation and judgment. Extensive experiments on various ERC benchmark datasets demonstrate that ERCThinker achieves state-of-the-art performance in both explanation and judgment, making progress in the realm of ERC.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+#### [The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs](https://aclanthology.org/2026.acl-short.43/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers) · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> When an AI assistant remembers that Sarah is a single mother working two jobs, does it interpret her stress differently than if she were a wealthy executive? As personalized AI systems increasingly incorporate long-term user memory, understanding how this memory shapes emotional reasoning is critical. We investigate how user memory affects emotional intelligence in large language models (LLMs) by evaluating 15 models on human validated emotional intelligence tests. We find that identical scenarios paired with different user profiles produce systematically divergent emotional interpretations. Across validated user-independent emotional scenarios and diverse user profiles, systematic biases emerged in several high-performing LLMs where advantaged profiles received more accurate emotional interpretations. Moreover, LLMs demonstrate significant disparities across demographic factors in emotion understanding and supportive recommendations tasks, indicating that personalization mechanisms can embed social hierarchies into models’ emotional reasoning. These results highlight a key challenge for memory-enhanced AI: systems designed for personalization may inadvertently reinforce social inequalities.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+#### [Why Do Emotions Change? Appraisal-Guided Reasoning for Emotion–Cause Triplet Extraction in Conversations](https://aclanthology.org/2026.acl-long.539/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Multimodal Emotion–Cause Triplet Extraction in Conversations (MECTEC) is fundamental for fine-grained affect understanding, yet it remains challenging in multi-turn, multi-speaker settings. Existing methods often make locally plausible predictions but struggle to maintain conversation-level consistency under within-speaker emotion shifts and core events. To address this, we propose ECFlow, a unified framework that combines appraisal-guided structured generation with graph-structured reinforcement learning. ECFlow operationalizes cognitive appraisal theory into a controllable intermediate reasoning trace and constructs UMECS, a unified supervision dataset with cognitively grounded traces. It then lifts predicted and gold triplets into an Emotion–Cause Flow Graph and optimizes verifiable, structure-aware rewards for emotion-shift coherence and core-event consistency, together with task-oriented triplet rewards. Experiments on public MECTEC benchmarks show that ECFlow consistently outperforms strong baselines, achieving state-of-the-art triplet extraction and improved structure-aware metrics on emotion shifts and core events. Our code and dataset are available at https://anonymous.4open.science/r/ECFlow-E908.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+### 다중양식 감정 이해
+
+**검증할 가설**: 음성·시각·텍스트의 불일치를 모델이 처리하는가?
+
+**검토할 공백·실험**: 양식 제거·충돌·문화 차이 조건에서 성능을 검증한다.
+
+#### [MMToM-QA: Multimodal Theory of Mind Question Answering](https://aclanthology.org/2024.acl-long.851/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 평가
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Theory of Mind (ToM), the ability to understand people’s mental states, is an essential ingredient for developing machines with human-level social intelligence. Recent machine learning models, particularly large language models, seem to show some aspects of ToM understanding. However, existing ToM benchmarks use unimodal datasets – either video or text. Human ToM, on the other hand, is more than video or text understanding. People can flexibly reason about another person’s mind based on conceptual representations (e.g., goals, beliefs, plans) extracted from any available data. To address this, we introduce a multimodal Theory of Mind question answering (MMToM-QA) benchmark. MMToM-QA comprehensively evaluates machine ToM both on multimodal data and on different kinds of unimodal data about a person’s activity in a household environment. To engineer multimodal ToM capacity, we propose a novel method, BIP-ALM (Bayesian Inverse Planning Accelerated by Language Models). BIP-ALM extracts unified representations from multimodal data and utilizes language models for scalable Bayesian inverse planning. We conducted a systematic comparison of human performance, BIP-ALM, and state-of-the-art models, including GPT-4. The experiments demonstrate that large language models and large multimodal models still lack robust ToM capacity. BIP-ALM, on the other hand, shows promising results, by leveraging the power of both model-based mental inference and language models.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [EmoS: A High-Fidelity Multimodal Benchmark for Fine-grained Streaming Emotional Understanding](https://aclanthology.org/2026.acl-long.1813/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> In the context of today’s high-pressure, aging society, the demand for large-scale emotional models capable of providing empathetic support is more critical than ever. However, existing benchmarks fail to simultaneously achieve ecological validity, signal clarity, and reliable fine-grained labeling. We introduce EmoS, a high-fidelity bilingual benchmark designed to resolve the limitations of ecological validity and noise in existing datasets by combining strictly filtered static slices with a dynamic Streaming Monologue subset. Supported by a rigorous dual-layer human annotation pipeline, EmoS provides trusted ground truth that captures continuous emotional evolution. Empirical results show that fine-tuning MLLMs (multimodal large language models) on EmoS yields significant gains over zero-shot baselines, laying the foundation for the training and evaluation of future emotion recognition models and empathy models. The dataset and code are publicly available at https://github.com/NLP2CT/EmoS.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+## 공감과 정서 지원
+
+공감 표현, 적절한 지원 전략, 사용자에게 생기는 효과를 서로 다른 측정 대상으로 둔다.
+
+### 공감적 응답
+
+**검증할 가설**: 공감 대화 데이터와 학습이 사람이 선호하는 응답을 만드는가?
+
+**검토할 공백·실험**: 공감 표현 점수와 실질적인 도움을 구분한다.
+
+#### [Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset](https://aclanthology.org/P19-1534/)
+
+2019 · Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics · 기초 읽기
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> One challenge for dialogue agents is recognizing feelings in the conversation partner and replying accordingly, a key communicative skill. While it is straightforward for humans to recognize and acknowledge others’ feelings in a conversation, this is a significant challenge for AI systems due to the paucity of suitable publicly-available datasets for training and evaluation. This work proposes a new benchmark for empathetic dialogue generation and EmpatheticDialogues, a novel dataset of 25k conversations grounded in emotional situations. Our experiments indicate that dialogue models that use our dataset are perceived to be more empathetic by human evaluators, compared to models merely trained on large-scale Internet conversation data. We also present empirical comparisons of dialogue model adaptations for empathetic responding, leveraging existing models or datasets without requiring lengthy re-training of the full model.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/P19.xml) (확인 2026-11-10)
+
+#### [Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation](https://aclanthology.org/2024.acl-long.813/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Emotional Support Conversation (ESC) is a task aimed at alleviating individuals’ emotional distress through daily conversation. Given its inherent complexity and non-intuitive nature, ESConv dataset incorporates support strategies to facilitate the generation of appropriate responses. Recently, despite the remarkable conversational ability of large language models (LLMs), previous studies have suggested that they often struggle with providing useful emotional support. Hence, this work initially analyzes the results of LLMs on ESConv, revealing challenges in selecting the correct strategy and a notable preference for a specific strategy. Motivated by these, we explore the impact of the inherent preference in LLMs on providing emotional support, and consequently, we observe that exhibiting high preference for specific strategies hinders effective emotional support, aggravating its robustness in predicting the appropriate strategy. Moreover, we conduct a methodological study to offer insights into the necessary approaches for LLMs to serve as proficient emotional supporters. Our findings emphasize that (1) low preference for specific strategies hinders the progress of emotional support, (2) external assistance helps reduce preference bias, and (3) existing LLMs alone cannot become good emotional supporters. These insights suggest promising avenues for future research to enhance the emotional intelligence of LLMs.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [From Personas to Talks: Revisiting the Impact of Personas on LLM-Synthesized Emotional Support Conversations](https://aclanthology.org/2025.emnlp-main.277/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> The rapid advancement of Large Language Models (LLMs) has revolutionized the generation of emotional support conversations (ESC), offering scalable solutions with reduced costs and enhanced data privacy. This paper explores the role of personas in the creation of ESC by LLMs. Our research utilizes established psychological frameworks to measure and infuse persona traits into LLMs, which then generate dialogues in the emotional support scenario. We conduct extensive evaluations to understand the stability of persona traits in dialogues, examining shifts in traits post-generation and their impact on dialogue quality and strategy distribution. Experimental results reveal several notable findings: 1) LLMs can infer core persona traits, 2) subtle shifts in emotionality and extraversion occur, influencing the dialogue dynamics, and 3) the application of persona traits modifies the distribution of emotional support strategies, enhancing the relevance and empathetic quality of the responses. These findings highlight the potential of persona-driven LLMs in crafting more personalized, empathetic, and effective emotional support dialogues, which has significant implications for the future design of AI-driven emotional support systems.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+### 지원 전략과 대화 과정
+
+**검증할 가설**: 경청·질문·조언의 타이밍을 학습하면 대화가 개선되는가?
+
+**검토할 공백·실험**: 같은 예산과 대화 길이에서 전략 선택의 기여를 비교한다.
+
+#### [Towards Emotional Support Dialog Systems](https://aclanthology.org/2021.acl-long.269/)
+
+2021 · Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers) · 기초 읽기
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Emotional support is a crucial ability for many conversation scenarios, including social interactions, mental health support, and customer service chats. Following reasonable procedures and using various support skills can help to effectively provide support. However, due to the lack of a well-designed task and corpora of effective emotional support conversations, research on building emotional support into dialog systems remains lacking. In this paper, we define the Emotional Support Conversation (ESC) task and propose an ESC Framework, which is grounded on the Helping Skills Theory. We construct an Emotion Support Conversation dataset (ESConv) with rich annotation (especially support strategy) in a help-seeker and supporter mode. To ensure a corpus of high-quality conversations that provide examples of effective emotional support, we take extensive effort to design training tutorials for supporters and several mechanisms for quality control during data collection. Finally, we evaluate state-of-the-art dialog models with respect to the ability to provide emotional support. Our results show the importance of support strategies in providing effective emotional support and the utility of ESConv in training more emotional support systems.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2021.acl.xml) (확인 2026-11-10)
+
+#### [MISC: A Mixed Strategy-Aware Model integrating COMET for Emotional Support Conversation](https://aclanthology.org/2022.acl-long.25/)
+
+2022 · Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 접근 확장
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Applying existing methods to emotional support conversation—which provides valuable assistance to people who are in need—has two major limitations: (a) they generally employ a conversation-level emotion label, which is too coarse-grained to capture user’s instant mental state; (b) most of them focus on expressing empathy in the response(s) rather than gradually reducing user’s distress. To address the problems, we propose a novel model \textbf{MISC}, which firstly infers the user’s fine-grained emotional status, and then responds skillfully using a mixture of strategy. Experimental results on the benchmark dataset demonstrate the effectiveness of our method and reveal the benefits of fine-grained emotion understanding as well as mixed-up strategy modeling.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.acl.xml) (확인 2026-11-10)
+
+#### [ESCoT: Towards Interpretable Emotional Support Dialogue Systems](https://aclanthology.org/2024.acl-long.723/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 접근 확장
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Understanding the reason for emotional support response is crucial for establishing connections between users and emotional support dialogue systems. Previous works mostly focus on generating better responses but ignore interpretability, which is extremely important for constructing reliable dialogue systems. To empower the system with better interpretability, we propose an emotional support response generation scheme, named \textbf{E}motion-Focused and \textbf{S}trategy-Driven \textbf{C}hain-\textbf{o}f-\textbf{T}hought (\textbf{ESCoT}), mimicking the process of \textit{identifying}, \textit{understanding}, and \textit{regulating} emotions. Specially, we construct a new dataset with ESCoT in two steps: (1) \textit{Dialogue Generation} where we first generate diverse conversation situations, then enhance dialogue generation using richer emotional support strategies based on these situations; (2) \textit{Chain Supplement} where we focus on supplementing selected dialogues with elements such as emotion, stimuli, appraisal, and strategy reason, forming the manually verified chains. Additionally, we further develop a model to generate dialogue responses with better interpretability. We also conduct extensive experiments and human evaluations to validate the effectiveness of the proposed ESCoT and generated dialogue responses. Our dataset, code, and model will be released.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [MultiAgentESC: A LLM-based Multi-Agent Collaboration Framework for Emotional Support Conversation](https://aclanthology.org/2025.emnlp-main.232/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> The development of Emotional Support Conversation (ESC) systems is critical for delivering mental health support tailored to the needs of help-seekers. Recent advances in large language models (LLMs) have contributed to progress in this domain, while most existing studies focus on generating responses directly and overlook the integration of domain-specific reasoning and expert interaction.Therefore, in this paper, we propose a training-free Multi-Agent collaboration framework for ESC (MultiAgentESC).The framework is designed to emulate the human-like process of providing emotional support through three stages: dialogue analysis, strategy deliberation, and response generation.At each stage, a multi-agent system is employed to iteratively enhance information understanding and reasoning, simulating real-world decision-making processes by incorporating diverse interactions among these expert agents.Additionally, we introduce a novel response-centered approach to handle the one-to-many problem on strategy selection, where multiple valid strategies are initially employed to generate diverse responses, followed by the selection of the optimal response through multi-agent collaboration.Experiments on the ESConv dataset reveal that our proposed framework excels at providing emotional support as well as diversifying support strategy selection.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+### 사용자 효과와 안전
+
+**검증할 가설**: 높은 선호 점수가 장기적인 정서 지원 효과로 이어지는가?
+
+**검토할 공백·실험**: 사용자 연구와 임상 효과를 혼동하지 않고 동의·위험·탈락을 검토한다.
+
+#### [Towards Emotional Support Dialog Systems](https://aclanthology.org/2021.acl-long.269/)
+
+2021 · Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers) · 기초 읽기
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Emotional support is a crucial ability for many conversation scenarios, including social interactions, mental health support, and customer service chats. Following reasonable procedures and using various support skills can help to effectively provide support. However, due to the lack of a well-designed task and corpora of effective emotional support conversations, research on building emotional support into dialog systems remains lacking. In this paper, we define the Emotional Support Conversation (ESC) task and propose an ESC Framework, which is grounded on the Helping Skills Theory. We construct an Emotion Support Conversation dataset (ESConv) with rich annotation (especially support strategy) in a help-seeker and supporter mode. To ensure a corpus of high-quality conversations that provide examples of effective emotional support, we take extensive effort to design training tutorials for supporters and several mechanisms for quality control during data collection. Finally, we evaluate state-of-the-art dialog models with respect to the ability to provide emotional support. Our results show the importance of support strategies in providing effective emotional support and the utility of ESConv in training more emotional support systems.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2021.acl.xml) (확인 2026-11-10)
+
+#### [Be Helpful but Don’t Talk too Much - Enhancing Helpfulness in Conversations through Relevance in Multi-Turn Emotional Support](https://aclanthology.org/2024.emnlp-main.118/)
+
+2024 · Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> For a conversation to help and support, speakers should maintain an “effect-effort” tradeoff. As outlined in the gist of “Cognitive Relevance Principle”, helpful speakers should optimize the “cognitive relevance” through maximizing the “cognitive effects” and minimizing the “processing effort” imposed on listeners. Although preference learning methods have given rise a boon of studies in pursuit of“effect-optimization”, none have delved into the critical “effort-optimiazation” to fully cultivate the awareness of “optimal relevance” into thecognition of conversation agents. To address this gap, we integrate the “Cognitive Relevance Principle” into emotional support agents in the environment of multi-turn conversation. The results demonstrate a significant and robust improvement against the baseline systems with respect to response quality, human-likedness and supportivenss. This study offers compelling evidence for the effectiveness of the “Relevance Principle” in generating human-like, helpful, and harmless emotional support conversations. The source code will be available at https://github.com/CN-Eyetk/VLESA-ORL.git
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.emnlp.xml) (확인 2026-11-10)
+
+#### [ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents](https://aclanthology.org/2025.emnlp-main.811/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Large Language Models (LLMs) increasingly power mental-health chatbots, yet the field still lacks a scalable, theory-grounded way to decide which model is more effective to deploy. We present ESC-Judge, the first end-to-end evaluation framework that (i) grounds head-to-head comparison of Emotional-Support LLMs (ES-LLMs) in an established psychological theory—Clara Hill’s Exploration–Insight–Action (E-I-A) counselling model—thereby delivering a structured, interpretable lens on performance, and (ii) fully automates the pipeline at scale. ESC-Judge proceeds in three stages: (1) it synthesizes realistic help-seeker roles by sampling empirically salient attributes (stressors, personality, life history); (2) it has two candidate ES-Agents conduct separate sessions with the same role, isolating model-specific strategies; and (3) it asks a specialised judge LLM to issue pairwise preferences across rubric-anchored skills that exhaustively cover the E-I-A spectrum. In our empirical study, ESC-Judge matches PhD-level annotators in 85% of Exploration, 83% of Insight, and 86% of Action decisions, demonstrating human-level reliability at a fraction of the cost. We release all code, prompts, synthetic roles, transcripts, and judgment scripts to catalyze transparent progress in emotionally supportive AI
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [TEA-Bench: A Systematic Benchmarking of Tool-enhanced Emotional Support Dialogue Agent](https://aclanthology.org/2026.acl-long.2152/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 평가
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Emotional Support Conversation requires not only affective expression but also grounded instrumental support to provide trustworthy guidance. However, existing ESC systems and benchmarks largely focus on affective support in text-only settings, overlooking how external tools can enable factual grounding and reduce hallucination in multi-turn emotional support. We introduce TEA-Bench, the first interactive benchmark for evaluating tool-augmented agents in ESC, featuring realistic emotional scenarios, an MCP-style tool environment, and process-level metrics that jointly assess the quality and factual grounding of emotional support. Experiments on nine LLMs show that tool augmentation generally improves emotional support quality and reduces hallucination, but the gains are strongly capacity-dependent: stronger models use tools more selectively and effectively, while weaker models benefit only marginally. We further release TEA-Dialog, a dataset of tool-enhanced ESC dialogues, and find that supervised fine-tuning improves in-distribution support but generalizes poorly. Our results underscore the importance of tool use in building reliable emotional support agents.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+## 사회적 인지와 상호작용
+
+신념·관점·의도 추론 능력과 사회적으로 그럴듯한 언어 생성을 구분한다.
+
+### Theory of Mind
+
+**검증할 가설**: 대화 참여자별로 접근 가능한 정보와 잘못된 신념을 추적하는가?
+
+**검토할 공백·실험**: 문항 암기·표현 변화·고차 신념에 대한 강건성을 검증한다.
+
+#### [FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions](https://aclanthology.org/2023.emnlp-main.890/)
+
+2023 · Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Theory of mind (ToM) evaluations currently focus on testing models using passive narratives that inherently lack interactivity. We introduce FANToM, a new benchmark designed to stress-test ToM within information-asymmetric conversational contexts via question answering. Our benchmark draws upon important theoretical requisites from psychology and necessary empirical considerations when evaluating large language models (LLMs). In particular, we formulate multiple types of questions that demand the same underlying reasoning to identify illusory or false sense of ToM capabilities in LLMs. We show that FANToM is challenging for state-of-the-art LLMs, which perform significantly worse than humans even with chain-of-thought reasoning or fine-tuning.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml) (확인 2026-11-10)
+
+#### [Limits of Theory of Mind Modelling in Dialogue-Based Collaborative Plan Acquisition](https://aclanthology.org/2024.acl-long.266/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Recent work on dialogue-based collaborative plan acquisition (CPA) has suggested that Theory of Mind (ToM) modelling can improve missing knowledge prediction in settings with asymmetric skill-sets and knowledge. Although ToM was claimed to be important for effective collaboration, its real impact on this novel task remains under-explored. By representing plans as graphs and by exploiting task-specific constraints we show that, as performance on CPA nearly doubles when predicting one’s own missing knowledge, the improvements due to ToM modelling diminish. This phenomenon persists even when evaluating existing baseline methods. To better understand the relevance of ToM for CPA, we report a principled performance comparison of models with and without ToM features. Results across different models and ablations consistently suggest that learned ToM features are indeed more likely to reflect latent patterns in the data with no perceivable link to ToM. This finding calls for a deeper understanding of the role of ToM in CPA and beyond, as well as new methods for modelling and evaluating mental states in computational collaborative agents.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [MMToM-QA: Multimodal Theory of Mind Question Answering](https://aclanthology.org/2024.acl-long.851/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 평가
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Theory of Mind (ToM), the ability to understand people’s mental states, is an essential ingredient for developing machines with human-level social intelligence. Recent machine learning models, particularly large language models, seem to show some aspects of ToM understanding. However, existing ToM benchmarks use unimodal datasets – either video or text. Human ToM, on the other hand, is more than video or text understanding. People can flexibly reason about another person’s mind based on conceptual representations (e.g., goals, beliefs, plans) extracted from any available data. To address this, we introduce a multimodal Theory of Mind question answering (MMToM-QA) benchmark. MMToM-QA comprehensively evaluates machine ToM both on multimodal data and on different kinds of unimodal data about a person’s activity in a household environment. To engineer multimodal ToM capacity, we propose a novel method, BIP-ALM (Bayesian Inverse Planning Accelerated by Language Models). BIP-ALM extracts unified representations from multimodal data and utilizes language models for scalable Bayesian inverse planning. We conducted a systematic comparison of human performance, BIP-ALM, and state-of-the-art models, including GPT-4. The experiments demonstrate that large language models and large multimodal models still lack robust ToM capacity. BIP-ALM, on the other hand, shows promising results, by leveraging the power of both model-based mental inference and language models.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [ToMBench: Benchmarking Theory of Mind in Large Language Models](https://aclanthology.org/2024.acl-long.847/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 평가
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Theory of Mind (ToM) is the cognitive capability to perceive and ascribe mental states to oneself and others. Recent research has sparked a debate over whether large language models (LLMs) exhibit a form of ToM. However, existing ToM evaluations are hindered by challenges such as constrained scope, subjective judgment, and unintended contamination, yielding inadequate assessments. To address this gap, we introduce ToMBench with three key characteristics: a systematic evaluation framework encompassing 8 tasks and 31 abilities in social cognition, a multiple-choice question format to support automated and unbiased evaluation, and a build-from-scratch bilingual inventory to strictly avoid data leakage. Based on ToMBench, we conduct extensive experiments to evaluate the ToM performance of 10 popular LLMs across tasks and abilities. We find that even the most advanced LLMs like GPT-4 lag behind human performance by over 10% points, indicating that LLMs have not achieved a human-level theory of mind yet. Our aim with ToMBench is to enable an efficient and effective evaluation of LLMs’ ToM capabilities, thereby facilitating the development of LLMs with inherent social intelligence.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [On Emergent Social World Models — Evidence for Functional Integration of Theory of Mind and Pragmatic Reasoning in Language Models](https://aclanthology.org/2026.acl-long.1735/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> This paper investigates whether LMs recruit shared computational mechanisms for general Theory of Mind (ToM) and language-specific pragmatic reasoning in order to contribute to the general question of whether LMs may be said to have emergent “social world models”, i.e., representations of mental states that are repurposed across tasks (the functional integration hypothesis). Using behavioral evaluations and causal-mechanistic experiments via functional localization methods inspired by cognitive neuroscience, we analyze LMs’ performance across seven subcategories of ToM abilities (Beaudoin et al., 2020) on a substantially larger localizer dataset than used in prior like-minded work. Results from stringent hypothesis-driven statistical testing offer suggestive evidence for the functional integration hypothesis, indicating that LMs may develop interconnected “social world models” rather than isolated competencies. This work contributes novel ToM localizer data, methodological refinements to functional localization techniques, and empirical insights into the emergence of social cognition in artificial systems.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+### 사회적 의사결정
+
+**검증할 가설**: 사회적 상호작용 학습이 새로운 상황의 협력과 협상을 개선하는가?
+
+**검토할 공백·실험**: LLM 평가자와 LLM 상대의 공유 편향을 통제한다.
+
+#### [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://arxiv.org/abs/2310.11667)
+
+2023 · 게재 학회 미검증 · 기초 읽기
+
+서지 확인: `author_repository` · 독해 범위: `metadata_only` · 인용 수: 미조회
+
+초록·실험 결과를 이 지도에서 독립 검토하지 않았다. 저자 저장소에서 확인한 서지 후보이다.
+
+저자 저장소에서 서지 정보를 확인. 출판사 대조 및 원문 검토 필요. 연도는 해당 arXiv 버전 기준일 수 있다.
+
+**출처**: [author_repository](https://raw.githubusercontent.com/sotopia-lab/sotopia/main/README.md) (확인 2026-11-10)
+
+#### [Theory of Mind for Multi-Agent Collaboration via Large Language Models](https://aclanthology.org/2023.emnlp-main.13/)
+
+2023 · Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing · 접근 확장
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> While Large Language Models (LLMs) have demonstrated impressive accomplishments in both reasoning and planning, their abilities in multi-agent collaborations remains largely unexplored. This study evaluates LLM-based agents in a multi-agent cooperative text game with Theory of Mind (ToM) inference tasks, comparing their performance with Multi-Agent Reinforcement Learning (MARL) and planning-based baselines. We observed evidence of emergent collaborative behaviors and high-order Theory of Mind capabilities among LLM-based agents. Our results reveal limitations in LLM-based agents’ planning optimization due to systematic failures in managing long-horizon contexts and hallucination about the task state. We explore the use of explicit belief state representations to mitigate these issues, finding that it enhances task performance and the accuracy of ToM inferences for LLM-based agents.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml) (확인 2026-11-10)
+
+#### [SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents](https://aclanthology.org/2024.acl-long.698/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 접근 확장
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Humans learn social skills through both imitation and social interaction. This social learning process is largely understudied by existing research on building language agents. Motivated by this gap, we propose an interactive learning method, SOTOPIA-π, that improves the social intelligence of language agents. This method leverages behavior cloning and self-reinforcement based training on filtered social interaction data according to large language model (LLM) rating. We show that our training method allows a 7B LLM to reach the social goal completion ability of an expert model (GPT-4-based agent) without the loss of more generic abilities, such as the ability to answer knowledge-based questions. We also demonstrate that this training paradigm uncovers some weaknesses in standard evaluation and safety training paradigms that (1) LLM-based evaluation of social intelligence overestimates the abilities of the language agents trained specifically for social interaction, and that (2) despite not training for better safety or question answering (QA) ability, our methods improve the safety of language agents and maintain general QA ability on the MMLU benchmark.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [MultiAgentESC: A LLM-based Multi-Agent Collaboration Framework for Emotional Support Conversation](https://aclanthology.org/2025.emnlp-main.232/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> The development of Emotional Support Conversation (ESC) systems is critical for delivering mental health support tailored to the needs of help-seekers. Recent advances in large language models (LLMs) have contributed to progress in this domain, while most existing studies focus on generating responses directly and overlook the integration of domain-specific reasoning and expert interaction.Therefore, in this paper, we propose a training-free Multi-Agent collaboration framework for ESC (MultiAgentESC).The framework is designed to emulate the human-like process of providing emotional support through three stages: dialogue analysis, strategy deliberation, and response generation.At each stage, a multi-agent system is employed to iteratively enhance information understanding and reasoning, simulating real-world decision-making processes by incorporating diverse interactions among these expert agents.Additionally, we introduce a novel response-centered approach to handle the one-to-many problem on strategy selection, where multiple valid strategies are initially employed to generate diverse responses, followed by the selection of the optimal response through multi-agent collaboration.Experiments on the ESConv dataset reveal that our proposed framework excels at providing emotional support as well as diversifying support strategy selection.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+### 인간 행동 시뮬레이션
+
+**검증할 가설**: 기억·계획을 가진 에이전트가 실제 인간 행동 분포를 재현하는가?
+
+**검토할 공백·실험**: 그럴듯함과 예측 타당성을 구분하고 실제 인간 데이터로 외적 타당도를 검증한다.
+
+#### [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)
+
+2023 · UIST 2023 · 기초 읽기
+
+서지 확인: `author_repository` · 독해 범위: `metadata_only` · 인용 수: 미조회
+
+초록·실험 결과를 이 지도에서 독립 검토하지 않았다. 저자 저장소에서 확인한 서지 후보이다.
+
+저자 저장소에서 서지 정보를 확인. 출판사 대조 및 원문 검토 필요. 연도는 해당 arXiv 버전 기준일 수 있다.
+
+**출처**: [author_repository](https://raw.githubusercontent.com/joonspk-research/generative_agents/main/README.md) (확인 2026-11-10)
+
+#### [InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews](https://aclanthology.org/2024.acl-long.102/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 평가
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Role-playing agents (RPAs), powered by large language models, have emerged as a flourishing field of applications. However, a key challenge lies in assessing whether RPAs accurately reproduce the personas of target characters, namely their character fidelity. Existing methods mainly focus on the knowledge and linguistic patterns of characters. This paper, instead, introduces a novel perspective to evaluate the personality fidelity of RPAs with psychological scales. Overcoming drawbacks of previous self-report assessments on RPAs, we propose InCharacter, namely Interviewing Character agents for personality tests. Experiments include various types of RPAs and LLMs, covering 32 distinct characters on 14 widely used psychological scales. The results validate the effectiveness of InCharacter in measuring RPA personalities. Then, with InCharacter, we show that state-of-the-art RPAs exhibit personalities highly aligned with the human-perceived personalities of the characters, achieving an accuracy up to 80.7%.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+## 선호·가치·행동 정렬
+
+누구의 어떤 목표에 대한 정렬인지 명시하고, 평균 선호와 개인·집단 차이를 분리한다.
+
+### 선호 최적화
+
+**검증할 가설**: 쌍별 선호 학습이 원하는 응답 분포를 효율적으로 유도하는가?
+
+**검토할 공백·실험**: 보상 과최적화·분포 이동·선호 잡음을 같은 조건에서 비교한다.
+
+#### [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2204.05862)
+
+2022 · 게재 학회 미검증 · 기초 읽기
+
+서지 확인: `author_repository` · 독해 범위: `metadata_only` · 인용 수: 미조회
+
+초록·실험 결과를 이 지도에서 독립 검토하지 않았다. 저자 저장소에서 확인한 서지 후보이다.
+
+저자 저장소에서 서지 정보를 확인. 출판사 대조 및 원문 검토 필요. 연도는 해당 arXiv 버전 기준일 수 있다.
+
+**출처**: [author_repository](https://raw.githubusercontent.com/anthropics/hh-rlhf/master/README.md) (확인 2026-11-10)
+
+#### [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)
+
+2023 · NeurIPS 2023 · 기초 읽기
+
+서지 확인: `author_repository` · 독해 범위: `metadata_only` · 인용 수: 미조회
+
+초록·실험 결과를 이 지도에서 독립 검토하지 않았다. 저자 저장소에서 확인한 서지 후보이다.
+
+저자 저장소에서 서지 정보를 확인. 출판사 대조 및 원문 검토 필요. 연도는 해당 arXiv 버전 기준일 수 있다.
+
+**출처**: [author_repository](https://raw.githubusercontent.com/eric-mitchell/direct-preference-optimization/main/README.md) (확인 2026-11-10)
+
+#### [Latent Inter-User Difference Modeling for LLM Personalization](https://aclanthology.org/2025.emnlp-main.536/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Large language models (LLMs) are increasingly integrated into users’ daily lives, leading to a growing demand for personalized outputs.Previous work focuses on leveraging a user’s own history, overlooking inter-user differences that are crucial for effective personalization.While recent work has attempted to model such differences, the reliance on language-based prompts often hampers the effective extraction of meaningful distinctions.To address these issues, we propose Difference-aware Embedding-based Personalization (DEP), a framework that models inter-user differences in the latent space instead of relying on language prompts. DEP constructs soft prompts by contrasting a user’s embedding with those of peers who engaged with similar content, highlighting relative behavioral signals.A sparse autoencoder then filters and compresses both user-specific and difference-aware embeddings, preserving only task-relevant features before injecting them into a frozen LLM.Experiments on personalized review generation show that DEP consistently outperforms baseline methods across multiple metrics.Our code is available at https://github.com/SnowCharmQ/DEP.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [Self-Augmented Preference Alignment for Sycophancy Reduction in LLMs](https://aclanthology.org/2025.emnlp-main.625/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Sycophancy causes models to produce answers that cater to user expectations rather than providing truthful responses. Sycophantic behavior in models can erode user trust by creating a perception of dishonesty or bias. This lack of authenticity may lead users to question the reliability and objectivity of the system’s responses. Although Reinforcement Learning from Human Feedback (RLHF) is effective in aligning models with human preferences, previous studies have observed that it can simultaneously amplify sycophantic behavior. However, these studies primarily focused on proprietary models and employed indirect analysis to demonstrate the influence of human feedback. Our study focuses on sycophancy in open-source models, which are more reproducible and transparent for research. We investigated the impact of human feedback on sycophancy by directly comparing models aligned with human feedback to those not aligned. To address sycophancy, we proposed assessing the user’s expected answer rather than ignoring it. Consequently, we developed the Sycophancy Answer Assessment (SAA) dataset and introduced Self-Augmented Preference Alignment, demonstrating that these methods effectively enhance the model’s assessment ability and significantly reduce sycophancy across tasks.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+### 인간·AI 피드백
+
+**검증할 가설**: 인간 또는 AI 피드백은 도움됨·안전함의 어떤 부분을 포착하는가?
+
+**검토할 공백·실험**: 평가자·보상 모델·정책 모델의 의존성을 분리한다.
+
+#### [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2204.05862)
+
+2022 · 게재 학회 미검증 · 기초 읽기
+
+서지 확인: `author_repository` · 독해 범위: `metadata_only` · 인용 수: 미조회
+
+초록·실험 결과를 이 지도에서 독립 검토하지 않았다. 저자 저장소에서 확인한 서지 후보이다.
+
+저자 저장소에서 서지 정보를 확인. 출판사 대조 및 원문 검토 필요. 연도는 해당 arXiv 버전 기준일 수 있다.
+
+**출처**: [author_repository](https://raw.githubusercontent.com/anthropics/hh-rlhf/master/README.md) (확인 2026-11-10)
+
+### 다원적 가치와 문화
+
+**검증할 가설**: 하나의 평균적 선호로 다양한 집단의 관점을 표현할 수 있는가?
+
+**검토할 공백·실험**: 집단 내 이질성·언어·시점 차이를 포함하고 규범과 기술적 분포 재현을 구분한다.
+
+#### [Whose Opinions Do Language Models Reflect?](https://proceedings.mlr.press/v202/santurkar23a.html)
+
+2023 · ICML 2023 · PMLR 202 · 기초 읽기
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Language models (LMs) are increasingly being used in open-ended contexts,   where the opinions they reflect in response to subjective queries can have a profound   impact, both on user satisfaction, and shaping the views of society at large. We   put forth a quantitative framework to investigate the opinions reflected by LMs   – by leveraging high-quality public opinion polls. Using this framework, we create   OpinionQA, a dataset for evaluating the alignment of LM opinions with those of 60   US demographic groups over topics ranging from abortion to automation. Across topics,   we find substantial misalignment between the views reflected by current LMs and   those of US demographic groups: on par with the Democrat-Republican divide on climate   change. Notably, this misalignment persists even after explicitly steering the LMs   towards particular groups. Our analysis not only confirms prior observations about   the left-leaning tendencies of some human feedback-tuned LMs, but also surfaces   groups whose opinions are poorly reflected by current LMs (e.g., 65+ and widowed   individuals).
+
+미국 인구집단의 여론 분포 재현을 평가한 범위이며 보편적인 도덕적 정답을 제시하는 연구로 해석하지 않는다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/mlresearch/v202/gh-pages/_posts/2023-07-03-santurkar23a.md) (확인 2026-11-10)
+
+#### [Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs](https://aclanthology.org/2025.emnlp-main.2/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> A large number of studies rely on closed-style multiple-choice surveys to evaluate cultural alignment in Large Language Models (LLMs). In this work, we challenge this constrained evaluation paradigm and explore more realistic, unconstrained approaches. Using the World Values Survey (WVS) and Hofstede Cultural Dimensions as case studies, we demonstrate that LLMs exhibit stronger cultural alignment in less constrained settings, where responses are not forced. Additionally, we show that even minor changes, such as reordering survey choices, lead to inconsistent outputs, exposing the limitations of closed-style evaluations. Our findings advocate for more robust and flexible evaluation frameworks that focus on specific cultural proxies, encouraging more nuanced and accurate assessments of cultural alignment in LLMs.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights](https://aclanthology.org/2025.acl-long.1532/)
+
+2025 · Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> The application scope of Large Language Models (LLMs) continues to expand, leading to increasing interest in personalized LLMs that align with human values. However, aligning these models with individual values raises significant safety concerns, as certain values may correlate with harmful information. In this paper, we identify specific safety risks associated with value-aligned LLMs and investigate the psychological principles behind these challenges. Our findings reveal two key insights. (1) Value-aligned LLMs are more prone to harmful behavior compared to non-fine-tuned models and exhibit slightly higher risks in traditional safety evaluations than other fine-tuned models. (2) These safety issues arise because value-aligned LLMs genuinely generate text according to the aligned values, which can amplify harmful outcomes. Using a dataset with detailed safety categories, we find significant correlations between value alignment and safety risks, supported by psychological hypotheses. This study offers insights into the “black box” of value alignment and proposes in-context alignment methods to enhance the safety of value-aligned LLMs.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml) (확인 2026-11-10)
+
+#### [Evaluating Language Model Pluralism through In-the-wild Crowd Discussions](https://aclanthology.org/2026.acl-long.1957/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> When answering subjective questions, an ideal LLM should surface diverse plausible perspectives rather than favoring a single viewpoint, a characteristic known as pluralism. Recent studies show that modern LLMs optimized through preference alignment systematically favor certain positions on subjective queries, making pluralism evaluation increasingly important. However, existing evaluation methods focus dominantly on multiple-choice and question-answering tasks, leaving open-ended generation largely unaddressed.We propose PLURALEVAL, an evaluation framework that assesses LLM pluralism in open-ended generation by comparing outputs against free-form crowd responses. Our approach decomposes ground-truth responses into atomic, non-overlapping claims, then evaluates whether LLMs adequately cover this diverse claim space. We then introduce WildSCOPE, a multi-domain dataset of natural crowd responses, and demonstrate that PLURALEVAL captures novel insights, such as the collapse of pluralism through sycophancy, where LLM systematically degrades in overton pluralism when a user’s belief is revealed. Finally, we discuss the value and actionable insights for preserving and encouraging pluralism from LLM deployers’ side.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+## 개인화·기억·동적 적응
+
+사용자를 고정된 persona로 환원하지 않고 불확실성과 시간에 따른 변화를 다룬다.
+
+### 사용자 모델과 검색
+
+**검증할 가설**: 개인 기록 검색이 사용자별 과제를 개선하는가?
+
+**검토할 공백·실험**: 표면 단서와 실제 선호를 구분하고 개인정보 최소화를 검토한다.
+
+#### [LaMP: When Large Language Models Meet Personalization](https://aclanthology.org/2024.acl-long.399/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 기초 읽기
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> This paper highlights the importance of personalization in large language models and introduces the LaMP benchmark — a novel benchmark for training and evaluating language models for producing personalized outputs. LaMP offers a comprehensive evaluation framework with diverse language tasks and multiple entries for each user profile. It consists of seven personalized tasks, spanning three text classification and four text generation tasks. We additionally propose two retrieval augmentation approaches that retrieve personal items from each user profile for personalizing language model outputs. To this aim, we study various retrieval models, including term matching, semantic matching, and time-aware methods. Extensive experiments on LaMP for zero-shot and fine-tuned language models demonstrate the efficacy of the proposed retrieval augmentation approach and highlight the impact of personalization in various natural language tasks.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [From Personas to Talks: Revisiting the Impact of Personas on LLM-Synthesized Emotional Support Conversations](https://aclanthology.org/2025.emnlp-main.277/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> The rapid advancement of Large Language Models (LLMs) has revolutionized the generation of emotional support conversations (ESC), offering scalable solutions with reduced costs and enhanced data privacy. This paper explores the role of personas in the creation of ESC by LLMs. Our research utilizes established psychological frameworks to measure and infuse persona traits into LLMs, which then generate dialogues in the emotional support scenario. We conduct extensive evaluations to understand the stability of persona traits in dialogues, examining shifts in traits post-generation and their impact on dialogue quality and strategy distribution. Experimental results reveal several notable findings: 1) LLMs can infer core persona traits, 2) subtle shifts in emotionality and extraversion occur, influencing the dialogue dynamics, and 3) the application of persona traits modifies the distribution of emotional support strategies, enhancing the relevance and empathetic quality of the responses. These findings highlight the potential of persona-driven LLMs in crafting more personalized, empathetic, and effective emotional support dialogues, which has significant implications for the future design of AI-driven emotional support systems.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+### 장기 대화 기억
+
+**검증할 가설**: 기억은 필요한 맥락을 보존하면서 오래된 정보와 오류를 갱신하는가?
+
+**검토할 공백·실험**: 단순 검색 대비 기억 삭제·수정·모순 처리의 이득을 측정한다.
+
+#### [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)
+
+2023 · UIST 2023 · 기초 읽기
+
+서지 확인: `author_repository` · 독해 범위: `metadata_only` · 인용 수: 미조회
+
+초록·실험 결과를 이 지도에서 독립 검토하지 않았다. 저자 저장소에서 확인한 서지 후보이다.
+
+저자 저장소에서 서지 정보를 확인. 출판사 대조 및 원문 검토 필요. 연도는 해당 arXiv 버전 기준일 수 있다.
+
+**출처**: [author_repository](https://raw.githubusercontent.com/joonspk-research/generative_agents/main/README.md) (확인 2026-11-10)
+
+#### [Flexibly Utilize Memory for Long-Term Conversation via a Fragment-then-Compose Framework](https://aclanthology.org/2025.emnlp-main.1069/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Large language models (LLMs) have made significant breakthroughs in extracting useful information from conversation history to enhance the response in long-term conversations. Summarizing useful information from historical conversations has achieved remarkable performance, which, however, may introduce irrelevant or redundant information, making it difficult to flexibly choose and integrate key information from different sessions during memory retrieval. To address this issue, we propose a Fragment-then-Compose framework, a novel memory utilization approach for long-term open-domain conversation, called FraCom. To be specific, inspired by the concept of proposition representation from Cognitive Psychology, we first represent the conversation history as a series of predicates plus arguments for propositional representation to preserve key information useful for memory (“Fragment”). Then, we compose propositional graphs for the conversation history based on the connection between shared arguments (“Compose”). During retrieval, we retrieve relevant propositions from the graph based on arguments from the current query. This essentially allows for flexible and effective utilization of related information in long-term memory for better response generation towards a query. Experimental results on four long-term open-domain conversation datasets demonstrate the effectiveness of our FraCom in memory utilization and its ability to enhance response generation for LLMs.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [Toward Multi-Session Personalized Conversation: A Large-Scale Dataset and Hierarchical Tree Framework for Implicit Reasoning](https://aclanthology.org/2025.emnlp-main.580/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> There has been a surge in the use of large language models (LLM) conversational agents to generate responses based on long-term history from multiple sessions. However, existing long-term open-domain dialogue datasets lack complex, real-world personalization and fail to capture implicit reasoning—where relevant information is embedded in subtle, syntactic, or semantically distant connections rather than explicit statements. In such cases, traditional retrieval methods fail to capture relevant context, and long-context modeling also becomes inefficient due to numerous complicated persona-related details. To address this gap, we introduce ImplexConv, a large-scale long-term dataset with 2,500 examples, each containing approximately 100 conversation sessions, designed to study implicit reasoning in personalized dialogues. Additionally, we propose TaciTree, a novel hierarchical tree framework that structures conversation history into multiple levels of summarization. Instead of brute-force searching all data, TaciTree enables an efficient, level-based retrieval process where models refine their search by progressively selecting relevant details. Our experiments demonstrate that TaciTree significantly improves the ability of LLMs to reason over long-term conversations with implicit contextual dependencies.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents](https://aclanthology.org/2026.acl-long.1892/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 평가
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Long-term memory is a critical capability for multimodal large language model (MLLM) agents, particularly in conversational settings where information accumulates and evolves over time. However, existing benchmarks either evaluate multi-session memory in text-only conversations or assess multimodal understanding within localized contexts, failing to evaluate how multimodal memory is preserved, organized, and evolved across long-term conversational trajectories. Thus, we introduce Mem-Gallery, a new benchmark for evaluating multimodal long-term conversational memory in MLLM agents. Mem-Gallery features high-quality multi-session conversations grounded in both visual and textual information, with long interaction horizons and rich multimodal dependencies. Building on this dataset, we propose a systematic evaluation framework that assesses key memory capabilities along three functional dimensions: memory extraction and test-time adaptation, memory reasoning, and memory knowledge management. Extensive benchmarking across twelve memory systems reveals several key findings, highlighting the necessity of explicit multimodal information retention and memory organization, the persistent limitations in memory reasoning and knowledge management, as well as the efficiency bottleneck of current models. Our benchmark and dataset are available at https://github.com/YuanchenBei/Mem-Gallery.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+#### [The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs](https://aclanthology.org/2026.acl-short.43/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers) · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> When an AI assistant remembers that Sarah is a single mother working two jobs, does it interpret her stress differently than if she were a wealthy executive? As personalized AI systems increasingly incorporate long-term user memory, understanding how this memory shapes emotional reasoning is critical. We investigate how user memory affects emotional intelligence in large language models (LLMs) by evaluating 15 models on human validated emotional intelligence tests. We find that identical scenarios paired with different user profiles produce systematically divergent emotional interpretations. Across validated user-independent emotional scenarios and diverse user profiles, systematic biases emerged in several high-performing LLMs where advantaged profiles received more accurate emotional interpretations. Moreover, LLMs demonstrate significant disparities across demographic factors in emotion understanding and supportive recommendations tasks, indicating that personalization mechanisms can embed social hierarchies into models’ emotional reasoning. These results highlight a key challenge for memory-enhanced AI: systems designed for personalization may inadvertently reinforce social inequalities.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+### 동적 선호와 적응
+
+**검증할 가설**: 사용자 선호가 변할 때 개인화 모델이 안전하게 적응하는가?
+
+**검토할 공백·실험**: 정적 프로필과 동적 적응을 분리하고 선호 변화 실험을 설계한다.
+
+#### [Latent Inter-User Difference Modeling for LLM Personalization](https://aclanthology.org/2025.emnlp-main.536/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Large language models (LLMs) are increasingly integrated into users’ daily lives, leading to a growing demand for personalized outputs.Previous work focuses on leveraging a user’s own history, overlooking inter-user differences that are crucial for effective personalization.While recent work has attempted to model such differences, the reliance on language-based prompts often hampers the effective extraction of meaningful distinctions.To address these issues, we propose Difference-aware Embedding-based Personalization (DEP), a framework that models inter-user differences in the latent space instead of relying on language prompts. DEP constructs soft prompts by contrasting a user’s embedding with those of peers who engaged with similar content, highlighting relative behavioral signals.A sparse autoencoder then filters and compresses both user-specific and difference-aware embeddings, preserving only task-relevant features before injecting them into a frozen LLM.Experiments on personalized review generation show that DEP consistently outperforms baseline methods across multiple metrics.Our code is available at https://github.com/SnowCharmQ/DEP.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [Preference Heads in Large Language Models: A Mechanistic Framework for Interpretable Personalization](https://aclanthology.org/2026.acl-long.2205/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Large Language Models (LLMs) exhibit strong implicit personalization ability, yet most existing approaches treat this behavior as a black box, relying on prompt engineering or fine tuning on user data. In this work, we adopt a mechanistic interpretability perspective and hypothesize the existence of a sparse set of Preference Heads, attention heads that encode user specific stylistic and topical preferences and exert a causal influence on generation. We introduce Differential Preference Steering (DPS), a training free framework that (1) identifies Preference Heads through causal masking analysis and (2) leverages them for controllable and interpretable personalization at inference time. DPS computes a Preference Contribution Score (PCS) for each attention head, directly measuring its causal impact on user aligned outputs. During decoding, we contrast model predictions with and without Preference Heads, amplifying the difference between personalized and generic logits to selectively strengthen preference aligned continuations. Experiments on widely used personalization benchmarks across multiple LLMs demonstrate consistent gains in personalization fidelity while preserving content coherence and low computational overhead. Beyond empirical improvements, DPS provides a mechanistic explanation of where and how personalization emerges within transformer architectures.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+## 심리학 기반 설계와 기제
+
+심리학 이론은 설계 가설이다. 이론적 명칭을 붙인 것만으로 인간과 같은 기제가 입증되지는 않는다.
+
+### Appraisal와 인지적 정서 모델
+
+**검증할 가설**: 평가(appraisal) 변수가 일반적 중간 추론보다 감정 변화를 더 잘 설명하는가?
+
+**검토할 공백·실험**: 동일 모델·토큰·파라미터 예산의 비심리학 baseline 및 변수 개입이 필요하다.
+
+#### [ESCoT: Towards Interpretable Emotional Support Dialogue Systems](https://aclanthology.org/2024.acl-long.723/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 접근 확장
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Understanding the reason for emotional support response is crucial for establishing connections between users and emotional support dialogue systems. Previous works mostly focus on generating better responses but ignore interpretability, which is extremely important for constructing reliable dialogue systems. To empower the system with better interpretability, we propose an emotional support response generation scheme, named \textbf{E}motion-Focused and \textbf{S}trategy-Driven \textbf{C}hain-\textbf{o}f-\textbf{T}hought (\textbf{ESCoT}), mimicking the process of \textit{identifying}, \textit{understanding}, and \textit{regulating} emotions. Specially, we construct a new dataset with ESCoT in two steps: (1) \textit{Dialogue Generation} where we first generate diverse conversation situations, then enhance dialogue generation using richer emotional support strategies based on these situations; (2) \textit{Chain Supplement} where we focus on supplementing selected dialogues with elements such as emotion, stimuli, appraisal, and strategy reason, forming the manually verified chains. Additionally, we further develop a model to generate dialogue responses with better interpretability. We also conduct extensive experiments and human evaluations to validate the effectiveness of the proposed ESCoT and generated dialogue responses. Our dataset, code, and model will be released.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [The Practical Impacts of Theoretical Constructs on Empathy Modeling](https://aclanthology.org/2025.emnlp-main.785/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Conceptual operationalizations of empathy in NLP are varied, with some having specific behaviors and properties, while others are more abstract. How these variations relate to one another and capture properties of empathy observable in text remains unclear. To provide insight into this, we analyze the transfer performance of empathy models adapted to empathy tasks with different theoretical groundings. We study (1) the dimensionality of empathy definitions, (2) the correspondence between the defined dimensions and measured/observed properties, and (3) the conduciveness of the data to represent them, finding they have a significant impact to performance compared to other transfer setting features. Characterizing the theoretical grounding of empathy tasks as direct, abstract, or adjacent further indicates that tasks that directly predict specified empathy components have higher transferability. Our work provides empirical evidence for the need for precise and multidimensional empathy operationalizations.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [Why Do Emotions Change? Appraisal-Guided Reasoning for Emotion–Cause Triplet Extraction in Conversations](https://aclanthology.org/2026.acl-long.539/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Multimodal Emotion–Cause Triplet Extraction in Conversations (MECTEC) is fundamental for fine-grained affect understanding, yet it remains challenging in multi-turn, multi-speaker settings. Existing methods often make locally plausible predictions but struggle to maintain conversation-level consistency under within-speaker emotion shifts and core events. To address this, we propose ECFlow, a unified framework that combines appraisal-guided structured generation with graph-structured reinforcement learning. ECFlow operationalizes cognitive appraisal theory into a controllable intermediate reasoning trace and constructs UMECS, a unified supervision dataset with cognitively grounded traces. It then lifts predicted and gold triplets into an Emotion–Cause Flow Graph and optimizes verifiable, structure-aware rewards for emotion-shift coherence and core-event consistency, together with task-oriented triplet rewards. Experiments on public MECTEC benchmarks show that ECFlow consistently outperforms strong baselines, achieving state-of-the-art triplet extraction and improved structure-aware metrics on emotion shifts and core events. Our code and dataset are available at https://anonymous.4open.science/r/ECFlow-E908.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+### 성격·명시적 상태 표현
+
+**검증할 가설**: 명시적 심리 상태가 행동의 일관성과 예측 가능성을 개선하는가?
+
+**검토할 공백·실험**: 심리 척도 응답과 실제 상호작용 행동의 일관성을 분리한다.
+
+#### [InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews](https://aclanthology.org/2024.acl-long.102/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 평가
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Role-playing agents (RPAs), powered by large language models, have emerged as a flourishing field of applications. However, a key challenge lies in assessing whether RPAs accurately reproduce the personas of target characters, namely their character fidelity. Existing methods mainly focus on the knowledge and linguistic patterns of characters. This paper, instead, introduces a novel perspective to evaluate the personality fidelity of RPAs with psychological scales. Overcoming drawbacks of previous self-report assessments on RPAs, we propose InCharacter, namely Interviewing Character agents for personality tests. Experiments include various types of RPAs and LLMs, covering 32 distinct characters on 14 widely used psychological scales. The results validate the effectiveness of InCharacter in measuring RPA personalities. Then, with InCharacter, we show that state-of-the-art RPAs exhibit personalities highly aligned with the human-perceived personalities of the characters, achieving an accuracy up to 80.7%.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [Trait Activation in Silicon: A Situation-Aware Framework for Psychologically Grounded Role-Playing](https://aclanthology.org/2026.acl-long.1792/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Role-playing agents (RPAs) have made significant strides in mimicking static character identities. However, their personality simulations remain superficial, lacking a profound understanding of complex human psychological mechanisms. We identify a critical bottleneck termed “Personality Inertia”—a behavioral rigidity where RLHF-induced alignment bias traps models in a sanitized, “helpful assistant” persona. This inertia prevents models from adapting to diverse social contexts or expressing essential but negative traits under pressure. To bridge this gap, we propose PD-LLM, a situation-aware framework grounded in Trait Activation Theory. PD-LLM introduces Bipolar Latent Decomposition, which decouples personality traits into bidirectional LoRA adapters. These adapters are dynamically modulated by a situation-aware module based on the DIAMONDS taxonomy, allowing for precise behavioral regulation. Empirical results show that while baseline methods fail to synchronize multidimensional traits under pressure, PD-LLM achieves superior performance in both static fidelity and dynamic adaptability. By advancing from prompt engineering to intrinsic parameter control, PD-LLM effectively overcomes personality rigidity, facilitating the creation of vivid and psychologically consistent agents.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+### 개입과 기제 검증
+
+**검증할 가설**: 상태 표현 개입이 예측한 행동 변화로 연결되는가?
+
+**검토할 공백·실험**: probe 상관과 인과적 개입을 구분하고 대조 상태를 설계한다.
+
+#### [On Emergent Social World Models — Evidence for Functional Integration of Theory of Mind and Pragmatic Reasoning in Language Models](https://aclanthology.org/2026.acl-long.1735/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> This paper investigates whether LMs recruit shared computational mechanisms for general Theory of Mind (ToM) and language-specific pragmatic reasoning in order to contribute to the general question of whether LMs may be said to have emergent “social world models”, i.e., representations of mental states that are repurposed across tasks (the functional integration hypothesis). Using behavioral evaluations and causal-mechanistic experiments via functional localization methods inspired by cognitive neuroscience, we analyze LMs’ performance across seven subcategories of ToM abilities (Beaudoin et al., 2020) on a substantially larger localizer dataset than used in prior like-minded work. Results from stringent hypothesis-driven statistical testing offer suggestive evidence for the functional integration hypothesis, indicating that LMs may develop interconnected “social world models” rather than isolated competencies. This work contributes novel ToM localizer data, methodological refinements to functional localization techniques, and empirical insights into the emergence of social cognition in artificial systems.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+#### [Preference Heads in Large Language Models: A Mechanistic Framework for Interpretable Personalization](https://aclanthology.org/2026.acl-long.2205/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Large Language Models (LLMs) exhibit strong implicit personalization ability, yet most existing approaches treat this behavior as a black box, relying on prompt engineering or fine tuning on user data. In this work, we adopt a mechanistic interpretability perspective and hypothesize the existence of a sparse set of Preference Heads, attention heads that encode user specific stylistic and topical preferences and exert a causal influence on generation. We introduce Differential Preference Steering (DPS), a training free framework that (1) identifies Preference Heads through causal masking analysis and (2) leverages them for controllable and interpretable personalization at inference time. DPS computes a Preference Contribution Score (PCS) for each attention head, directly measuring its causal impact on user aligned outputs. During decoding, we contrast model predictions with and without Preference Heads, amplifying the difference between personalized and generic logits to selectively strengthen preference aligned continuations. Experiments on widely used personalization benchmarks across multiple LLMs demonstrate consistent gains in personalization fidelity while preserving content coherence and low computational overhead. Beyond empirical improvements, DPS provides a mechanistic explanation of where and how personalization emerges within transformer architectures.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+#### [Psychological Steering in LLMs: An Evaluation of Effectiveness and Trustworthiness](https://aclanthology.org/2026.acl-long.79/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> The ability to control LLMs’ emulated emotional states and personality traits is an essential step in enabling rich, human-centered interactions in socially interactive settings. We introduce PsySET, a Psychologically-informed benchmark to evaluate LLM Steering Effectiveness and Trustworthiness across the emotion and personality domains. Our study spans four models from different LLM families paired with various steering strategies, including prompting, fine-tuning, and representation engineering. Our results indicate that prompting is consistently effective but limited in intensity control, whereas vector injections achieve finer controllability while slightly reducing output quality. Moreover, we explore the trustworthiness of steered LLMs by assessing safety, truthfulness, fairness, and ethics, highlighting potential side effects and behavioral shifts. Notably, we observe idiosyncratic effects; for instance, even a positive emotion like joy can degrade robustness to adversarial factuality, lower privacy awareness, and increase preferential bias. Meanwhile, anger predictably elevates toxicity yet strengthens leakage resistance. Our framework establishes the first holistic evaluation of emotion and personality steering, offering insights into its interpretability and reliability for socially interactive applications.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+## 인간–AI 상호작용의 효과
+
+의인화, 신뢰, 의존, 동의와 인간의 판단·행동 변화를 연구한다.
+
+### 의인화와 관계 형성
+
+**검증할 가설**: 인간처럼 보이는 표현이 사용자의 능력·경험 귀속을 바꾸는가?
+
+**검토할 공백·실험**: 사용자의 귀속과 모델의 실제 속성을 구분하고 장기 추적이 필요하다.
+
+#### [Humanizing Machines: Rethinking LLM Anthropomorphism Through a Multi-Level Framework of Design](https://aclanthology.org/2025.emnlp-main.164/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Large Language Models (LLMs) increasingly exhibit anthropomorphism characteristics – human-like qualities portrayed across their outlook, language, behavior, and reasoning functions. Such characteristics enable more intuitive and engaging human-AI interactions. However, current research on anthropomorphism remains predominantly risk-focused, emphasizing over-trust and user deception while offering limited design guidance. We argue that anthropomorphism should instead be treated as a concept of design that can be intentionally tuned to support user goals. Drawing from multiple disciplines, we propose that the anthropomorphism of an LLM-based artifact should reflect the interaction between artifact designers and interpreters. This interaction is facilitated by cues embedded in the artifact by the designers and the (cognitive) responses of the interpreters to the cues. Cues are categorized into four dimensions: perceptive, linguistic, behavioral, and cognitive. By analyzing the manifestation and effectiveness of each cue, we provide a unified taxonomy with actionable levers for practitioners. Consequently, we advocate for function-oriented evaluations of anthropomorphic design.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [HumanLLM: Benchmarking and Improving LLM Anthropomorphism via Human Cognitive Patterns](https://aclanthology.org/2026.acl-long.1783/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Large Language Models (LLMs) have demonstrated remarkable capabilities in reasoning and generation, serving as the foundation for advanced persona simulation and Role-Playing Language Agents (RPLAs). However, achieving authentic alignment with human cognitive and behavioral patterns remains a critical challenge for these agents. We present HumanLLM, a framework treating psychological patterns as interacting causal forces.We construct 244 patterns from \sim12,000 academic papers and synthesize 11,359 scenarios where 2-5 patterns reinforce, conflict, or modulate each other, with multi-turn conversations expressing inner thoughts, actions, and dialogue.Our dual-level checklists evaluate both individual pattern fidelity and emergent multi-pattern dynamics, achieving strong human alignment (r=0.90) while revealing that holistic metrics conflate simulation accuracy with social desirability.HumanLLM-8B outperforms Qwen3-32B on multi-pattern dynamics despite 4\times fewer parameters, demonstrating that authentic anthropomorphism requires cognitive modeling—simulating not just what humans do, but the psychological processes generating those behaviors.Our dataset, code, and model are available at:https://github.com/YJGoodbye2024/HumanLLM
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+### 신뢰·의존·사용자 자율성
+
+**검증할 가설**: 사용자가 능력과 한계에 맞춰 신뢰를 조절하는가?
+
+**검토할 공백·실험**: 만족·신뢰·정확도·자율성의 상충을 따로 측정한다.
+
+#### [Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights](https://aclanthology.org/2025.acl-long.1532/)
+
+2025 · Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> The application scope of Large Language Models (LLMs) continues to expand, leading to increasing interest in personalized LLMs that align with human values. However, aligning these models with individual values raises significant safety concerns, as certain values may correlate with harmful information. In this paper, we identify specific safety risks associated with value-aligned LLMs and investigate the psychological principles behind these challenges. Our findings reveal two key insights. (1) Value-aligned LLMs are more prone to harmful behavior compared to non-fine-tuned models and exhibit slightly higher risks in traditional safety evaluations than other fine-tuned models. (2) These safety issues arise because value-aligned LLMs genuinely generate text according to the aligned values, which can amplify harmful outcomes. Using a dataset with detailed safety categories, we find significant correlations between value alignment and safety risks, supported by psychological hypotheses. This study offers insights into the “black box” of value alignment and proposes in-context alignment methods to enhance the safety of value-aligned LLMs.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml) (확인 2026-11-10)
+
+#### [Feeling Right vs. Being Right: How AI Sycophancy Affects Value-Laden Deliberation](https://aclanthology.org/2026.acl-long.2046/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> As people increasingly turn to AI for personal deliberation beyond task-oriented assistance, concerns about sycophancy in these value-laden contexts have grown. Unlike human flattery, which is intentional and self-interested, AI sycophancy emerges as a byproduct of RLHF’s reward structure for user-preference alignment. Yet the observable behavior is similar: both produce responses that preserve what users want to hear. Focusing on this phenomenon through Goffman’s face-work framework, we operationalize AI sycophancy as excessive face-saving, either active (preserving positive face through agreement) or passive (preserving negative face by withholding challenge). In a mixed-methods study (N=31), participants engaged with AI across three moral dilemmas under these conditions and a non-sycophantic neutral baseline. Sycophantic responses increased decision confidence but reduced open-minded thinking; participants felt supported yet found the conversations unproductive. Neutral responses, though initially uncomfortable, promoted cognitive flexibility and meaningful deliberation. These findings reveal a confidence-competence trade-off in AI-mediated moral reasoning and suggest that effective AI for personal deliberation requires calibrated friction, not unconditional agreement.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+#### [The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs](https://aclanthology.org/2026.acl-short.43/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers) · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> When an AI assistant remembers that Sarah is a single mother working two jobs, does it interpret her stress differently than if she were a wealthy executive? As personalized AI systems increasingly incorporate long-term user memory, understanding how this memory shapes emotional reasoning is critical. We investigate how user memory affects emotional intelligence in large language models (LLMs) by evaluating 15 models on human validated emotional intelligence tests. We find that identical scenarios paired with different user profiles produce systematically divergent emotional interpretations. Across validated user-independent emotional scenarios and diverse user profiles, systematic biases emerged in several high-performing LLMs where advantaged profiles received more accurate emotional interpretations. Moreover, LLMs demonstrate significant disparities across demographic factors in emotion understanding and supportive recommendations tasks, indicating that personalization mechanisms can embed social hierarchies into models’ emotional reasoning. These results highlight a key challenge for memory-enhanced AI: systems designed for personalization may inadvertently reinforce social inequalities.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+### 아첨과 부적절한 동조
+
+**검증할 가설**: 사용자 선호 최적화가 사실성·비판적 피드백과 충돌하는가?
+
+**검토할 공백·실험**: 정서적 인정과 주장에 대한 동의를 구분해 조작한다.
+
+#### [Self-Augmented Preference Alignment for Sycophancy Reduction in LLMs](https://aclanthology.org/2025.emnlp-main.625/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Sycophancy causes models to produce answers that cater to user expectations rather than providing truthful responses. Sycophantic behavior in models can erode user trust by creating a perception of dishonesty or bias. This lack of authenticity may lead users to question the reliability and objectivity of the system’s responses. Although Reinforcement Learning from Human Feedback (RLHF) is effective in aligning models with human preferences, previous studies have observed that it can simultaneously amplify sycophantic behavior. However, these studies primarily focused on proprietary models and employed indirect analysis to demonstrate the influence of human feedback. Our study focuses on sycophancy in open-source models, which are more reproducible and transparent for research. We investigated the impact of human feedback on sycophancy by directly comparing models aligned with human feedback to those not aligned. To address sycophancy, we proposed assessing the user’s expected answer rather than ignoring it. Consequently, we developed the Sycophancy Answer Assessment (SAA) dataset and introduced Self-Augmented Preference Alignment, demonstrating that these methods effectively enhance the model’s assessment ability and significantly reduce sycophancy across tasks.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [Feeling Right vs. Being Right: How AI Sycophancy Affects Value-Laden Deliberation](https://aclanthology.org/2026.acl-long.2046/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> As people increasingly turn to AI for personal deliberation beyond task-oriented assistance, concerns about sycophancy in these value-laden contexts have grown. Unlike human flattery, which is intentional and self-interested, AI sycophancy emerges as a byproduct of RLHF’s reward structure for user-preference alignment. Yet the observable behavior is similar: both produce responses that preserve what users want to hear. Focusing on this phenomenon through Goffman’s face-work framework, we operationalize AI sycophancy as excessive face-saving, either active (preserving positive face through agreement) or passive (preserving negative face by withholding challenge). In a mixed-methods study (N=31), participants engaged with AI across three moral dilemmas under these conditions and a non-sycophantic neutral baseline. Sycophantic responses increased decision confidence but reduced open-minded thinking; participants felt supported yet found the conversations unproductive. Neutral responses, though initially uncomfortable, promoted cognitive flexibility and meaningful deliberation. These findings reveal a confidence-competence trade-off in AI-mediated moral reasoning and suggest that effective AI for personal deliberation requires calibrated friction, not unconditional agreement.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+## 평가 타당도와 연구 방법
+
+벤치마크 점수, 인간 선호, 실제 사용자 효과가 동일한 구성개념을 측정하는지 묻는다.
+
+### 구성·생태 타당도
+
+**검증할 가설**: 벤치마크가 측정하려는 능력과 실제 사용 효과가 연결되는가?
+
+**검토할 공백·실험**: 다중 지표·인간 연구·분포 외 검증으로 삼각측량한다.
+
+#### [Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset](https://aclanthology.org/P19-1534/)
+
+2019 · Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics · 기초 읽기
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> One challenge for dialogue agents is recognizing feelings in the conversation partner and replying accordingly, a key communicative skill. While it is straightforward for humans to recognize and acknowledge others’ feelings in a conversation, this is a significant challenge for AI systems due to the paucity of suitable publicly-available datasets for training and evaluation. This work proposes a new benchmark for empathetic dialogue generation and EmpatheticDialogues, a novel dataset of 25k conversations grounded in emotional situations. Our experiments indicate that dialogue models that use our dataset are perceived to be more empathetic by human evaluators, compared to models merely trained on large-scale Internet conversation data. We also present empirical comparisons of dialogue model adaptations for empathetic responding, leveraging existing models or datasets without requiring lengthy re-training of the full model.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/P19.xml) (확인 2026-11-10)
+
+#### [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685)
+
+2023 · 게재 학회 미검증 · 기초 읽기
+
+서지 확인: `author_repository` · 독해 범위: `metadata_only` · 인용 수: 미조회
+
+초록·실험 결과를 이 지도에서 독립 검토하지 않았다. 저자 저장소에서 확인한 서지 후보이다.
+
+저자 저장소에서 서지 정보를 확인. 출판사 대조 및 원문 검토 필요. 연도는 해당 arXiv 버전 기준일 수 있다.
+
+**출처**: [author_repository](https://raw.githubusercontent.com/lm-sys/FastChat/main/README.md) (확인 2026-11-10)
+
+#### [Whose Opinions Do Language Models Reflect?](https://proceedings.mlr.press/v202/santurkar23a.html)
+
+2023 · ICML 2023 · PMLR 202 · 기초 읽기
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Language models (LMs) are increasingly being used in open-ended contexts,   where the opinions they reflect in response to subjective queries can have a profound   impact, both on user satisfaction, and shaping the views of society at large. We   put forth a quantitative framework to investigate the opinions reflected by LMs   – by leveraging high-quality public opinion polls. Using this framework, we create   OpinionQA, a dataset for evaluating the alignment of LM opinions with those of 60   US demographic groups over topics ranging from abortion to automation. Across topics,   we find substantial misalignment between the views reflected by current LMs and   those of US demographic groups: on par with the Democrat-Republican divide on climate   change. Notably, this misalignment persists even after explicitly steering the LMs   towards particular groups. Our analysis not only confirms prior observations about   the left-leaning tendencies of some human feedback-tuned LMs, but also surfaces   groups whose opinions are poorly reflected by current LMs (e.g., 65+ and widowed   individuals).
+
+미국 인구집단의 여론 분포 재현을 평가한 범위이며 보편적인 도덕적 정답을 제시하는 연구로 해석하지 않는다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/mlresearch/v202/gh-pages/_posts/2023-07-03-santurkar23a.md) (확인 2026-11-10)
+
+#### [Be Helpful but Don’t Talk too Much - Enhancing Helpfulness in Conversations through Relevance in Multi-Turn Emotional Support](https://aclanthology.org/2024.emnlp-main.118/)
+
+2024 · Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> For a conversation to help and support, speakers should maintain an “effect-effort” tradeoff. As outlined in the gist of “Cognitive Relevance Principle”, helpful speakers should optimize the “cognitive relevance” through maximizing the “cognitive effects” and minimizing the “processing effort” imposed on listeners. Although preference learning methods have given rise a boon of studies in pursuit of“effect-optimization”, none have delved into the critical “effort-optimiazation” to fully cultivate the awareness of “optimal relevance” into thecognition of conversation agents. To address this gap, we integrate the “Cognitive Relevance Principle” into emotional support agents in the environment of multi-turn conversation. The results demonstrate a significant and robust improvement against the baseline systems with respect to response quality, human-likedness and supportivenss. This study offers compelling evidence for the effectiveness of the “Relevance Principle” in generating human-like, helpful, and harmless emotional support conversations. The source code will be available at https://github.com/CN-Eyetk/VLESA-ORL.git
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.emnlp.xml) (확인 2026-11-10)
+
+#### [Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation](https://aclanthology.org/2024.acl-long.813/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Emotional Support Conversation (ESC) is a task aimed at alleviating individuals’ emotional distress through daily conversation. Given its inherent complexity and non-intuitive nature, ESConv dataset incorporates support strategies to facilitate the generation of appropriate responses. Recently, despite the remarkable conversational ability of large language models (LLMs), previous studies have suggested that they often struggle with providing useful emotional support. Hence, this work initially analyzes the results of LLMs on ESConv, revealing challenges in selecting the correct strategy and a notable preference for a specific strategy. Motivated by these, we explore the impact of the inherent preference in LLMs on providing emotional support, and consequently, we observe that exhibiting high preference for specific strategies hinders effective emotional support, aggravating its robustness in predicting the appropriate strategy. Moreover, we conduct a methodological study to offer insights into the necessary approaches for LLMs to serve as proficient emotional supporters. Our findings emphasize that (1) low preference for specific strategies hinders the progress of emotional support, (2) external assistance helps reduce preference bias, and (3) existing LLMs alone cannot become good emotional supporters. These insights suggest promising avenues for future research to enhance the emotional intelligence of LLMs.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [ToMBench: Benchmarking Theory of Mind in Large Language Models](https://aclanthology.org/2024.acl-long.847/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 평가
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Theory of Mind (ToM) is the cognitive capability to perceive and ascribe mental states to oneself and others. Recent research has sparked a debate over whether large language models (LLMs) exhibit a form of ToM. However, existing ToM evaluations are hindered by challenges such as constrained scope, subjective judgment, and unintended contamination, yielding inadequate assessments. To address this gap, we introduce ToMBench with three key characteristics: a systematic evaluation framework encompassing 8 tasks and 31 abilities in social cognition, a multiple-choice question format to support automated and unbiased evaluation, and a build-from-scratch bilingual inventory to strictly avoid data leakage. Based on ToMBench, we conduct extensive experiments to evaluate the ToM performance of 10 popular LLMs across tasks and abilities. We find that even the most advanced LLMs like GPT-4 lag behind human performance by over 10% points, indicating that LLMs have not achieved a human-level theory of mind yet. Our aim with ToMBench is to enable an efficient and effective evaluation of LLMs’ ToM capabilities, thereby facilitating the development of LLMs with inherent social intelligence.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs](https://aclanthology.org/2025.emnlp-main.2/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> A large number of studies rely on closed-style multiple-choice surveys to evaluate cultural alignment in Large Language Models (LLMs). In this work, we challenge this constrained evaluation paradigm and explore more realistic, unconstrained approaches. Using the World Values Survey (WVS) and Hofstede Cultural Dimensions as case studies, we demonstrate that LLMs exhibit stronger cultural alignment in less constrained settings, where responses are not forced. Additionally, we show that even minor changes, such as reordering survey choices, lead to inconsistent outputs, exposing the limitations of closed-style evaluations. Our findings advocate for more robust and flexible evaluation frameworks that focus on specific cultural proxies, encouraging more nuanced and accurate assessments of cultural alignment in LLMs.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [The Practical Impacts of Theoretical Constructs on Empathy Modeling](https://aclanthology.org/2025.emnlp-main.785/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Conceptual operationalizations of empathy in NLP are varied, with some having specific behaviors and properties, while others are more abstract. How these variations relate to one another and capture properties of empathy observable in text remains unclear. To provide insight into this, we analyze the transfer performance of empathy models adapted to empathy tasks with different theoretical groundings. We study (1) the dimensionality of empathy definitions, (2) the correspondence between the defined dimensions and measured/observed properties, and (3) the conduciveness of the data to represent them, finding they have a significant impact to performance compared to other transfer setting features. Characterizing the theoretical grounding of empathy tasks as direct, abstract, or adjacent further indicates that tasks that directly predict specified empathy components have higher transferability. Our work provides empirical evidence for the need for precise and multidimensional empathy operationalizations.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+#### [HumanLLM: Benchmarking and Improving LLM Anthropomorphism via Human Cognitive Patterns](https://aclanthology.org/2026.acl-long.1783/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Large Language Models (LLMs) have demonstrated remarkable capabilities in reasoning and generation, serving as the foundation for advanced persona simulation and Role-Playing Language Agents (RPLAs). However, achieving authentic alignment with human cognitive and behavioral patterns remains a critical challenge for these agents. We present HumanLLM, a framework treating psychological patterns as interacting causal forces.We construct 244 patterns from \sim12,000 academic papers and synthesize 11,359 scenarios where 2-5 patterns reinforce, conflict, or modulate each other, with multi-turn conversations expressing inner thoughts, actions, and dialogue.Our dual-level checklists evaluate both individual pattern fidelity and emergent multi-pattern dynamics, achieving strong human alignment (r=0.90) while revealing that holistic metrics conflate simulation accuracy with social desirability.HumanLLM-8B outperforms Qwen3-32B on multi-pattern dynamics despite 4\times fewer parameters, demonstrating that authentic anthropomorphism requires cognitive modeling—simulating not just what humans do, but the psychological processes generating those behaviors.Our dataset, code, and model are available at:https://github.com/YJGoodbye2024/HumanLLM
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+#### [TEA-Bench: A Systematic Benchmarking of Tool-enhanced Emotional Support Dialogue Agent](https://aclanthology.org/2026.acl-long.2152/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 평가
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Emotional Support Conversation requires not only affective expression but also grounded instrumental support to provide trustworthy guidance. However, existing ESC systems and benchmarks largely focus on affective support in text-only settings, overlooking how external tools can enable factual grounding and reduce hallucination in multi-turn emotional support. We introduce TEA-Bench, the first interactive benchmark for evaluating tool-augmented agents in ESC, featuring realistic emotional scenarios, an MCP-style tool environment, and process-level metrics that jointly assess the quality and factual grounding of emotional support. Experiments on nine LLMs show that tool augmentation generally improves emotional support quality and reduces hallucination, but the gains are strongly capacity-dependent: stronger models use tools more selectively and effectively, while weaker models benefit only marginally. We further release TEA-Dialog, a dataset of tool-enhanced ESC dialogues, and find that supervised fine-tuning improves in-distribution support but generalizes poorly. Our results underscore the importance of tool use in building reliable emotional support agents.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)
+
+### 인간 평가와 LLM 평가자
+
+**검증할 가설**: LLM 평가자는 인간의 판단을 어떤 조건에서 대리할 수 있는가?
+
+**검토할 공백·실험**: 순서·길이·자기 선호·문화 편향과 평가자 일치도를 보고한다.
+
+#### [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685)
+
+2023 · 게재 학회 미검증 · 기초 읽기
+
+서지 확인: `author_repository` · 독해 범위: `metadata_only` · 인용 수: 미조회
+
+초록·실험 결과를 이 지도에서 독립 검토하지 않았다. 저자 저장소에서 확인한 서지 후보이다.
+
+저자 저장소에서 서지 정보를 확인. 출판사 대조 및 원문 검토 필요. 연도는 해당 arXiv 버전 기준일 수 있다.
+
+**출처**: [author_repository](https://raw.githubusercontent.com/lm-sys/FastChat/main/README.md) (확인 2026-11-10)
+
+#### [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://arxiv.org/abs/2310.11667)
+
+2023 · 게재 학회 미검증 · 기초 읽기
+
+서지 확인: `author_repository` · 독해 범위: `metadata_only` · 인용 수: 미조회
+
+초록·실험 결과를 이 지도에서 독립 검토하지 않았다. 저자 저장소에서 확인한 서지 후보이다.
+
+저자 저장소에서 서지 정보를 확인. 출판사 대조 및 원문 검토 필요. 연도는 해당 arXiv 버전 기준일 수 있다.
+
+**출처**: [author_repository](https://raw.githubusercontent.com/sotopia-lab/sotopia/main/README.md) (확인 2026-11-10)
+
+#### [ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents](https://aclanthology.org/2025.emnlp-main.811/)
+
+2025 · Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing · 최근 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Large Language Models (LLMs) increasingly power mental-health chatbots, yet the field still lacks a scalable, theory-grounded way to decide which model is more effective to deploy. We present ESC-Judge, the first end-to-end evaluation framework that (i) grounds head-to-head comparison of Emotional-Support LLMs (ES-LLMs) in an established psychological theory—Clara Hill’s Exploration–Insight–Action (E-I-A) counselling model—thereby delivering a structured, interpretable lens on performance, and (ii) fully automates the pipeline at scale. ESC-Judge proceeds in three stages: (1) it synthesizes realistic help-seeker roles by sampling empirically salient attributes (stressors, personality, life history); (2) it has two candidate ES-Agents conduct separate sessions with the same role, isolating model-specific strategies; and (3) it asks a specialised judge LLM to issue pairwise preferences across rubric-anchored skills that exhaustively cover the E-I-A spectrum. In our empirical study, ESC-Judge matches PhD-level annotators in 85% of Exploration, 83% of Insight, and 86% of Action decisions, demonstrating human-level reliability at a fraction of the cost. We release all code, prompts, synthetic roles, transcripts, and judgment scripts to catalyze transparent progress in emotionally supportive AI
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml) (확인 2026-11-10)
+
+### 강건성·오염·재현성
+
+**검증할 가설**: 평가 결과는 표현 변경·모델 변경·데이터 오염에 견디는가?
+
+**검토할 공백·실험**: 비공개 holdout·반사실적 변형·평가 코드와 버전을 고정한다.
+
+#### [FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions](https://aclanthology.org/2023.emnlp-main.890/)
+
+2023 · Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Theory of mind (ToM) evaluations currently focus on testing models using passive narratives that inherently lack interactivity. We introduce FANToM, a new benchmark designed to stress-test ToM within information-asymmetric conversational contexts via question answering. Our benchmark draws upon important theoretical requisites from psychology and necessary empirical considerations when evaluating large language models (LLMs). In particular, we formulate multiple types of questions that demand the same underlying reasoning to identify illusory or false sense of ToM capabilities in LLMs. We show that FANToM is challenging for state-of-the-art LLMs, which perform significantly worse than humans even with chain-of-thought reasoning or fine-tuning.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml) (확인 2026-11-10)
+
+#### [Limits of Theory of Mind Modelling in Dialogue-Based Collaborative Plan Acquisition](https://aclanthology.org/2024.acl-long.266/)
+
+2024 · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 반례·한계 검토
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Recent work on dialogue-based collaborative plan acquisition (CPA) has suggested that Theory of Mind (ToM) modelling can improve missing knowledge prediction in settings with asymmetric skill-sets and knowledge. Although ToM was claimed to be important for effective collaboration, its real impact on this novel task remains under-explored. By representing plans as graphs and by exploiting task-specific constraints we show that, as performance on CPA nearly doubles when predicting one’s own missing knowledge, the improvements due to ToM modelling diminish. This phenomenon persists even when evaluating existing baseline methods. To better understand the relevance of ToM for CPA, we report a principled performance comparison of models with and without ToM features. Results across different models and ablations consistently suggest that learned ToM features are indeed more likely to reflect latent patterns in the data with no perceivable link to ToM. This finding calls for a deeper understanding of the role of ToM in CPA and beyond, as well as new methods for modelling and evaluating mental states in computational collaborative agents.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml) (확인 2026-11-10)
+
+#### [Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents](https://aclanthology.org/2026.acl-long.1892/)
+
+2026 · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 평가
+
+서지 확인: `publisher_verified` · 독해 범위: `abstract_only` · 인용 수: 미조회
+
+**보고된 주장·결과의 근거 — 원문 초록**:
+
+> Long-term memory is a critical capability for multimodal large language model (MLLM) agents, particularly in conversational settings where information accumulates and evolves over time. However, existing benchmarks either evaluate multi-session memory in text-only conversations or assess multimodal understanding within localized contexts, failing to evaluate how multimodal memory is preserved, organized, and evolved across long-term conversational trajectories. Thus, we introduce Mem-Gallery, a new benchmark for evaluating multimodal long-term conversational memory in MLLM agents. Mem-Gallery features high-quality multi-session conversations grounded in both visual and textual information, with long interaction horizons and rich multimodal dependencies. Building on this dataset, we propose a systematic evaluation framework that assesses key memory capabilities along three functional dimensions: memory extraction and test-time adaptation, memory reasoning, and memory knowledge management. Extensive benchmarking across twelve memory systems reveals several key findings, highlighting the necessity of explicit multimodal information retention and memory organization, the persistent limitations in memory reasoning and knowledge management, as well as the efficiency bottleneck of current models. Our benchmark and dataset are available at https://github.com/YuanchenBei/Mem-Gallery.
+
+편집상 읽기 후보이며 인용 수 기반 순위는 미확인. 초록에서 보고한 결과와 검토자의 연구 질문을 구분한다.
+
+**출처**: [official_proceedings_metadata](https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml) (확인 2026-11-10)

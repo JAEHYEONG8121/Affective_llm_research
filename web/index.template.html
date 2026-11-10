@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Affective Atlas · 인간과 AI의 연구 지도</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="tools/local-citation-network/lib/vis-network.min.js"
+      defer
+    ></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="./"
+        ><span class="mark">a↗</span
+        ><span>Affective Atlas<small>HUMAN–AI RESEARCH MAP</small></span></a
+      >
+      <nav>
+        <a href="review.html">문헌 검토</a
+        ><a href="tools/local-citation-network/">인용망 도구 ↗</a
+        ><a href="https://github.com/JAEHYEONG8121/Affective_llm_research"
+          >GitHub ↗</a
+        >
+      </nav>
+    </header>
+    <section class="intro">
+      <div>
+        <p class="eyebrow">감정 · 사회적 인지 · 정렬 · 인간–AI 상호작용</p>
+        <h1>LLM 감정·정렬<br /><em>연구 지도</em></h1>
+        <p>
+          분야별 분류 · 논문별 서지 정보 · 연구 가설과 검토 근거
+        </p>
+      </div>
+      <div class="stats" id="stats" aria-live="polite">지도를 불러오는 중…</div>
+    </section>
+    <div class="notice" id="coverage">
+      편집상 읽기 후보입니다. 인용 수 기반 순위와 논문 원문 전체의 검토는
+      완료되지 않았습니다.
+    </div>
+    <main>
+      <aside class="filters">
+        <p class="eyebrow">LITERATURE FILTERS</p>
+        <h2>탐색 조건</h2>
+        <label for="query">제목·저자·초록 검색</label
+        ><input
+          id="query"
+          type="search"
+          placeholder="예: appraisal, memory, empathy"
+        /><label for="topic">대분류</label
+        ><select id="topic">
+          <option value="">전체 분야</option></select
+        ><label for="subtopic">소분류</label
+        ><select id="subtopic">
+          <option value="">전체 소분류</option></select
+        ><label for="role">읽기 역할</label
+        ><select id="role">
+          <option value="">전체 역할</option>
+          <option value="foundation">기초 읽기 후보</option>
+          <option value="development">접근 확장</option>
+          <option value="benchmark">평가·벤치마크</option>
+          <option value="counterpoint">반례·한계 검토</option>
+          <option value="recent">최근 검토 후보</option></select
+        ><label for="sort">논문 목록 정렬</label
+        ><select id="sort">
+          <option value="reading">읽기 순서 · 편집상 제안</option>
+          <option value="year">최신 연도순</option>
+          <option value="citations">
+            조회된 인용 수순 · 후보군 내
+          </option></select
+        ><label for="from-year">출판·공개 연도</label>
+        <div class="years">
+          <input
+            id="from-year"
+            type="number"
+            min="1900"
+            max="2100"
+            aria-label="시작 연도"
+          /><span>–</span
+          ><input
+            id="to-year"
+            type="number"
+            min="1900"
+            max="2100"
+            aria-label="종료 연도"
+          />
+        </div>
+        <button id="reset" class="secondary">필터 초기화</button>
+        <a class="download" href="data/catalog.csv" download>논문 목록 CSV ↓</a
+        ><a class="download" href="data/local-citation-network.json" download
+          >인용망 도구용 JSON ↓</a
+        >
+      </aside>
+      <section class="workspace">
+        <div class="graph-heading">
+          <div>
+            <p class="eyebrow">RESEARCH LANDSCAPE</p>
+            <h2 id="map-title">전체 연구 지도</h2>
+          </div>
+          <div class="controls">
+            <label class="sr-only" for="view">그래프 유형</label
+            ><select id="view">
+              <option value="topics">주제 트리</option>
+              <option value="citations">논문 관계망</option></select
+            ><button id="fit" class="secondary">전체 보기</button>
+          </div>
+        </div>
+        <p id="graph-status" class="graph-status" aria-live="polite"></p>
+        <div
+          id="graph"
+          aria-label="연구 지도. 아래 논문 목록에서도 모든 논문을 선택할 수 있습니다."
+          role="img"
+        ></div>
+        <div class="list-heading">
+          <h2>논문 읽기 목록</h2>
+          <span id="result-count" aria-live="polite"></span>
+        </div>
+        <div id="papers" class="paper-list"></div>
+      </section>
+      <aside class="details" id="details" aria-live="polite">
+        <p class="eyebrow">PAPER DETAILS</p>
+        <h2>논문 상세 정보</h2>
+        <p>
+          노드 hover: 제목·학회·연도<br />
+          노드·목록 선택: 초록·출처·검토 질문
+        </p>
+        <div class="empty-art">○<span>╱</span>◎<span>╲</span>○</div>
+      </aside>
+    </main>
+    <footer>
+      <span>LLM 감정·정렬 연구 지도 · <span id="as-of"></span></span
+      ><span
+        >시각화: vis-network · 인용 탐색: Local Citation Network (GPL-3.0)</span
+      >
+    </footer>
+    <!-- RESEARCH_MAP_DATA -->
+  </body>
+</html>
